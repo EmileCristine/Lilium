@@ -5,12 +5,12 @@
   --mainFont: "Poppins", sans-serif;
 
   /* #FONT */
-  --f-main-span: 700 46px/1.4 var(--mainFont);
+  --f-main-span: 600 50px/1.4 var(--mainFont);
   --f-second-span: 500 40px/1.4 var(--mainFont);
   --f-title: 700 36px/1.3 var(--mainFont);
   --f-subtitle: 500 20px/1.3 var(--mainFont);
-  --f-header-span: 600 16px/1.2 var(--mainFont);
-  --f-main-txt: 400 16px/1.5 var(--mainFont);
+  --f-header: 500 14px/1.2 var(--mainFont);
+  --f-main-txt: 400 14px/1.5 var(--mainFont);
   --f-btn: 500 16px/1.2 var(--mainFont);
 
   /* #COLORS */
@@ -21,7 +21,7 @@
   --c-white: #ffffff;
 
   /* #PADDING */
-  --p-btn: 10px 16px;
+  --p-btn: 10px 18px;
 
   /* #RADIUS */
   --r-btn: 3px;
