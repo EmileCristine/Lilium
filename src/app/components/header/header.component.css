@@ -3,13 +3,13 @@ header {
   top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
   z-index: 1000;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  padding: 0 5%;
 }
 
 .logo {
@@ -45,7 +45,7 @@ header {
   background: var(--c-pink);
 
   transform: scaleX(0);
-  transform-origin: center; /* começa no centro */
+  transform-origin: center;
   transition: transform 0.5s ease;
 }
 
@@ -62,4 +62,17 @@ img {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.header-flores {
+  position: relative;
+  margin-bottom: -1rem;
+}
+
+.header-flores a {
+  color: var(--c-gray);
+}
+
+.header-flores .logo {
+  filter: var(--filter-pink);
 }

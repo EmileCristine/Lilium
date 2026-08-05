@@ -1,0 +1,21 @@
+<div class="flower-card">
+    <div class="card-header">
+        <h3>{{ flor.nome }}</h3>
+        <span class="scientific-name">{{ flor.nomeCientifico }}</span>
+    </div>
+
+    <div class="card-image-wrapper">
+        <img [src]="flor.imagem" [alt]="flor.nome" class="flower-image">
+    </div>
+
+    <div class="card-footer">
+        <p class="description">
+            {{flor.resume}}
+        </p>
+        <button class="card-action-btn" aria-label="Ver detalhes">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+                <path d="M9 5l7 7-7 7"/>
+            </svg>
+        </button>
+    </div>
+</div>

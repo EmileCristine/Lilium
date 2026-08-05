@@ -1,11 +1,21 @@
 <main class="banner-imagem">
-    <div class="info">
-      <h1 class="title">Tudo sobre flores em um só lugar</h1>
-      <p class="text">
-        Vá além do básico com dicas exclusivas para montar arranjos
-        deslumbrantes, fatos históricos surpreendentes e significados ocultos na
-        linguagens das flores.
-      </p>
-      <div class="btn">Explore o Catálogo</div>
-    </div>
+
+  <div class="info">
+
+    <h1 class="title">
+      {{ title }}
+    </h1>
+
+    <p class="text">
+      {{ text }}
+    </p>
+
+    @if (buttonText) {
+      <div class="btn" [routerLink]="buttonRoute">
+        {{ buttonText }}
+      </div>
+    }
+
+  </div>
+
 </main>

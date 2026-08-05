@@ -1,0 +1,22 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0rem 4rem;
+    align-items: flex-start;
+}
+
+.search {
+    position: sticky;
+    padding: 10px 0;
+    top: 0;
+    height: fit-content;
+    background: var(--c-white);
+    z-index: 10;
+    width: 100%;
+}
+
+.gallery {
+    flex: 1;
+}

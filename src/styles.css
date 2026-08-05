@@ -1,27 +1,31 @@
 @import url("https://googleapis.com");
 
+
 :root {
   /* #FONT BASE */
   --mainFont: "Poppins", sans-serif;
 
   /* #FONT */
   --f-main-span: 600 50px/1.4 var(--mainFont);
-  --f-second-span: 500 40px/1.4 var(--mainFont);
-  --f-title: 700 36px/1.3 var(--mainFont);
-  --f-subtitle: 500 20px/1.3 var(--mainFont);
+  --f-second-span: 500 36px/1.4 var(--mainFont);
+  --f-title: 600 34px/1.3 var(--mainFont);
+  --f-subtitle: 500 18px/1.3 var(--mainFont);
   --f-header: 500 14px/1.2 var(--mainFont);
   --f-main-txt: 400 14px/1.5 var(--mainFont);
   --f-btn: 500 16px/1.2 var(--mainFont);
+  --f-filter: 500 14px/1.2 var(--mainFont);
+  --f-numb: 600 24px/1.3 var(--mainFont);
 
   /* #COLORS */
-  --c-pink: #e58a85;
-  --c-light-pink: #f7d8d7;
-  --c-gray: #a9a9a9;
-  --c-black: #0c0b0b;
-  --c-white: #ffffff;
+  --c-pink: rgb(229, 138, 133);
+  --c-light-pink: rgb(247, 216, 215);
+  --c-gray: rgb(169, 169, 169);
+  --c-black: rgb(12, 11, 11);
+  --c-white: rgb(255, 255, 255);
 
   /* #PADDING */
-  --p-btn: 10px 18px;
+  --p-btn: 10px 25px;
+  --p-filter: 10px 10px;
 
   /* #RADIUS */
   --r-btn: 3px;
@@ -36,7 +40,11 @@
     brightness(101%) contrast(94%);
 
   /* #OUTROS */
-  --sombra: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  --shadow: rgba(229, 138, 133, 0.15) 0px 2px 8px 0px;
+  --second-shadow: rgba(229, 138, 133, 0.2) 0px 8px 24px;
+    --sb-track-color: #232E33;
+  --sb-thumb-color: #6BAF8D;
+  --sb-size: 14px;
 }
 
 * {

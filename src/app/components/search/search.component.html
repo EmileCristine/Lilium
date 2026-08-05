@@ -1,0 +1,94 @@
+<main>
+    <div class="section-name">
+        <h1>as flores do seu mês</h1>
+        <a
+            routerLink="/flores">
+            ver mais
+        </a>
+    </div>
+
+    <div class="search-and-filter-bar">
+        <div class="filter">
+            <div class="dropdown-custom" [class.active]="filtroEstacao">
+                <div class="dropdown-trigger" (click)="toggleDropdown('estacao')">
+                    {{ exibirRotulo('estacao', filtroEstacao, 'Estação') }}
+                </div>
+                <ul class="dropdown-menu grid-colunas" *ngIf="dropdownAberto === 'estacao'">
+                    <li (click)="selecionarOpcao('estacao', 'primavera')">Primavera</li>
+                    <li (click)="selecionarOpcao('estacao', 'verao')">Verão</li>
+                    <li (click)="selecionarOpcao('estacao', 'outono')">Outono</li>
+                    <li (click)="selecionarOpcao('estacao', 'inverno')">Inverno</li>
+                </ul>
+            </div>
+        
+            <div class="dropdown-custom" [class.active]="filtroMes">
+                <div class="dropdown-trigger" (click)="toggleDropdown('mes')">
+                    {{ exibirRotulo('mes', filtroMes, 'Meses') }}
+                </div>
+                <ul class="dropdown-menu grid-colunas" *ngIf="dropdownAberto === 'mes'">
+                    <li (click)="selecionarOpcao('mes', 'janeiro')">Janeiro</li>
+                    <li (click)="selecionarOpcao('mes', 'fevereiro')">Fevereiro</li>
+                    <li (click)="selecionarOpcao('mes', 'março')">Março</li>
+                    <li (click)="selecionarOpcao('mes', 'abril')">Abril</li>
+                    <li (click)="selecionarOpcao('mes', 'maio')">Maio</li>
+                    <li (click)="selecionarOpcao('mes', 'junho')">Junho</li>
+                    <li (click)="selecionarOpcao('mes', 'julho')">Julho</li>
+                    <li (click)="selecionarOpcao('mes', 'agosto')">Agosto</li>
+                    <li (click)="selecionarOpcao('mes', 'setembro')">Setembro</li>
+                    <li (click)="selecionarOpcao('mes', 'outubro')">Outubro</li>
+                    <li (click)="selecionarOpcao('mes', 'novembro')">Novembro</li>
+                    <li (click)="selecionarOpcao('mes', 'dezembro')">Dezembro</li>
+                </ul>
+            </div>
+            
+            <div class="dropdown-custom" [class.active]="filtroCor">
+                <div class="dropdown-trigger" (click)="toggleDropdown('cor')">
+                    {{ exibirRotulo('cor', filtroCor, 'Cores') }}
+                </div>
+                <ul class="dropdown-menu grid-colunas" *ngIf="dropdownAberto === 'cor'">
+                    <li (click)="selecionarOpcao('cor', 'vermelho')">Vermelho</li>
+                    <li (click)="selecionarOpcao('cor', 'laranja')">Laranja</li>
+                    <li (click)="selecionarOpcao('cor', 'amarelo')">Amarelo</li>
+                    <li (click)="selecionarOpcao('cor', 'branco')">Branco</li>
+                    <li (click)="selecionarOpcao('cor', 'rosa')">Rosa</li>
+                    <li (click)="selecionarOpcao('cor', 'azul')">Azul</li>
+                    <li (click)="selecionarOpcao('cor', 'roxo')">Roxo</li>
+                </ul>
+            </div>
+            
+            <div class="dropdown-custom" [class.active]="filtroSignificado">
+                <div class="dropdown-trigger" (click)="toggleDropdown('significado')">
+                    {{ exibirRotulo('significado', filtroSignificado, 'Significados') }}
+                </div>
+                <ul class="dropdown-menu grid-colunas" *ngIf="dropdownAberto === 'significado'">
+                    <li (click)="selecionarOpcao('significado', 'amor')">Amor</li>
+                    <li (click)="selecionarOpcao('significado', 'amizade')">Amizade</li>
+                    <li (click)="selecionarOpcao('significado', 'gratidao')">Gratidão</li>
+                    <li (click)="selecionarOpcao('significado', 'pureza')">Pureza</li>
+                    <li (click)="selecionarOpcao('significado', 'esperanca')">Esperança</li>
+                    <li (click)="selecionarOpcao('significado', 'felicidade')">Felicidade</li>
+                    <li (click)="selecionarOpcao('significado', 'respeito')">Respeito</li>
+                    <li (click)="selecionarOpcao('significado', 'luto')">Luto</li>
+                </ul>
+            </div>
+            
+            @if (filtroEstacao || filtroMes || filtroCor || filtroSignificado || pesquisaTexto) {
+                <button type="button" class="btn-limpar" (click)="limparFiltros()" title="Limpar Filtros">
+                    &times;
+                </button>
+}
+        </div>
+        
+        <div class="search-container">
+            <input 
+                type="text" 
+                placeholder="Pesquise por flores, cores..." 
+                [(ngModel)]="pesquisaTexto"
+                (input)="aplicarFiltros()">
+                
+            <svg class="search-icon" xmlns="http://w3.org" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+        </div>
+    </div>
+</main>

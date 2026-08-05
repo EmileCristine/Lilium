@@ -1,0 +1,23 @@
+main {
+  width: 100%;
+  min-height: 50vh;
+
+  background-image:
+    linear-gradient(rgba(55, 10, 10, 0.1), rgba(55, 10, 10, 0.1)),
+    url("/images/second-banner.png");
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main h1 {
+    font: var(--f-second-span);
+    color: var(--c-white);
+    text-align: center;
+    width: 70vw;
+}

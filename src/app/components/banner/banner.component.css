@@ -3,8 +3,8 @@ main {
 }
 
 .banner-imagem {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  min-height: 100vh;
 
   background-image:
     linear-gradient(rgba(55, 10, 10, 0.1), rgba(55, 10, 10, 0.1)),
@@ -15,27 +15,13 @@ main {
   background-repeat: no-repeat;
 }
 
-header {
-  width: 90%;
-  max-width: 1200px;
-  height: 100%;
-  margin: 0 auto;
-
-  display: flex;
-  flex-direction: column;
-}
-
-app-header {
-  display: block;
-}
-
 .info {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 
-  width: min(700px, 90%);
+  width: min(750px, 90%);
 
   display: flex;
   flex-direction: column;
@@ -46,11 +32,9 @@ app-header {
 }
 
 .title {
-  max-width: 700px;
   text-align: center;
   font: var(--f-main-span);
   color: var(--c-white);
-  text-transform: uppercase;
 }
 
 .text {

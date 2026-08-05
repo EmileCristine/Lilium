@@ -1,0 +1,93 @@
+footer {
+    width: 100%;
+    min-height: 300px;
+    display: grid;
+    margin-bottom: 2rem;    
+
+    grid-template-areas:
+        "line line line"
+        "flor info info"
+        "flor foot foot";
+
+    grid-template-columns: 400px 1fr 1fr;
+    grid-template-rows: 1px 1fr 10px;
+}
+
+
+.line {
+    grid-area: line;
+    background: var(--c-light-pink);
+    width: 80%;
+    justify-self: end;
+}
+
+
+.flor {
+    grid-area: flor;
+    display: flex;
+    align-items: center;
+}
+
+.flor img {
+    width: 180px;
+    height: auto;
+}
+
+
+.info {
+    grid-area: info;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: fit-content;
+}
+
+
+.info > img {
+    width: 220px;
+    filter: var(--filter-pink);
+}
+
+
+.links {
+    display: flex;
+    gap: 100px;
+    font: var(--f-main-txt);
+}
+
+
+.links h4 {
+    color: var(--c-pink);
+}
+
+
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.links li {
+    margin: 15px 0;
+    color: var(--c-gray);
+}
+
+
+.foot {
+    grid-area: foot;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot h6 {
+    font: var(--f-main-txt);
+}
+
+.socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.socials svg {
+  color: var(--c-pink);
+}
