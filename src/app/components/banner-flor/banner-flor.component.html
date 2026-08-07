@@ -30,5 +30,10 @@
     </div>
   </main>
 } @else {
-  <p class="erro-mensagem">Flor não encontrada no catálogo.</p>
+  <div class="erro-mensagem">
+    <img src="./images/error.png" alt="">
+    <h1>Flor não encontrada no catálogo.</h1>
+    <p>Que tal tentar buscar por outra espécie ou conferir se a grafia está correta?</p>
+    <button class="btn-rosa" routerLink="/flores">Explore nosso Catálogo</button>
+  </div>
 }

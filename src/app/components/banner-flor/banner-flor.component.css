@@ -50,7 +50,6 @@
   white-space: pre-line;
 }
 
-
 .meta-dados {
   font: var(--f-main-txt);
   color: var(--c-gray);
@@ -84,4 +83,28 @@ button {
 .bnt-claro {
   color: var(--c-pink);
   background-color: var(--c-white);
+}
+
+.erro-mensagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
+  width: 100%;
+}
+
+.erro-mensagem img {
+  width: 150px;
+  height: auto;
+}
+
+.erro-mensagem h1 {
+  color: var(--c-pink);
+  font: var(--f-subtitle);
+}
+
+.erro-mensagem p {
+  color: var(--c-gray);
+  font: var(--f-main-txt);
 }
