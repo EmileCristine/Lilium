@@ -1,59 +1,35 @@
-# Lilium
+### `🌸 LILIUM - Catálogo de Flores`
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
+Aplicação web desenvolvida em Angular para apresentar informações sobre flores, seus significados, características, cuidados e simbologias através da floriografia.
 
-## Development server
+O projeto permite que o usuário explore diferentes espécies de flores, aprenda seus significados e até mesmo os cuidados necesários.
 
-To start a local development server, run:
+### 🌱 `Sobre o projeto`n
 
-```bash
-ng serve
-```
+O LILIUM foi criado com o objetivo de unir tecnologia e botãnica em um só lugar. 
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Cada flor possui informações como:
 
-## Code scaffolding
+Nome popular;
+Nome científico;
+Resumo;
+Características;
+Cuidados necessários;
+Significado na floriografia;
+Cores disponíveis e seus significados;
+Imagens ilustrativas.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### `Ferramentas e funcionalidades`
 
-```bash
-ng generate component component-name
-```
+* **Dados Locais:** A aplicação utiliza dados locais em formato JSON para alimentar os componentes da interface.
+* **Filtros de Busca:** Permitem que o usuário possa encontra a flor que deseja de forma mais otimizada.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### 🛠️ Tecnologias Utilizadas
 
-```bash
-ng generate --help
-```
+* [Angular](https://angular.dev/) - Versão 19
+* [Typescript](https://www.typescriptlang.org/)
+* [Node.JS](https://nodejs.org/pt-br) - v24.18.0
 
-## Building
+### 📝 Licença
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Este projeto foi desenvolvido para fins acadêmicos e de aprendizado.
