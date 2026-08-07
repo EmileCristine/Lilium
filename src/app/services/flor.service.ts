@@ -3,48 +3,20 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
 import { Flor } from '../models/flor.model';
 
-
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class FlorService {
-
-
   private http = inject(HttpClient);
-
-
-private url = 'data/flowers.json';
-
-
+  private url = 'data/flowers.json';
 
   getFlores(): Observable<Flor[]> {
-    return this.http.get<Flor[]>(this.url)
+    return this.http.get<Flor[]>(this.url);
   }
-
 
   buscarPorSlug(slug: string): Observable<Flor | undefined> {
-
-
     return this.http
       .get<Flor[]>(this.url)
-      .pipe(
-
-
-        map(flores =>
-
-          flores.find(
-
-            flor => flor.slug === slug
-
-          )
-
-        )
-
-
-      );
-
-
+      .pipe(map((flores) => flores.find((flor) => flor.slug === slug)));
   }
-
-
 }

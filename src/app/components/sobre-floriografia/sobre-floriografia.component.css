@@ -1,0 +1,36 @@
+main {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    gap: 2rem;
+}
+
+.info {
+    flex: 1;
+}
+
+.info h1 {
+    color: var(--c-pink);
+    text-transform: uppercase;
+    font: var(--f-title);
+    margin-bottom: 1rem;
+}
+
+.info p {
+    color: var(--c-gray);
+    font: var(--f-main-txt);
+    text-align: justify;
+}
+
+strong {
+    color: var(--c-pink);
+}
+
+img {
+    flex: 1;
+    max-width: 450px;
+    height: auto;
+    object-fit: conver;
+}

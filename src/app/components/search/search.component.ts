@@ -6,6 +6,7 @@ import {
   Output,
   inject,
 } from '@angular/core';
+
 import { FormsModule } from '@angular/forms';
 import { NgIf } from '@angular/common';
 import { NavigationEnd, Router, RouterLink } from '@angular/router';
@@ -38,6 +39,7 @@ export class SearchComponent implements OnInit {
   floresFiltradas: Flor[] = [];
 
   title = '';
+
   subTitle: string | null = null;
 
   constructor(private router: Router) {
@@ -58,6 +60,7 @@ export class SearchComponent implements OnInit {
         this.todasAsFlores = flores;
 
         this.aplicarFiltros();
+        console.log('FLORES RECEBIDAS:', flores)
       },
 
       error: (erro) => {
@@ -69,13 +72,23 @@ export class SearchComponent implements OnInit {
   }
 
   selecionarOpcao(filtro: string, valor: string): void {
-    if (filtro === 'estacao') this.filtroEstacao = valor;
+    switch (filtro) {
+      case 'estacao':
+        this.filtroEstacao = valor;
+        break;
 
-    if (filtro === 'mes') this.filtroMes = valor;
+      case 'mes':
+        this.filtroMes = valor;
+        break;
 
-    if (filtro === 'cor') this.filtroCor = valor;
+      case 'cor':
+        this.filtroCor = valor;
+        break;
 
-    if (filtro === 'significado') this.filtroSignificado = valor;
+      case 'significado':
+        this.filtroSignificado = valor;
+        break;
+    }
 
     this.dropdownAberto = null;
 
@@ -87,25 +100,42 @@ export class SearchComponent implements OnInit {
 
     this.floresFiltradas = this.todasAsFlores.filter((flor) => {
       const correspondeEstacao =
-        !this.filtroEstacao || flor.estacao === this.filtroEstacao;
+        !this.filtroEstacao ||
+        this.normalizarTexto(flor.estacao) ===
+          this.normalizarTexto(this.filtroEstacao);
 
-      const correspondeMes = !this.filtroMes || flor.mes === this.filtroMes;
+      const correspondeMes =
+        !this.filtroMes ||
+        this.normalizarTexto(flor.mes) === this.normalizarTexto(this.filtroMes);
 
       const correspondeCor =
         !this.filtroCor ||
-        flor.cores.some((cor) => cor.nome === this.filtroCor);
+        flor.cores?.some(
+          (cor) =>
+            this.normalizarTexto(cor.nome) ===
+            this.normalizarTexto(this.filtroCor),
+        );
 
       const correspondeSignificado =
         !this.filtroSignificado ||
-        flor.significadoPadrao === this.filtroSignificado ||
-        flor.cores.some((cor) => cor.significado === this.filtroSignificado);
+        this.normalizarTexto(flor.significadoPadrao) ===
+          this.normalizarTexto(this.filtroSignificado) ||
+        flor.cores?.some(
+          (cor) =>
+            this.normalizarTexto(cor.significado) ===
+            this.normalizarTexto(this.filtroSignificado),
+        );
 
       const correspondeTexto =
         !textoDigitado ||
         this.normalizarTexto(flor.nome).includes(textoDigitado) ||
         this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
-        flor.cores.some((cor) =>
-          this.normalizarTexto(cor.nome).includes(textoDigitado),
+        this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
+        this.normalizarTexto(flor.resume).includes(textoDigitado) ||
+        flor.cores?.some(
+          (cor) =>
+            this.normalizarTexto(cor.nome).includes(textoDigitado) ||
+            this.normalizarTexto(cor.significado).includes(textoDigitado),
         );
 
       return (
@@ -120,14 +150,6 @@ export class SearchComponent implements OnInit {
     this.filtrosAlterados.emit(this.floresFiltradas);
   }
 
-  exibirRotulo(tipo: string, valor: string, padrao: string): string {
-    if (!valor) {
-      return padrao;
-    }
-
-    return valor.charAt(0).toUpperCase() + valor.slice(1);
-  }
-
   private normalizarTexto(texto: string): string {
     return (
       texto
@@ -139,11 +161,23 @@ export class SearchComponent implements OnInit {
     );
   }
 
+  exibirRotulo(tipo: string, valor: string, padrao: string): string {
+    if (!valor) {
+      return padrao;
+    }
+
+    return valor.charAt(0).toUpperCase() + valor.slice(1);
+  }
+
   limparFiltros(): void {
     this.filtroEstacao = '';
+
     this.filtroMes = '';
+
     this.filtroCor = '';
+
     this.filtroSignificado = '';
+
     this.pesquisaTexto = '';
 
     this.dropdownAberto = null;

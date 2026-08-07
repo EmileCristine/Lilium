@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   width: 55%;
+  height: auto;
   align-self: center;
 }
 
@@ -53,6 +54,7 @@
 .meta-dados {
   font: var(--f-main-txt);
   color: var(--c-gray);
+  text-transform: capitalize;
 }
 
 strong {

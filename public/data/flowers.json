@@ -5,7 +5,7 @@
     "slug": "orquidea",
     "nomeCientifico": "Orchidaceae",
     "resume": "Flores exóticas e elegantes que representam a beleza refinada.",
-    "caracteristicasTxt": "Flores tropicais e variadas.",
+    "caracteristicasTxt": "Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.  \n\n Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.",
     "floriografiaTxt": "Representa respeito e admiração.",
     "cuidadosTxt": "Necessita de luz indireta e pouca água.",
     "estacao": "primavera",
@@ -42,8 +42,8 @@
       {
         "nome": "branco",
         "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/ae/70/f3/ae70f3309f0837d485c6505465629b6d.jpg",
-        "imagem": "https://i.pinimg.com/736x/08/5b/97/085b97b89d755bf92e9e184190aa0d7f.jpg"
+        "imgSemFundo": "https://i.pinimg.com/736x/5a/20/85/5a20859369447a30c14e51022269e21a.jpg",
+        "imagem": "https://i.pinimg.com/736x/5a/20/85/5a20859369447a30c14e51022269e21a.jpg"
       }
     ]
   },
@@ -218,6 +218,7 @@
   {
     "id": 11,
     "nome": "Cravina",
+    "slug": "cravina",
     "nomeCientifico": "Dianthus chinensis",
     "resume": "Delicada e resistente, perfeita para bordas de jardins.",
     "caracteristicasTxt": "",
@@ -298,6 +299,7 @@
     "cores": [
       {
         "nome": "vermelho",
+        "slug": "rosa",
         "significado": "gratidao",
         "imgSemFundo": "https://i.pinimg.com/1200x/45/8c/66/458c6637827ae5f361f5cc204a40f6fe.jpg",
         "imagem": "https://i.pinimg.com/736x/1a/21/05/1a2105c17e9efb18d7ab4c2e36f91258.jpg"
@@ -307,6 +309,7 @@
   {
     "id": 15,
     "nome": "Azaleia",
+    "slug": "azaleia",
     "nomeCientifico": "Rhododendron",
     "resume": "Arbusto florido clássico que suporta muito bem o frio.",
     "caracteristicasTxt": "",
@@ -317,7 +320,8 @@
     "significadoPadrao": "amor",
     "cores": [
       {
-        "nome": "rosa",
+        "nome": "Rosa",
+        "slug": "rosa",
         "significado": "amor",
         "imgSemFundo": "https://i.pinimg.com/1200x/d4/06/f1/d406f18129fc5963f20f0bf7da6274ea.jpg",
         "imagem": "https://i.pinimg.com/736x/9c/6e/a8/9c6ea83e186931d163544db42ac9d76c.jpg"

@@ -5,11 +5,13 @@ import { BannerComponent } from '../../components/banner/banner.component';
 import { SearchComponent } from '../../components/search/search.component';
 import { CarrosselComponent } from '../../components/carrossel/carrossel.component';
 import { FooterComponent } from '../../components/footer/footer.component';
+import { SobreFloriografiaComponent } from '../../components/sobre-floriografia/sobre-floriografia.component';
 @Component({
   selector: 'app-floriografia',
   standalone: true,
   imports: [
     BannerComponent,
+    SobreFloriografiaComponent,
     SearchComponent,
     CarrosselComponent,
     FooterComponent

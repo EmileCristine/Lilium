@@ -1,10 +1,10 @@
-
 main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     padding: 0rem 4rem;
-    align-items: flex-start;
+    align-items: center;
+    margin: 0 auto;
 }
 
 .search {

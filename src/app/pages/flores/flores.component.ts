@@ -19,78 +19,44 @@ import { Flor } from '../../models/flor.model';
 })
 export class FloresComponent implements OnInit {
 
-
   private florService = inject(FlorService);
 
   floresParaExibir: Flor[] = [];
-
-
-
-  // ngOnInit(): void {
-
-  //   this.carregarFlores();
-
-  // }
-
-
 
   private carregarFlores(): void {
 
     this.florService
       .getFlores()
       .subscribe({
-
         next:(flores)=>{
-
           this.floresParaExibir = flores;
-
         },
 
         error:(erro)=>{
-
           console.error(
             'Erro ao carregar flores:',
             erro
           );
-
           this.floresParaExibir = [];
-
         }
-
       });
 
   }
 
-
-
-
   atualizarGaleria(flores: Flor[]): void {
-
     this.floresParaExibir = flores;
-
   }
 
   ngOnInit(): void {
-
   this.florService.getFlores()
     .subscribe({
-
       next: (flores) => {
-
         console.log('DADOS DA API:', flores);
-
         this.floresParaExibir = flores;
-
       },
-
       error: (erro) => {
-
         console.error('ERRO:', erro);
-
       }
-
     });
-
-}
-
+  }
 }
