@@ -1,7 +1,6 @@
 import { Injectable, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
-import { map } from 'rxjs';
+import { Observable, map } from 'rxjs';
 import { Flor } from '../models/flor.model';
 
 
@@ -14,29 +13,38 @@ export class FlorService {
   private http = inject(HttpClient);
 
 
-  private url = 'data/flowers.json';
+private url = 'data/flowers.json';
 
 
 
   getFlores(): Observable<Flor[]> {
-
-    return this.http.get<Flor[]>(this.url);
-
+    return this.http.get<Flor[]>(this.url)
   }
 
 
- buscarPorNome(nome:string): Observable<Flor | undefined>{
+  buscarPorSlug(slug: string): Observable<Flor | undefined> {
 
-  return this.http
-    .get<Flor[]>('assets/data/flores.json')
-    .pipe(
 
-      map(flores => 
-        flores.find(
-          flor =>
-          flor.nome.toLowerCase() === nome.toLowerCase()
+    return this.http
+      .get<Flor[]>(this.url)
+      .pipe(
+
+
+        map(flores =>
+
+          flores.find(
+
+            flor => flor.slug === slug
+
+          )
+
         )
-      )
-    )
+
+
+      );
+
+
   }
+
+
 }
