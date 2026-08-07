@@ -1,29 +1,73 @@
-import { Component, OnInit } from '@angular/core';
-import { Flor, FlorService } from '../../services/flor.service';
+import { Component, OnInit, inject } from '@angular/core';
+import { Flor } from '../../models/flor.model';
+import { FlorService } from '../../services/flor.service';
 import { BannerComponent } from '../../components/banner/banner.component';
 import { SearchComponent } from '../../components/search/search.component';
 import { CarrosselComponent } from '../../components/carrossel/carrossel.component';
 import { FooterComponent } from '../../components/footer/footer.component';
-
 @Component({
   selector: 'app-floriografia',
-  imports: [BannerComponent, SearchComponent, CarrosselComponent, FooterComponent],
+  standalone: true,
+  imports: [
+    BannerComponent,
+    SearchComponent,
+    CarrosselComponent,
+    FooterComponent
+  ],
   templateUrl: './floriografia.component.html',
   styleUrl: './floriografia.component.css',
 })
-
-
 export class FloriografiaComponent implements OnInit {
+
+
+  private florService = inject(FlorService);
+
 
   floresFiltradas: Flor[] = [];
 
-  constructor(private florService: FlorService) {}
+
 
   ngOnInit(): void {
-    this.floresFiltradas = this.florService.getFlores();
+
+    this.carregarFlores();
+
   }
 
-  atualizarDadosCarrossel(flores: Flor[]) {
-    this.floresFiltradas = flores;
+
+
+  private carregarFlores(): void {
+
+    this.florService
+      .getFlores()
+      .subscribe({
+
+        next:(flores)=>{
+
+          this.floresFiltradas = flores;
+
+        },
+
+        error:(erro)=>{
+
+          console.error(
+            'Erro ao carregar flores:',
+            erro
+          );
+
+          this.floresFiltradas = [];
+
+        }
+
+      });
+
   }
+
+
+
+  atualizarDadosCarrossel(flores: Flor[]): void {
+
+    this.floresFiltradas = flores;
+
+  }
+
 }

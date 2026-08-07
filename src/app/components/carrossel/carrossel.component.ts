@@ -1,8 +1,7 @@
 import { Component, ElementRef, Input, ViewChild, OnChanges, SimpleChanges, AfterViewChecked, ChangeDetectorRef, inject } from '@angular/core';
 import { NgIf } from '@angular/common';
 import { CardComponent } from '../card/card.component';
-import { Flor } from '../../services/flor.service';
-
+import { Flor } from '../../models/flor.model';
 @Component({
   selector: 'app-carrossel',
   standalone: true,
@@ -14,10 +13,10 @@ export class CarrosselComponent implements OnChanges, AfterViewChecked {
   @ViewChild('carousel', { read: ElementRef }) carouselElement!: ElementRef<HTMLDivElement>;
   @Input({ required: true }) listaFlores: Flor[] = [];
 
-  private cdr = inject(ChangeDetectorRef); // Evita erros de detecção de mudanças assíncronas
+  private cdr = inject(ChangeDetectorRef); 
   private readonly cardWidth: number = 272; 
   
-  mostrarBotoes: boolean = false; // Controla a exibição dos botões no HTML
+  mostrarBotoes: boolean = false;
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['listaFlores']) {

@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, ViewChild, ElementRef } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { Flor } from '../../services/flor.service';
+import { Flor } from '../../models/flor.model';
 
 @Component({
   selector: 'app-galery',

@@ -1,6 +1,6 @@
 import { Component, inject, Input } from '@angular/core';
 import { Router } from '@angular/router';
-import { Flor } from '../../services/flor.service'; 
+import { Flor } from '../../models/flor.model';
 
 @Component({
   selector: 'app-card',

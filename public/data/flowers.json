@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "nome": "Orquídea",
+    "nomeCientifico": "Orchidaceae",
+    "resume": "Flores exóticas e elegantes que representam a beleza refinada.",
+    "caracteristicasTxt": "Flores tropicais e variadas.",
+    "floriografiaTxt": "Representa respeito e admiração.",
+    "cuidadosTxt": "Necessita de luz indireta e pouca água.",
+    "estacao": "primavera",
+    "mes": "setembro",
+    "significadoPadrao": "respeito",
+    "cores": [
+      {
+        "nome": "roxo",
+        "significado": "Admiração",
+        "imagem": "https://imagem.com/orquidea.jpg",
+        "imgSemFundo": "https://imagem.com/orquidea.png"
+      }
+    ]
+  }
+]
