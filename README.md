@@ -4,7 +4,7 @@ Aplicação web desenvolvida em Angular para apresentar informações sobre flor
 
 O projeto permite que o usuário explore diferentes espécies de flores, aprenda seus significados e até mesmo os cuidados necesários.
 
-### 🌱 `Sobre o projeto`n
+### 🌱 `Sobre o projeto`
 
 O LILIUM foi criado com o objetivo de unir tecnologia e botãnica em um só lugar. 
 
