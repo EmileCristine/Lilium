@@ -1,83 +1,27 @@
-<main>
-    <p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
-<p>galery works!</p>
-<br>
+<div class="masonry-container">
+  @for (colIndex of colunas; track colIndex) {
+    <div class="masonry-column">
+      
+      @for (flor of listaFlores; track flor.nome) {
+        @if ($index % 6 === colIndex) {
+          <div class="masonry-item" [routerLink]="['/flores', flor.nome.toLowerCase(), 'caracteristicas']">
+            
+            @if (flor.cores && flor.cores.length > 0) {
+              <img [src]="flor.cores[0].imagem || flor.cores[0].imgSemFundo" [alt]="flor.nome" >
+            }
+            
+            <div class="masonry-overlay">
+              <div class="overlay-text">
+                <h3>{{ flor.nome }}</h3>
+                <p>{{ flor.resume }}</p>
+              </div>
+              <button class="overlay-btn" [routerLink]="['/flores', flor.nome.toLowerCase(), 'caracteristicas']">Ver Detalhes</button>
+            </div>
 
-</main>
+          </div>
+        }
+      }
+
+    </div>
+  }
+</div>

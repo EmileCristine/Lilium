@@ -1,1 +1,13 @@
-<app-banner/>
+<main>
+  <app-banner></app-banner>
+
+  <div class="container">
+    <div class="search-flowers">
+      <app-search (filtrosAlterados)="atualizarDadosCarrossel($event)">
+      </app-search>
+
+      <app-carrossel [listaFlores]="floresFiltradas"> </app-carrossel>
+    </div>
+    <app-footer />
+  </div>
+</main>

@@ -26,11 +26,12 @@
   /* #PADDING */
   --p-btn: 10px 25px;
   --p-filter: 10px 10px;
+  --p-group-btn: 8px 25px;
 
   /* #RADIUS */
   --r-btn: 3px;
   --r-card: 10px;
-  --r-img: 15px;
+  --r-img: 10px;
 
   /* #FILTER */
   --filter-pink: invert(65%) sepia(41%) saturate(547%) hue-rotate(313deg)

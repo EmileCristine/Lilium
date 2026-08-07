@@ -1,0 +1,34 @@
+@if (florDados) {
+  <main class="detalhes-container">
+    <div class="detalhes-text">
+      <h1>{{ florDados.nome }}</h1>
+      <p class="cientifico">
+        <i>{{ florDados.nomeCientifico }}</i>
+      </p>
+
+      <div class="resume">
+        <p class="exibir-texto">{{ texto }}</p>
+      </div>
+
+      <div class="meta-dados">
+        <p><strong>Estação:</strong> {{ florDados.estacao }}</p>
+        <p><strong>Mês de Florescimento:</strong> {{ florDados.mes }}</p>
+      </div>
+
+      <div class="botoes">
+        <button class="btn-rosa" (click)="navegarPara(btn1)">{{ btn1 }}</button>
+        <button class="bnt-claro" (click)="navegarPara(btn2)">{{ btn2 }}</button>
+      </div>
+    </div>
+
+    <div class="detalhes-foto">
+      <img
+        [src]="florDados.cores[0].imgSemFundo"
+        [alt]="florDados.nome"
+        class="foto-detalhe"
+      />
+    </div>
+  </main>
+} @else {
+  <p class="erro-mensagem">Flor não encontrada no catálogo.</p>
+}

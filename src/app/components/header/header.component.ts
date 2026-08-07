@@ -28,6 +28,10 @@ export class HeaderComponent {
       return 'header-flores';
     }
 
+    if (this.currentRoute.includes('/significado')) {
+      return 'header-flores'
+    }
+
     return 'header-default';
 
   }

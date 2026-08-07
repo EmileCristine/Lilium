@@ -1,9 +1,13 @@
 <main>
   <div class="search">
-    <app-search></app-search>
+    <app-search
+      (filtrosAlterados)="atualizarGaleria($event)">
+    </app-search>
   </div>
 
   <div class="gallery">
-    <app-galery></app-galery>
+    <app-galery
+      [listaFlores]="floresParaExibir">
+    </app-galery>
   </div>
 </main>

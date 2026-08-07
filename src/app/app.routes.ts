@@ -1,3 +1,4 @@
+import { SignificadoComponent } from './pages/significado/significado.component';
 import { Routes } from '@angular/router';
 
 export const routes: Routes = [
@@ -21,6 +22,12 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./pages/caracteristicas/caracteristicas.component')
         .then(c => c.CaracteristicasComponent)
+  },
+  {
+    path: 'floriografia/:nome/significado',
+    loadComponent: () =>
+      import('./pages/significado/significado.component')
+        .then(c => c.SignificadoComponent)
   },
   {
     path: 'flores/:flor/cuidados',

@@ -1,3 +1,30 @@
+import { Injectable } from '@angular/core';
+
+export interface VariacaoCor {
+  nome: string;
+  significado?: string;
+  imagem: string;
+  imgSemFundo: string;
+}
+
+export interface Flor {
+  nome: string;
+  nomeCientifico: string;
+  resume: string;
+  caracteristicasTxt: string;
+  floriografiaTxt: string;
+  cuidadosTxt: string;
+  estacao: string;
+  mes: string;
+  cores: VariacaoCor[];
+  significadoPadrao: string;
+}
+
+@Injectable({
+  providedIn: 'root',
+})
+export class FlorService {
+  
   todasAsFlores: Flor[] = [
     {
       nome: 'Orquídea',
@@ -303,3 +330,16 @@
       ],
     },
   ];
+
+  getFlores(): Flor[] {
+    return this.todasAsFlores;
+  }
+
+  buscarPorNome(nome: string): Flor | undefined {
+    return this.todasAsFlores.find(
+      (f) => f.nome.toLowerCase() === nome.toLowerCase(),
+    );
+  }
+
+  constructor() {}
+}

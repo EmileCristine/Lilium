@@ -4,14 +4,15 @@ import { BannerFlorComponent } from "../../components/banner-flor/banner-flor.co
 import { CarrosselComponent } from "../../components/carrossel/carrossel.component";
 import { SearchComponent } from '../../components/search/search.component';
 import { FooterComponent } from '../../components/footer/footer.component';
+import { Flor, FlorService } from '../../services/flor.service';
 
 @Component({
-  selector: 'app-caracteristicas',
+  selector: 'app-significado',
   imports: [CommonModule, BannerFlorComponent,SearchComponent, CarrosselComponent, FooterComponent],
-  templateUrl: './caracteristicas.component.html',
-  styleUrl: './caracteristicas.component.css'
+  templateUrl: './significado.component.html',
+  styleUrl: './significado.component.css'
 })
-export class CaracteristicasComponent{
+export class SignificadoComponent {
     floresFiltradas: any[] = []
 
   atualizarDadosCarrossel(dados: any[]): void {
