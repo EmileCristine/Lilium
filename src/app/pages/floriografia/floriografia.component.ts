@@ -14,62 +14,35 @@ import { SobreFloriografiaComponent } from '../../components/sobre-floriografia/
     SobreFloriografiaComponent,
     SearchComponent,
     CarrosselComponent,
-    FooterComponent
+    FooterComponent,
   ],
   templateUrl: './floriografia.component.html',
   styleUrl: './floriografia.component.css',
 })
 export class FloriografiaComponent implements OnInit {
-
-
   private florService = inject(FlorService);
-
 
   floresFiltradas: Flor[] = [];
 
-
-
   ngOnInit(): void {
-
     this.carregarFlores();
-
   }
-
-
 
   private carregarFlores(): void {
+    this.florService.getFlores().subscribe({
+      next: (flores) => {
+        this.floresFiltradas = flores;
+      },
 
-    this.florService
-      .getFlores()
-      .subscribe({
+      error: (erro) => {
+        console.error('Erro ao carregar flores:', erro);
 
-        next:(flores)=>{
-
-          this.floresFiltradas = flores;
-
-        },
-
-        error:(erro)=>{
-
-          console.error(
-            'Erro ao carregar flores:',
-            erro
-          );
-
-          this.floresFiltradas = [];
-
-        }
-
-      });
-
+        this.floresFiltradas = [];
+      },
+    });
   }
-
-
 
   atualizarDadosCarrossel(flores: Flor[]): void {
-
     this.floresFiltradas = flores;
-
   }
-
 }

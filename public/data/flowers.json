@@ -6,44 +6,50 @@
     "nomeCientifico": "Orchidaceae",
     "resume": "Flores exóticas e elegantes que representam a beleza refinada.",
     "caracteristicasTxt": "Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.  \n\n Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.",
-    "floriografiaTxt": "Representa respeito e admiração.",
+    "floriografiaTxt": "Com sua forma singular e exótica, a orquídea invoca associações com sensualidade e sexualidade na cultura contemporânea. Por isso, não é surpresa alguma que a palavra “orquídea” venha da palavra orchis do grego antigo, que significa “testículo”. Essa associação provavelmente vem da forma das raízes bulbosas da flor, que os gregos antigos acreditavam simbolizar virilidade. O simbolismo era tão forte que os homens dessa sociedade comiam orquídeas com raízes grandes para aumentar suas chances de ter um filho homem. \n\nInteressantemente, a planta da baunilha também faz parte da família Orchidaceae. A baunilha não é famosa apenas pelo seu gosto doce, como também seu aroma é considerado um afrodisíaco natural. Ou seja, a árvore da família das orquídeas é realmente repleta de sensualidade.",
     "cuidadosTxt": "Necessita de luz indireta e pouca água.",
-    "estacao": "primavera",
-    "mes": "setembro",
+    "estacao": "verão",
+    "mes": "janeiro",
     "significadoPadrao": "respeito",
     "cores": [
       {
-        "nome": "Roxo",
+        "nome": "roxo",
         "significado": "Admiração",
-        "imagem": "https://i.pinimg.com/736x/27/b3/23/27b323d6506bb37f1cb521078dfc4ef0.jpg",
-        "imgSemFundo": "https://i.pinimg.com/736x/09/65/e1/0965e178cb523ab031a5110cef0c81a4.jpg"
+        "imgSemFundo": "https://i.pinimg.com/736x/09/65/e1/0965e178cb523ab031a5110cef0c81a4.jpg",
+        "imagem": "https://i.pinimg.com/736x/80/63/f5/8063f5a51fa027d203b11c5bc63696f3.jpg"
       }
     ]
   },
-  {
+  { 
     "id": 2,
     "nome": "Rosa",
     "slug": "rosa",
     "nomeCientifico": "Rosa L.",
     "resume": "A clássica flor dos namorados, símbolo universal do romantismo.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "As rosas , as flores de corte mais populares do mundo,   sempre foram uma das principais escolhas dos apreciadores de flores. Ao longo dos tempos, elas têm sido oferecidas como gestos de amor e devoção. No entanto, dependendo da cor, podemos dizer que  rosas de diferentes cores  podem ser usadas em diversas ocasiões. Por exemplo, rosas brancas simbolizam pureza e são frequentemente usadas em casamentos, enquanto rosas cor-de-rosa representam amizade e felicidade. Já a clássica rosa vermelha, é claro, grita: Estou completamente apaixonado(a) por você. É a flor mais popular do Dia dos Namorados justamente por esse motivo. De um modo geral, oferecer uma rosa a alguém transmite a mensagem de que você a admira, é grato por ela e aprecia muito a sua agradável companhia.",
     "cuidadosTxt": "",
-    "estacao": "primavera",
-    "mes": "outubro",
+    "estacao": "outono",
+    "mes": "maio",
     "significadoPadrao": "amor",
     "cores": [
       {
         "nome": "vermelho",
         "significado": "amor profundo",
-        "imgSemFundo": "https://i.pinimg.com/736x/ae/70/f3/ae70f3309f0837d485c6505465629b6d.jpg",
-        "imagem": "https://i.pinimg.com/736x/08/5b/97/085b97b89d755bf92e9e184190aa0d7f.jpg"
+        "imgSemFundo": "https://i.pinimg.com/1200x/63/39/da/6339dad910beae7f7ec3e87e4f3b0d8f.jpg",
+        "imagem": "https://i.pinimg.com/1200x/08/e5/9f/08e59f88b1210c39c0817abaccce4df9.jpg"
       },
       {
         "nome": "branco",
         "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/5a/20/85/5a20859369447a30c14e51022269e21a.jpg",
-        "imagem": "https://i.pinimg.com/736x/5a/20/85/5a20859369447a30c14e51022269e21a.jpg"
+        "imgSemFundo": "https://i.pinimg.com/736x/f8/26/a0/f826a036d6488dc347cb040178327d5a.jpg",
+        "imagem": "https://i.pinimg.com/1200x/72/ca/cb/72cacb1897d1a41f29d6b53cdf75b19c.jpg"
+      },
+      {
+        "nome": "amarelo",
+        "significado": "amizade",
+        "imgSemFundo": "https://i.pinimg.com/736x/64/2f/3b/642f3bdfc0e1721e073e0ad6e228d160.jpg",
+        "imagem": "https://i.pinimg.com/1200x/67/3f/5e/673f5e80bdb4aea0d5f96e84d08f7d94.jpg"
       }
     ]
   },
@@ -53,12 +59,12 @@
     "slug": "margarida",
     "nomeCientifico": "Bellis perennis",
     "resume": "Representa a pureza do campo e a simplicidade da natureza.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "caracteristicasTxt": "O nome desta flor vem do latim margarita, que significa “pérola”. Já em inglês, esta flor tem o nome de Daisy, uma aparente alteração da expressão day's eye que significa olho do dia, o que parece ser uma alusão ao fato desta flor se fechar durante a noite e abrir outra vez quando o sol nasce. Apesar de ser uma flor tão frágil, ela se adapta a várias tipos de solo e segundo consta, existe há mais de mil anos. \n\nAs pétalas das margaridas são alargadas e delgadas, rodeando botão central que é dourado ou amarelo. As suas folhas são ovais e seus caules compridos e delgados, podendo chegar a um metro de altura. Existem várias classes de margaridas e este nome não é dado para uma só flor, porque há uma grande variedade de Chrysanthemum. Muitas flores que são parecidas receberam o mesmo nome, mas as mais populares entre elas são as margaridas brancas e as margaridas amarelas.",
+    "floriografiaTxt": "Hoje, a margarida costuma ser associada a uma inocência infantil. Frequentemente a flor é incluída em publicidades com bebês e crianças. Esse significado remonta à interpretação vitoriana da flor, que permaneceu inalterada por séculos. Na linguagem clássica da flores, elas geralmente são colocadas em arranjos florais com prímulas, que também simbolizam infância. Contudo, os pagãos europeus antigos tinham uma visão muito diferente dessas delicadas flores. Eles a viam como sóis em miniatura, com o centro amarelo representando a estrela ardente e as pétalas brancas, os raios de sol.",
     "cuidadosTxt": "",
     "estacao": "verão",
-    "mes": "janeiro",
-    "significadoPadrao": "felicidade",
+    "mes": "fevereiro",
+    "significadoPadrao": "inocência",
     "cores": [
       {
         "nome": "branco",
@@ -84,7 +90,7 @@
       {
         "nome": "branco",
         "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/0a/01/19/0a011973e08d27ea277453cd85a364c8.jpg",
+        "imgSemFundo": "https://i.pinimg.com/736x/f0/5a/62/f05a62bb054fc4c90ae2dd25e1c90b6c.jpg",
         "imagem": "https://i.pinimg.com/1200x/92/15/7e/92157e7027d2aee3a486aa213ef766d0.jpg"
       }
     ]
@@ -99,7 +105,7 @@
     "floriografiaTxt": "",
     "cuidadosTxt": "",
     "estacao": "verão",
-    "mes": "dezembro",
+    "mes": "janeiro",
     "significadoPadrao": "felicidade",
     "cores": [
       {
@@ -117,7 +123,7 @@
     "nomeCientifico": "Tulipa L.",
     "resume": "Flores de inverno que encantam com suas cores vibrantes.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "Essas flores singelas têm uma história bastante dramática e simbologia em vários países. A maioria das tulipas é nativa do Oriente Médio, onde elas são admiradas por sua beleza única. De fato, o período de prosperidade e paz do Império Otomano foi chamado de “Era da Tulipa” devido à associação positiva com a flor (particularmente: nobreza e riqueza). \n\nOs holandeses, porém, têm uma visão bem diferente da tulipa, inspirada por sua própria história com a flor. A tulipa foi introduzida na Holanda pela primeira vez em 1593, sendo um sucesso imediato com o público. Nos 1630, as flores eram tão apreciadas pela sociedade holandesa que elas desencadearam uma bolha econômica especulativa (similar à bolha da internet nos anos 1990). Naquele tempo, um único bulbo de tulipa poderia valer dez vezes mais do que o salário anual de um artesão. Mas os valores acabaram caindo, causando uma perda econômica enorme para os negócios. Esse legado fez que a tulipa passasse a representar a brevidade da vida para os holandeses. A flor é celebrada todos os anos em abril no famoso Festival de Tulipas em Amsterdã.",
     "cuidadosTxt": "",
     "estacao": "inverno",
     "mes": "julho",
@@ -127,7 +133,7 @@
         "nome": "vermelho",
         "significado": "amor",
         "imgSemFundo": "https://i.pinimg.com/736x/49/22/43/492243768d79a5cfd190affef7533ef2.jpg",
-        "imagem": "https://i.pinimg.com/1200x/ac/64/bf/ac64bf44b627e258ee6bcb9c5f08470d.jpg"
+        "imagem": "https://i.pinimg.com/1200x/41/aa/44/41aa44c4f54c96fcedf58b72e10c7d0e.jpg"
       }
     ]
   },
@@ -138,7 +144,7 @@
     "nomeCientifico": "Lilium L.",
     "resume": "Grandes pétalas majestosas com fragrância marcante.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "Como a margarida, as pétalas brancas do lírio acenam para ideias de inocência e pureza, mas por uma razão diferente. No catolicismo romano, a flor é associada com a virtuosa Virgem Maria. Um dos tipos mais populares de lírio branco, Madonna Lily, foi nomeado em homenagem à Virgem Maria. O lírio também é um forte símbolo de soberania e nobreza em muitos países europeus por causa da conexão com o icônico símbolo fleur-de-lis. Isso data do século XIII, quando a flor-de-lis foi incorporada pela poderosa monarquia francesa, que usou o símbolo em escudos e demais emblemas políticos.",
     "cuidadosTxt": "",
     "estacao": "outono",
     "mes": "abril",
@@ -159,10 +165,10 @@
     "nomeCientifico": "Hydrangea macrophylla",
     "resume": "Cresce em lindos buquês naturais de coloração azulada.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "Essas são flores que evocam gratidão e emoções sinceras.  Essas flores arredondadas e delicadas também transmitem sentimentos de sinceridade e compreensão. \n\nEste pequeno arbusto, que se traduz aproximadamente como barril de água, apresenta-se em diversas tonalidades de azul, rosa e roxo.",
     "cuidadosTxt": "",
     "estacao": "inverno",
-    "mes": "junho",
+    "mes": "julho",
     "significadoPadrao": "gratidao",
     "cores": [
       {
@@ -182,8 +188,8 @@
     "caracteristicasTxt": "",
     "floriografiaTxt": "",
     "cuidadosTxt": "",
-    "estacao": "primavera",
-    "mes": "novembro",
+    "estacao": "inverno",
+    "mes": "agosto",
     "significadoPadrao": "esperanca",
     "cores": [
       {
@@ -201,31 +207,31 @@
     "nomeCientifico": "Chrysanthemum",
     "resume": "Flor tradicional de outono com grande variedade de pétalas.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "O substantivo “crisântemo” significa literalmente “flor de ouro” em grego antigo, em referência às pétalas amarelas da flor original. Essa flor popular, adorada por floristas e jardineiros, existe hoje em diferentes cores. Porém, o crisântemo ainda mantém uma associação com a felicidade, que é relacionada à cor amarela. \n\nEssas flores são muito apreciadas no Leste Asiático, onde suas variedades são cultivadas. São particularmente importantes no Japão: lá, o crisântemo é o símbolo do imperador e da família imperial. Crisântemos decoram o selo imperial do Japão e também estão presentes nos passaportes japoneses dos membros da família imperial.",
     "cuidadosTxt": "",
     "estacao": "outono",
-    "mes": "março",
+    "mes": "junho",
     "significadoPadrao": "luto",
     "cores": [
       {
         "nome": "amarelo",
         "significado": "luto",
         "imgSemFundo": "https://i.pinimg.com/736x/cc/bb/58/ccbb58d0749cb6ff15ee73160111e8b8.jpg",
-        "imagem": "https://i.pinimg.com/1200x/93/59/59/935959aa54754562d5812c384b53d355.jpg"
+        "imagem": "https://i.pinimg.com/736x/a2/2a/ff/a22affd9e11a6b357aa87e07e7a2d52c.jpg"
       }
     ]
   },
   {
     "id": 11,
-    "nome": "Cravina",
-    "slug": "cravina",
+    "nome": "Cravo",
+    "slug": "cravo",
     "nomeCientifico": "Dianthus chinensis",
     "resume": "Delicada e resistente, perfeita para bordas de jardins.",
     "caracteristicasTxt": "",
-    "floriografiaTxt": "",
+    "floriografiaTxt": "O cravo é um símbolo clássico do amor romântico. Graças às suas pétalas vibrantes, o cravo está sempre presente em arranjos florais para o Dia dos Namorados, logo após a clássica rosa vermelha. Essa associação remonta ao Renascimento. Na época, mulheres jovens da elite eram pintadas segurando cravos para simbolizar um noivado recente. Mas você sabia que em muitos países o cravo tem um sentido político bastante forte? \n\nA flor foi usada com frequência por movimentos socialistas e trabalhistas porque sua tonalidade vívida combinava com o vermelho socialista/comunista. O cravo substituiu a foice e o martelo como símbolo do Partido Socialista Italiano antes de sua dissolução final. Todos os anos, em 15 de janeiro, centenas de cravos são colocados no túmulo da notável filósofa e militante comunista Rosa Luxemburgo, em Berlim, em sua homenagem. A flor também está ligada à Revolução dos Cravos em Portugal, quando em 1974 um golpe militar derrubou o regime ditatorial com apoio popular. Após os militares darem um final rápido e relativamente pacífico à ditadura, os soldados nas ruas enfiaram cravos nos canos das armas, criando uma imagem icônica e memorável.",
     "cuidadosTxt": "",
-    "estacao": "primavera",
-    "mes": "setembro",
+    "estacao": "outono",
+    "mes": "maio",
     "significadoPadrao": "amizade",
     "cores": [
       {
@@ -272,15 +278,21 @@
     "cores": [
       {
         "nome": "laranja",
-        "significado": "",
-        "imgSemFundo": "https://i.pinimg.com/736x/6d/3c/82/6d3c8212f27c84ffdf3169dd39ff70a5.jpg",
-        "imagem": "https://i.pinimg.com/736x/b0/73/a3/b073a30b227ce211ce02dc617e5d7cad.jpg"
+        "significado": "entusiamo",
+        "imgSemFundo": "https://i.pinimg.com/1200x/ed/c9/10/edc910ff08a4cbdcfdb9f7b16ac06dc4.jpg",
+        "imagem": "https://i.pinimg.com/736x/63/27/fe/6327fe7214cf63349f5dd18bbaa3fe2c.jpg"
       },
       {
         "nome": "amarelo",
-        "significado": "",
-        "imgSemFundo": "",
-        "imagem": ""
+        "significado": "alegria",
+        "imgSemFundo": "https://i.pinimg.com/736x/7f/c5/9d/7fc59d696a7f104e80c9261fe6b303d6.jpg",
+        "imagem": "https://i.pinimg.com/1200x/c3/a4/71/c3a4717bd7e9ecc8331f536437258e23.jpg"
+      },
+      {
+        "nome": "vermelho",
+        "significado": "amor intenso",
+        "imgSemFundo": "https://i.pinimg.com/736x/f0/e6/c5/f0e6c5888c998527e0d09a489f9845cf.jpg",
+        "imagem": "https://i.pinimg.com/736x/74/13/a8/7413a8eb3a9434116402c711a54daf44.jpg"
       }
     ]
   },
@@ -326,6 +338,131 @@
         "imgSemFundo": "https://i.pinimg.com/1200x/d4/06/f1/d406f18129fc5963f20f0bf7da6274ea.jpg",
         "imagem": "https://i.pinimg.com/736x/9c/6e/a8/9c6ea83e186931d163544db42ac9d76c.jpg"
       }
+    ]
+  },
+  {
+    "id": "16",
+    "nome": "Miosótis",
+    "slug": "miosotis",
+    "nomeCientifico": "Myosotis",
+    "resume": "Popularmente conhecida como Não-me-esqueças",
+    "caracteristicasTxt": "",
+    "floriografiaTxt": "O nome comum dessa flor, Vergissmeinnicht, foi cunhado originalmente na Alemanha e vem de um conto popular. Na história, um jovem casal estava andando ao longo do Rio Danúbio quando o rapaz foi colher essas flores azuis para a amada. Tragicamente, ele caiu no rio e foi levado pela correnteza. Ele se despediu aos gritos de “Não me esqueças!”, o que levou sua amada a nomear a flor em memória dele. Foi assim que o miosótis passou a simbolizar memória e amor eterno por séculos.",
+    "cuidadosTxt": "",
+    "estacao": "primavera",
+    "mes": "setembro",
+    "significadoPadrao": "",
+    "cores": [
+      {
+        "nome": "azul",
+        "slug": "",
+        "significado": "saudades",
+        "imgSemFundo": "https://i.pinimg.com/736x/3b/97/fa/3b97fab4fc01d8cc02c3536e745088fc.jpg",
+        "imagem": "https://i.pinimg.com/736x/67/70/81/6770813e2d5eccdd8ac1648cecf5d7d0.jpg"
+      }
+    ]
+  },
+  {
+    "id": "17",
+    "nome": "Papoula",
+    "slug": "papoula",
+    "nomeCientifico": "Papaver somniferum.",
+    "resume": "Representa a beleza passageira da vida.",
+    "caracteristicasTxt": "",
+    "floriografiaTxt": "Com sua cor vibrante e pétalas delicadas que lembram papel crepom, as papoulas são flores que não passam despercebidas. Apesar de sua aparência selvagem, elas simbolizam um sono tranquilo e a paz na morte. \n\nAs papoulas vermelhas adquirem um significado ainda mais especial, simbolizando a lembrança. É tradição usar uma papoula vermelha no Dia da Lembrança, em novembro, em homenagem àqueles que deram a vida a serviço do país. \n\nMuitas vezes, as vemos como flores que possuem uma qualidade perigosa e misteriosa, mas é essencial levar em conta que é apenas sua estética profunda e exótica que nos faz sentir emoções tão fortes.",
+    "cuidadosTxt": "",
+    "estacao": "primavera",
+    "mes": "agosto",
+    "significadoPadrao": "esquecimento",
+    "cores": [
+      {
+        "nome": "vermelho",
+        "significado": "lembrança",
+        "imgSemFundo": "https://i.pinimg.com/736x/f6/a4/12/f6a41241de004baf658a9faf9dcf2053.jpg",
+        "imagem": "https://i.pinimg.com/736x/f5/dc/14/f5dc149dce3a1b92767a54ecfa5b2f10.jpg"
+      },
+            {
+        "nome": "branco",
+        "significado": "descanso",
+        "imgSemFundo": "https://i.pinimg.com/736x/29/0c/64/290c640655245d7cec8c7ad51ab24928.jpg",
+        "imagem": "https://i.pinimg.com/1200x/cb/eb/eb/cbebeb6394dfb15e9511ee746045c852.jpg"
+      }
+    ]
+  },
+  {
+    "id": "18",
+    "nome": "Narciso",
+    "slug": "narsico",
+    "nomeCientifico": "Narcissus",
+    "resume": "inspirado no personagem da mitologia grega..",
+    "caracteristicasTxt": "",
+    "floriografiaTxt": "Essas flores poderiam muito bem ser o elemento essencial de toda comédia romântica ou drama. Você detestaria admitir, mas conhece muito bem essa cena: o personagem principal tem flashbacks, a memória gravada na mente de todo protagonista, de correr de mãos dadas por um campo de  narcisos  com seu amor de infância. Bem, os narcisos não são apenas bonitos e ótimos para tirar fotos, eles também significam: Estarei com você, não importa o que aconteça. Eles também simbolizam renascimento, honestidade e perdão, tornando-os uma  flor ideal para pedir desculpas . Por outro lado, os narcisos também podem expressar amor não correspondido.",
+    "cuidadosTxt": "",
+    "estacao": "primavera",
+    "mes": "",
+    "significadoPadrao": "Perdão",
+    "cores": [
+      {
+        "nome": "amarelo",
+        "significado": "honestidade",
+        "imgSemFundo": "https://i.pinimg.com/736x/be/c0/f5/bec0f565cb1d09fd9683515b98e00560.jpg",
+        "imagem": "https://i.pinimg.com/736x/43/fa/61/43fa613c5729cbbf238daeee4888b9f3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "19",
+    "nome": "Gardênia",
+    "slug": "gardenia",
+    "nomeCientifico": "Gardenia jasminoides",
+    "resume": "Um arbusto de flores brancas e cerosas famoso por seu perfume intenso e doce",
+    "caracteristicasTxt": "A gardênia pertence à família das Rubiaceae e possui flores grandes, geralmente brancas, que com o tempo podem adquirir uma tonalidade creme. Suas folhas são verde-escuras, brilhantes e perenes, ou seja, não caem durante o inverno. A flor mais conhecida da espécie é a Gardenia jasminoides, também chamada de jasmim-do-cabo, que pode alcançar até dois metros de altura. Além de sua estética marcante, a gardênia exala um perfume adocicado com propriedades calmantes. Por isso, é muito usada em jardins e ambientes internos com circulação de pessoas, contribuindo para uma atmosfera relaxante.",
+    "floriografiaTxt": "As gardênias transmitem pureza, doçura e um amor secreto.  Você verá que esse pequeno botão tão popular aparece com frequência nos buquês de noivas radiantes. Nada mais apropriado do que uma flor tão perfumada e delicada como a gardênia ser escolhida para uma ocasião tão especial. As gardênias também são símbolos de confiança, clareza, paz, proteção e esperança.",
+    "cuidadosTxt": "",
+    "estacao": "",
+    "mes": "",
+    "significadoPadrao": "",
+    "cores": [
+      {
+        "nome": "branco",
+        "significado": "",
+        "imgSemFundo": "https://i.pinimg.com/1200x/6b/5f/7b/6b5f7b24e1b9972aa0b9094ebdfe8504.jpg",
+        "imagem": "https://i.pinimg.com/1200x/39/58/f6/3958f653121e39cb554d88e9acc04a97.jpg"
+      }
+    ]
+  },
+  {
+    "id": "20",
+    "nome": "Jacinto",
+    "slug": "jacinto",
+    "nomeCientifico": " ",
+    "resume": "Flor de sentimentos leves e lúdicos que transmite uma essência delicada.",
+    "caracteristicasTxt": "",
+    "floriografiaTxt": "As flores de jacinto evocam sentimentos leves e lúdicos, ao mesmo tempo que transmitem, em sua delicada essência, constância e gratidão. Os jacintos roxos e azuis também simbolizam arrependimento e sinceridade, sendo ideais para  pedir desculpas  ou  expressar condolências , enquanto os jacintos amarelos representam o ciúme.",
+    "cuidadosTxt": "",
+    "estacao": "",
+    "mes": "",
+    "significadoPadrao": "",
+    "cores": [
+      {
+        "nome": "roxo",
+        "significado": "",
+        "imgSemFundo": "https://i.pinimg.com/1200x/38/e2/e2/38e2e25d97c203fddcb7b9596ade6a68.jpg",
+        "imagem": "https://i.pinimg.com/736x/7a/b3/f5/7ab3f5f8f320b1f67042a76884bd06a7.jpg"
+      },
+      {
+        "nome": "azul",
+        "significado": "",
+        "imgSemFundo": "https://i.pinimg.com/736x/91/b4/6c/91b46c3b781cc4a570e0ecacf1662b6a.jpg",
+        "imagem": "https://i.pinimg.com/1200x/01/8c/1f/018c1f9c2bdb5635a87a087f45d6531c.jpg"
+      },      
+      {
+        "nome": "rosa",
+        "significado": "",
+        "imgSemFundo": "",
+        "imagem": "https://i.pinimg.com/1200x/e2/29/99/e22999356cc0ccb8c82d2029d6580d8b.jpg"
+      }
+
     ]
   }
 ]

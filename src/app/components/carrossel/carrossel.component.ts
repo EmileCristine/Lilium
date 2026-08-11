@@ -2,6 +2,7 @@ import { Component, ElementRef, Input, ViewChild, OnChanges, SimpleChanges, Afte
 import { NgIf } from '@angular/common';
 import { CardComponent } from '../card/card.component';
 import { Flor } from '../../models/flor.model';
+
 @Component({
   selector: 'app-carrossel',
   standalone: true,
@@ -11,10 +12,16 @@ import { Flor } from '../../models/flor.model';
 })
 export class CarrosselComponent implements OnChanges, AfterViewChecked {
   @ViewChild('carousel', { read: ElementRef }) carouselElement!: ElementRef<HTMLDivElement>;
-  @Input({ required: true }) listaFlores: Flor[] = [];
+  
+  slidesParaExibir: Flor[] = [];
+
+  @Input({ required: true }) 
+  set listaFlores(flores: Flor[]) {
+    this.slidesParaExibir = this.desmembrarFloresPorCor(flores);
+  }
 
   private cdr = inject(ChangeDetectorRef); 
-  private readonly cardWidth: number = 272; 
+  private readonly cardWidth: number = 280; 
   
   mostrarBotoes: boolean = false;
 
@@ -54,5 +61,27 @@ export class CarrosselComponent implements OnChanges, AfterViewChecked {
         behavior: 'smooth'
       });
     }
+  }
+
+  private desmembrarFloresPorCor(lista: Flor[]): Flor[] {
+    if (!lista || lista.length === 0) return [];
+
+    const floresDesmembradas: Flor[] = [];
+
+    lista.forEach((flor) => {
+      if (flor.cores && flor.cores.length > 0) {
+        flor.cores.forEach((cor, index) => {
+          floresDesmembradas.push({
+            ...flor,
+            id: Number(`${flor.id}${index}`),
+            cores: [cor], 
+          });
+        });
+      } else {
+        floresDesmembradas.push(flor);
+      }
+    });
+
+    return floresDesmembradas;
   }
 }

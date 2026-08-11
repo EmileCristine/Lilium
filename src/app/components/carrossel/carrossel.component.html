@@ -1,4 +1,4 @@
-<div class="carousel-wrapper" *ngIf="listaFlores.length > 0">
+<div class="carousel-wrapper" *ngIf="slidesParaExibir.length > 0">
   <div class="carousel-container">
     @if (mostrarBotoes) {
       <button
@@ -20,7 +20,7 @@
     }
 
     <div class="carousel-track" #carousel>
-      @for (flor of listaFlores; track flor.nome) {
+      @for (flor of slidesParaExibir; track flor.id) {
         <app-card [flor]="flor"></app-card>
       }
     </div>
@@ -46,7 +46,7 @@
   </div>
 </div>
 
-<div class="no-results" *ngIf="listaFlores.length === 0">
+<div class="no-results" *ngIf="slidesParaExibir.length === 0">
   <div class="erro-mensagem">
     <img src="./images/error.png" alt="" />
     <h1>Flor não encontrada no catálogo.</h1>

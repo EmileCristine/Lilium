@@ -10,14 +10,14 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 55%;
+  width: 60%;
   height: auto;
   align-self: center;
 }
 
 .detalhes-foto {
   display: flex;
-  width: 45%;
+  width: 40%;
   align-items: flex-end;
   justify-content: flex-end;
 }
@@ -109,4 +109,15 @@ button {
 .erro-mensagem p {
   color: var(--c-gray);
   font: var(--f-main-txt);
+}
+
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  -webkit-user-drag: none;
+  
+  pointer-events: none; 
 }

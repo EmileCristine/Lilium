@@ -1,15 +1,13 @@
 import { CommonModule } from '@angular/common';
-
 import {
   Component,
   HostListener,
   Input,
   OnChanges,
+  OnInit,
   SimpleChanges,
 } from '@angular/core';
-
 import { RouterLink } from '@angular/router';
-
 import { Flor } from '../../models/flor.model';
 
 @Component({
@@ -19,13 +17,17 @@ import { Flor } from '../../models/flor.model';
   templateUrl: './galery.component.html',
   styleUrl: './galery.component.css',
 })
-export class GaleryComponent implements OnChanges {
+export class GaleryComponent implements OnInit, OnChanges {
   @Input({ required: true })
   listaFlores: Flor[] = [];
 
   colunas: Flor[][] = [];
+  quantidadeColunas = 6;
 
-  private resizeTimer!: any;
+  ngOnInit(): void {
+    this.atualizarQuantidadeColunas(window.innerWidth);
+    this.distribuirFlores();
+  }
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['listaFlores']) {
@@ -33,60 +35,61 @@ export class GaleryComponent implements OnChanges {
     }
   }
 
-  @HostListener('window:resize')
-  onResize(): void {
-    clearTimeout(this.resizeTimer);
+  @HostListener('window:resize', ['$event'])
+  onResize(event: Event): void {
+    const larguraTela = (event.target as Window).innerWidth;
+    const colunasAnteriores = this.quantidadeColunas;
+    
+    this.atualizarQuantidadeColunas(larguraTela);
 
-    this.resizeTimer = setTimeout(() => {
+    if (colunasAnteriores !== this.quantidadeColunas) {
       this.distribuirFlores();
-    }, 200);
+    }
+  }
+
+  private atualizarQuantidadeColunas(larguraTela: number): void {
+    if (larguraTela < 576) {
+      this.quantidadeColunas = 1;
+    } else if (larguraTela < 768) {
+      this.quantidadeColunas = 2;
+    } else if (larguraTela < 992) {
+      this.quantidadeColunas = 3;
+    } else if (larguraTela < 1200) {
+      this.quantidadeColunas = 4;
+    } else if (larguraTela < 1500){
+      this.quantidadeColunas = 6;
+    } else {
+      this.quantidadeColunas = 8;
+    }
   }
 
   private distribuirFlores(): void {
-    const quantidadeColunas = this.obterQuantidadeColunas();
-
-    this.colunas = Array.from({ length: quantidadeColunas }, () => []);
-
-    const alturas = new Array(quantidadeColunas).fill(0);
-
-    for (const flor of this.listaFlores) {
-      const altura = this.estimarAltura(flor);
-
-      const menorColuna = alturas.indexOf(Math.min(...alturas));
-      this.colunas[menorColuna].push(flor);
-      alturas[menorColuna] += altura;
+    if (!this.listaFlores || this.listaFlores.length === 0) {
+      this.colunas = [];
+      return;
     }
+
+    this.colunas = Array.from({ length: this.quantidadeColunas }, () => []);
+
+    const floresDesmembradas: Flor[] = [];
+
+    this.listaFlores.forEach((flor) => {
+      if (flor.cores && flor.cores.length > 0) {
+        flor.cores.forEach((cor, index) => {
+          floresDesmembradas.push({
+            ...flor,
+            id: Number(`${flor.id}${index}`),
+            cores: [cor],
+          });
+        });
+      } else {
+        floresDesmembradas.push(flor);
+      }
+    });
+
+    floresDesmembradas.forEach((flor, index) => {
+      const colunaDestino = index % this.quantidadeColunas;
+      this.colunas[colunaDestino].push(flor);
+    });
   }
-
-  
-  private estimarAltura(flor: Flor): number {
-    let altura = 250;
-
-    if (flor.resume) {
-      altura += flor.resume.length * 0.8;
-    }
-
-    if (flor.cores?.length) {
-      altura += 100;
-    }
-
-    return altura;
-  }
-
-private obterQuantidadeColunas(): number {
-  const quantidadeFlores = this.listaFlores.length;
-
-  if (quantidadeFlores <= 1) {return 1;}
-  if (quantidadeFlores <= 2) {return 2;}
-
-  const largura = window.innerWidth;
-  if (largura >= 1800) {return 8;}
-  if (largura >= 1500) {return 7;}
-  if (largura >= 1200) {return 6;}
-  if (largura >= 992) {return 5;}
-  if (largura >= 768) {return 4;}
-  if (largura >= 576) {return 2;}
-
-  return 1;
-}
 }

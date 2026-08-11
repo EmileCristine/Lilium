@@ -1,14 +1,12 @@
 import {
   Component,
   EventEmitter,
-  HostListener,
   OnInit,
   Output,
   inject,
 } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
-import { NgIf } from '@angular/common';
 import { NavigationEnd, Router, RouterLink } from '@angular/router';
 
 import { FlorService } from '../../services/flor.service';
@@ -17,7 +15,7 @@ import { Flor } from '../../models/flor.model';
 @Component({
   selector: 'app-search',
   standalone: true,
-  imports: [FormsModule, NgIf, RouterLink],
+  imports: [FormsModule, RouterLink],
   templateUrl: './search.component.html',
   styleUrl: './search.component.css',
 })
@@ -33,14 +31,11 @@ export class SearchComponent implements OnInit {
   pesquisaTexto = '';
 
   dropdownAberto: string | null = null;
-
   todasAsFlores: Flor[] = [];
-
   floresFiltradas: Flor[] = [];
 
-  title = '';
-
-  subTitle: string | null = null;
+  title = 'Buscar Flores';
+  subTitle: string | null = 'Ver todas';
 
   constructor(private router: Router) {
     this.router.events.subscribe((event) => {
@@ -58,17 +53,28 @@ export class SearchComponent implements OnInit {
     this.florService.getFlores().subscribe({
       next: (flores) => {
         this.todasAsFlores = flores;
-
         this.aplicarFiltros();
-        console.log('FLORES RECEBIDAS:', flores)
+        console.log('FLORES RECEBIDAS:', flores);
       },
-
       error: (erro) => {
         console.error('Erro carregando flores:', erro);
-
         this.todasAsFlores = [];
       },
     });
+  }
+
+  toggleDropdown(dropdown: string): void {
+    this.dropdownAberto = this.dropdownAberto === dropdown ? null : dropdown;
+  }
+
+  private changeSearch(url: string): void {
+    if (url.includes('/flores')) {
+      this.title = 'Explorar Catálogo';
+      this.subTitle = '';
+    } else {
+      this.title = 'Encontre sua Flor';
+      this.subTitle = 'Ver Mais';
+    }
   }
 
   selecionarOpcao(filtro: string, valor: string): void {
@@ -76,76 +82,112 @@ export class SearchComponent implements OnInit {
       case 'estacao':
         this.filtroEstacao = valor;
         break;
-
       case 'mes':
         this.filtroMes = valor;
         break;
-
       case 'cor':
         this.filtroCor = valor;
         break;
-
       case 'significado':
         this.filtroSignificado = valor;
         break;
     }
-
     this.dropdownAberto = null;
-
     this.aplicarFiltros();
   }
 
   aplicarFiltros(): void {
     const textoDigitado = this.normalizarTexto(this.pesquisaTexto);
 
-    this.floresFiltradas = this.todasAsFlores.filter((flor) => {
-      const correspondeEstacao =
-        !this.filtroEstacao ||
-        this.normalizarTexto(flor.estacao) ===
-          this.normalizarTexto(this.filtroEstacao);
+    this.floresFiltradas = this.todasAsFlores
+      .filter((flor) => {
+        const correspondeEstacao =
+          !this.filtroEstacao ||
+          this.normalizarTexto(flor.estacao) ===
+            this.normalizarTexto(this.filtroEstacao);
 
-      const correspondeMes =
-        !this.filtroMes ||
-        this.normalizarTexto(flor.mes) === this.normalizarTexto(this.filtroMes);
+        const correspondeMes =
+          !this.filtroMes ||
+          this.normalizarTexto(flor.mes) ===
+            this.normalizarTexto(this.filtroMes);
 
-      const correspondeCor =
-        !this.filtroCor ||
-        flor.cores?.some(
-          (cor) =>
-            this.normalizarTexto(cor.nome) ===
-            this.normalizarTexto(this.filtroCor),
+        const correspondeCor =
+          !this.filtroCor ||
+          flor.cores?.some(
+            (cor) =>
+              this.normalizarTexto(cor.nome) ===
+              this.normalizarTexto(this.filtroCor),
+          );
+
+        const correspondeSignificado =
+          !this.filtroSignificado ||
+          this.normalizarTexto(flor.significadoPadrao) ===
+            this.normalizarTexto(this.filtroSignificado) ||
+          flor.cores?.some(
+            (cor) =>
+              this.normalizarTexto(cor.significado) ===
+              this.normalizarTexto(this.filtroSignificado),
+          );
+
+        const correspondeTexto =
+          !textoDigitado ||
+          this.normalizarTexto(flor.slug).includes(textoDigitado) ||
+          this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
+          this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
+          this.normalizarTexto(flor.resume).includes(textoDigitado) ||
+          flor.cores?.some(
+            (cor) =>
+              this.normalizarTexto(cor.nome).includes(textoDigitado) ||
+              this.normalizarTexto(cor.significado).includes(textoDigitado),
+          );
+
+        return (
+          correspondeEstacao &&
+          correspondeMes &&
+          correspondeCor &&
+          correspondeSignificado &&
+          correspondeTexto
         );
+      })
+      .map((flor) => {
+        if (this.filtroCor) {
+          return {
+            ...flor,
+            cores: flor.cores?.filter(
+              (cor) =>
+                this.normalizarTexto(cor.nome) ===
+                this.normalizarTexto(this.filtroCor),
+          ),
+          };
+        }
 
-      const correspondeSignificado =
-        !this.filtroSignificado ||
-        this.normalizarTexto(flor.significadoPadrao) ===
-          this.normalizarTexto(this.filtroSignificado) ||
-        flor.cores?.some(
-          (cor) =>
-            this.normalizarTexto(cor.significado) ===
-            this.normalizarTexto(this.filtroSignificado),
-        );
+        if (textoDigitado) {
+          const encontrouCor = flor.cores?.some(
+            (cor) =>
+              this.normalizarTexto(cor.nome).includes(textoDigitado) ||
+              this.normalizarTexto(cor.significado).includes(textoDigitado),
+          );
 
-      const correspondeTexto =
-        !textoDigitado ||
-        this.normalizarTexto(flor.nome).includes(textoDigitado) ||
-        this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
-        this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
-        this.normalizarTexto(flor.resume).includes(textoDigitado) ||
-        flor.cores?.some(
-          (cor) =>
-            this.normalizarTexto(cor.nome).includes(textoDigitado) ||
-            this.normalizarTexto(cor.significado).includes(textoDigitado),
-        );
+          const correspondeuFlor =
+            this.normalizarTexto(flor.slug).includes(textoDigitado) ||
+            this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
+            this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
+            this.normalizarTexto(flor.resume).includes(textoDigitado);
 
-      return (
-        correspondeEstacao &&
-        correspondeMes &&
-        correspondeCor &&
-        correspondeSignificado &&
-        correspondeTexto
-      );
-    });
+          if (encontrouCor && !correspondeuFlor) {
+            return {
+              ...flor,
+              cores: flor.cores?.filter(
+                (cor) =>
+                  this.normalizarTexto(cor.nome).includes(textoDigitado) ||
+                  this.normalizarTexto(cor.significado).includes(textoDigitado),
+              ),
+            };
+          }
+        }
+
+        return flor;
+      });
 
     this.filtrosAlterados.emit(this.floresFiltradas);
   }
@@ -165,52 +207,16 @@ export class SearchComponent implements OnInit {
     if (!valor) {
       return padrao;
     }
-
     return valor.charAt(0).toUpperCase() + valor.slice(1);
   }
 
   limparFiltros(): void {
     this.filtroEstacao = '';
-
     this.filtroMes = '';
-
     this.filtroCor = '';
-
     this.filtroSignificado = '';
-
     this.pesquisaTexto = '';
-
     this.dropdownAberto = null;
-
     this.aplicarFiltros();
-  }
-
-  toggleDropdown(menu: string) {
-    this.dropdownAberto = this.dropdownAberto === menu ? null : menu;
-  }
-
-  @HostListener('document:click', ['$event'])
-  cliqueFora(event: MouseEvent) {
-    const alvo = event.target as HTMLElement;
-
-    if (!alvo.closest('.dropdown-custom')) {
-      this.dropdownAberto = null;
-    }
-  }
-
-  changeSearch(url: string) {
-    if (url.includes('/home')) {
-      this.title = 'AS FLORES DO SEU MÊS';
-
-      this.subTitle = 'VER MAIS';
-    } else if (url === '/flores') {
-      this.title = 'DESCUBRA MAIS FLORES';
-
-      this.subTitle = null;
-    } else {
-      this.title = 'DESCUBRA MAIS FLORES';
-
-      this.subTitle = 'VER MAIS';
-    }
   }
 }
