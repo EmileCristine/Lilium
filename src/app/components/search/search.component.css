@@ -165,6 +165,7 @@ main {
   padding: var(--p-btn);
   padding-right: 2.8rem;
   font: var(--f-main-txt);
+  font-size: 0.8rem;
   background-color: var(--c-white);
   border: none !important;
   border-radius: 30px;

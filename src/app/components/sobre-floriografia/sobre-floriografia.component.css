@@ -21,7 +21,7 @@ main {
 .info p {
     color: var(--c-gray);
     font: var(--f-main-txt);
-    text-align: justify;
+    text-align: left;
 }
 
 strong {

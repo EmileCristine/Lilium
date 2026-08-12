@@ -3,7 +3,6 @@ import { BannerComponent } from '../../components/banner/banner.component';
 import { SobreComponent } from '../../components/sobre/sobre.component';
 import { ArranjoComponent } from "../../components/arranjo/arranjo.component";
 import { EternizarComponent } from "../../components/eternizar/eternizar.component";
-import { SecondBannerComponent } from "../../components/second-banner/second-banner.component";
 import { CarrosselComponent } from "../../components/carrossel/carrossel.component";
 import { SearchComponent } from "../../components/search/search.component";
 import { FooterComponent } from "../../components/footer/footer.component";
@@ -15,7 +14,6 @@ import { FooterComponent } from "../../components/footer/footer.component";
     SobreComponent,
     ArranjoComponent,
     EternizarComponent,
-    SecondBannerComponent,
     CarrosselComponent,
     SearchComponent,
     FooterComponent

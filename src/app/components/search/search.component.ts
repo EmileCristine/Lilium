@@ -1,10 +1,4 @@
-import {
-  Component,
-  EventEmitter,
-  OnInit,
-  Output,
-  inject,
-} from '@angular/core';
+import { Component, EventEmitter, OnInit, Output, inject } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
 import { NavigationEnd, Router, RouterLink } from '@angular/router';
@@ -54,6 +48,7 @@ export class SearchComponent implements OnInit {
       next: (flores) => {
         this.todasAsFlores = flores;
         this.aplicarFiltros();
+
         console.log('FLORES RECEBIDAS:', flores);
       },
       error: (erro) => {
@@ -82,16 +77,20 @@ export class SearchComponent implements OnInit {
       case 'estacao':
         this.filtroEstacao = valor;
         break;
+
       case 'mes':
         this.filtroMes = valor;
         break;
+
       case 'cor':
         this.filtroCor = valor;
         break;
+
       case 'significado':
         this.filtroSignificado = valor;
         break;
     }
+
     this.dropdownAberto = null;
     this.aplicarFiltros();
   }
@@ -99,8 +98,11 @@ export class SearchComponent implements OnInit {
   aplicarFiltros(): void {
     const textoDigitado = this.normalizarTexto(this.pesquisaTexto);
 
+    const significadoSelecionado = this.normalizarTexto(this.filtroSignificado);
+
     this.floresFiltradas = this.todasAsFlores
       .filter((flor) => {
+     
         const correspondeEstacao =
           !this.filtroEstacao ||
           this.normalizarTexto(flor.estacao) ===
@@ -120,20 +122,22 @@ export class SearchComponent implements OnInit {
           );
 
         const correspondeSignificado =
-          !this.filtroSignificado ||
+          !significadoSelecionado ||
           this.normalizarTexto(flor.significadoPadrao) ===
-            this.normalizarTexto(this.filtroSignificado) ||
-          flor.cores?.some(
-            (cor) =>
-              this.normalizarTexto(cor.significado) ===
-              this.normalizarTexto(this.filtroSignificado),
-          );
+            significadoSelecionado ||
+          flor.cores?.some((cor) => {
+            const significados = this.obterSignificados(cor.significado);
+
+            return significados.includes(significadoSelecionado);
+          });
 
         const correspondeTexto =
           !textoDigitado ||
           this.normalizarTexto(flor.slug).includes(textoDigitado) ||
           this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
-          this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
+          this.normalizarTexto(flor.significadoPadrao).includes(
+            textoDigitado,
+          ) ||
           this.normalizarTexto(flor.resume).includes(textoDigitado) ||
           flor.cores?.some(
             (cor) =>
@@ -149,6 +153,7 @@ export class SearchComponent implements OnInit {
           correspondeTexto
         );
       })
+
       .map((flor) => {
         if (this.filtroCor) {
           return {
@@ -157,8 +162,27 @@ export class SearchComponent implements OnInit {
               (cor) =>
                 this.normalizarTexto(cor.nome) ===
                 this.normalizarTexto(this.filtroCor),
-          ),
+            ),
           };
+        }
+
+        if (significadoSelecionado) {
+          const correspondeuFlor =
+            this.normalizarTexto(flor.significadoPadrao) ===
+            significadoSelecionado;
+
+          const coresCorrespondentes = flor.cores?.filter((cor) => {
+            const significados = this.obterSignificados(cor.significado);
+
+            return significados.includes(significadoSelecionado);
+          });
+
+          if (!correspondeuFlor && coresCorrespondentes?.length) {
+            return {
+              ...flor,
+              cores: coresCorrespondentes,
+            };
+          }
         }
 
         if (textoDigitado) {
@@ -171,7 +195,9 @@ export class SearchComponent implements OnInit {
           const correspondeuFlor =
             this.normalizarTexto(flor.slug).includes(textoDigitado) ||
             this.normalizarTexto(flor.nomeCientifico).includes(textoDigitado) ||
-            this.normalizarTexto(flor.significadoPadrao).includes(textoDigitado) ||
+            this.normalizarTexto(flor.significadoPadrao).includes(
+              textoDigitado,
+            ) ||
             this.normalizarTexto(flor.resume).includes(textoDigitado);
 
           if (encontrouCor && !correspondeuFlor) {
@@ -192,6 +218,13 @@ export class SearchComponent implements OnInit {
     this.filtrosAlterados.emit(this.floresFiltradas);
   }
 
+  private obterSignificados(significado: string): string[] {
+    return this.normalizarTexto(significado)
+      .split(',')
+      .map((item) => item.trim())
+      .filter(Boolean);
+  }
+
   private normalizarTexto(texto: string): string {
     return (
       texto
@@ -207,6 +240,7 @@ export class SearchComponent implements OnInit {
     if (!valor) {
       return padrao;
     }
+
     return valor.charAt(0).toUpperCase() + valor.slice(1);
   }
 
@@ -217,6 +251,7 @@ export class SearchComponent implements OnInit {
     this.filtroSignificado = '';
     this.pesquisaTexto = '';
     this.dropdownAberto = null;
+
     this.aplicarFiltros();
   }
 }

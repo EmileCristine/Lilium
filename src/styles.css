@@ -53,6 +53,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: var(--mainFont);
+  max-width: 100%;
 }
 
 img {

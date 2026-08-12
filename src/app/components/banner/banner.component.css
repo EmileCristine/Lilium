@@ -53,6 +53,16 @@ main {
   cursor: pointer;
 }
 
+@media (min-width: 1440px) {
+  .info {
+    width: 60rem;
+  }
+  .text {
+    font-size: medium;
+    min-width: 40rem;
+  }
+}
+
 @media (max-width: 1024px) {
   .banner-imagem {
     background-position: left center;

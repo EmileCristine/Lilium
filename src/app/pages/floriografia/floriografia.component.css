@@ -2,11 +2,13 @@ main {
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  justify-content: center;
 }
 
 .search-flowers {
+  display: flex;
+  flex-direction: column;
   width: 100%;
-  max-width: 1200px;
 }
 
 .container {
@@ -14,4 +16,16 @@ main {
   flex-direction: column;
   gap: 4rem;
   padding: 0 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+app-footer {
+  width: 100%;
+}
+
+@media (min-width: 1440px){
+  .search-flowers {
+    max-width: 1200px;
+  }
 }

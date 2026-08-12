@@ -4,14 +4,15 @@ main {
   gap: 4rem;
 }
 
-.search-flowers {
-  width: 100%;
-  max-width: 1200px;
-}
-
 .container {
   display: flex;
   flex-direction: column;
   gap: 4rem;
   padding: 0 4rem;
+}
+
+.search-flowers {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }

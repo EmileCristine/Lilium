@@ -4,12 +4,6 @@ main {
   margin: 0 auto;
 }
 
-.section-name {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
 .section-name h1 {
   font: var(--f-title);
   text-transform: uppercase;

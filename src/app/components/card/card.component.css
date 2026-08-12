@@ -1,6 +1,7 @@
 .flower-card {
   flex: 0 0 240px;
-  width: 255px;
+  width: 260px;
+  height: 360px;
   display: inline-block;
   vertical-align: top;
   background-color: var(--c-white);
@@ -73,7 +74,6 @@
   color: var(--c-gray);
   font: var(--f-main-txt);
   font-size: 0.75rem;
-  line-height: 1.4;
 }
 
 .card-action-btn {

@@ -56,10 +56,10 @@ export class GaleryComponent implements OnInit, OnChanges {
       this.quantidadeColunas = 3;
     } else if (larguraTela < 1200) {
       this.quantidadeColunas = 4;
-    } else if (larguraTela < 1500){
-      this.quantidadeColunas = 6;
+    } else if (larguraTela < 1400){
+      this.quantidadeColunas = 5;
     } else {
-      this.quantidadeColunas = 8;
+      this.quantidadeColunas = 7;
     }
   }
 

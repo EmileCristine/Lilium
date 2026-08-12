@@ -23,7 +23,7 @@ export class CarrosselComponent implements OnChanges, AfterViewChecked {
   private cdr = inject(ChangeDetectorRef); 
   private readonly cardWidth: number = 280; 
   
-  mostrarBotoes: boolean = false;
+  mostrarBotoes: boolean = false
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes['listaFlores']) {

@@ -3,29 +3,30 @@ footer {
     min-height: 300px;
     display: grid;
     margin-bottom: 2rem;    
-
     grid-template-areas:
         "line line line"
-        "flor info info"
-        "flor foot foot";
+        "flor meio links"
+        "flor foot socials";
 
-    grid-template-columns: 400px 1fr 1fr;
-    grid-template-rows: 1px 1fr 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1px 1fr auto;
+    box-sizing: border-box;
 }
-
 
 .line {
     grid-area: line;
+    height: 1px;
     background: var(--c-light-pink);
     width: 80%;
+    display: flex;
     justify-self: end;
 }
-
 
 .flor {
     grid-area: flor;
     display: flex;
     align-items: center;
+    justify-content: flex-start; 
 }
 
 .flor img {
@@ -33,61 +34,71 @@ footer {
     height: auto;
 }
 
-
-.info {
-    grid-area: info;
+.info-logo {
+    grid-area: meio;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    height: fit-content;
 }
 
-
-.info > img {
+.info-logo > img {
     width: 220px;
     filter: var(--filter-pink);
 }
 
-
-.links {
+.foot-text {
+    grid-area: foot;
     display: flex;
-    gap: 100px;
-    font: var(--f-main-txt);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1rem;
 }
 
+.foot-text h6 {
+    font: var(--f-main-txt);
+    margin: 0;
+}
+
+.links {
+    grid-area: links;
+    display: flex;
+    gap: 2.5rem;
+    font: var(--f-main-txt);
+    justify-self: end; 
+    align-self: center;
+}
 
 .links h4 {
     color: var(--c-pink);
+    margin-bottom: 10px;
 }
-
 
 .links ul {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
-
 .links li {
-    margin: 15px 0;
+    margin: 10px 0;
     color: var(--c-gray);
 }
 
-
-.foot {
-    grid-area: foot;
-    display: flex;
-    justify-content: space-between;
-}
-
-.foot h6 {
-    font: var(--f-main-txt);
-}
-
 .socials {
+    grid-area: socials;
     display: flex;
     gap: 1rem;
+    justify-self: end; 
+    align-items: center;
+    margin-top: 1.5rem;
 }
 
 .socials svg {
   color: var(--c-pink);
+  fill: currentColor;
+}
+
+.socials svg[stroke="currentColor"] {
+  fill: none; 
 }

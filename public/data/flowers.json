@@ -1,13 +1,13 @@
 [
   {
-    "id": 1,
+    "id": "1",
     "nome": "Orquídea",
     "slug": "orquidea",
     "nomeCientifico": "Orchidaceae",
     "resume": "Flores exóticas e elegantes que representam a beleza refinada.",
-    "caracteristicasTxt": "Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.  \n\n Flores tropicais e variadas.Flores tropicais e variadas. Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.Flores tropicais e variadas.",
-    "floriografiaTxt": "Com sua forma singular e exótica, a orquídea invoca associações com sensualidade e sexualidade na cultura contemporânea. Por isso, não é surpresa alguma que a palavra “orquídea” venha da palavra orchis do grego antigo, que significa “testículo”. Essa associação provavelmente vem da forma das raízes bulbosas da flor, que os gregos antigos acreditavam simbolizar virilidade. O simbolismo era tão forte que os homens dessa sociedade comiam orquídeas com raízes grandes para aumentar suas chances de ter um filho homem. \n\nInteressantemente, a planta da baunilha também faz parte da família Orchidaceae. A baunilha não é famosa apenas pelo seu gosto doce, como também seu aroma é considerado um afrodisíaco natural. Ou seja, a árvore da família das orquídeas é realmente repleta de sensualidade.",
-    "cuidadosTxt": "Necessita de luz indireta e pouca água.",
+    "caracteristicasTxt": "As orquídeas pertencem à família Orchidaceae, uma das maiores ordens de plantas com flores do mundo. Elas possuem simetria bilateral, flores com três sépalas e três pétalas (sendo uma modificada em labelo), e raízes aéreas cobertas por velame para absorver umidade. A maioria vive sobre outras árvores como epífitas sem causar danos. \n\n A maioria das orquídeas, durante a sua fase infantil tem um crescimento muito frágil, e que, sem devidos cuidados, a grande maior parte das sementes e das mudas não chegam à idade adulta. Uma vez crescidas, em maior parte apresentam uma resistência muito grande às adversidades e possuem flores de tamanhos e formas interessantes, com cores variadas, e normalmente com boa duração.",
+    "floriografiaTxt": "a orquídea simbolizava a beleza refinada, o luxo supremo e o amor profundo. Devido à extrema dificuldade de importação e cultivo na época, presentear alguém com uma orquídea carregava um peso social imenso. A obsessão por essa flor foi tão intensa na Inglaterra vitoriana que o fenômeno foi apelidado de Orquidelírio (Orchidelirium). Colecionadores ricos financiavam expedições perigosas para florestas tropicais apenas para encontrar novas espécies, o que tornou a planta o maior símbolo de exclusividade daquele período.",
+    "cuidadosTxt": "Verifique se a terra está úmida com um palito de 2cm antes de regar a planta novamente, caso ainda esteja úmido, espere mais 2 ou 3 dias. O melhor método de rega é a imersão, uma vez a cada 7 dias, e a cada 12 ou 15 no inverno, coloque-a em um recipiente com água por 15 mibutos e depois deixe escorrer bem. Cuidado: a água parada na base do vaso apodrece as raízes em menos de uma semana.\n\n A luz indireta é o segredo para evitar queimaduras, o lugar ideal é a 1,5m de uma janela voltada para o leste ou norte, onde o sol da manhã entra com suavidade. Além disso, cuida para que o ambiente esteja entre 18°C e 28°C e com uma úmidade de entre 50% e 70%. \n\n A Orquídea não cresce em terra comum, pos iprecisa de um meio para que seque rapidamente e para que as raízes possam respirar. A mehlor opção para quem está começando é a Casca de Pinus em pedaços médios.",
     "estacao": "verão",
     "mes": "janeiro",
     "significadoPadrao": "respeito",
@@ -17,18 +17,30 @@
         "significado": "Admiração",
         "imgSemFundo": "https://i.pinimg.com/736x/09/65/e1/0965e178cb523ab031a5110cef0c81a4.jpg",
         "imagem": "https://i.pinimg.com/736x/80/63/f5/8063f5a51fa027d203b11c5bc63696f3.jpg"
+      },
+      {
+        "nome": "branco",
+        "significado": "Inocência",
+        "imgSemFundo": "https://i.pinimg.com/736x/f9/d2/39/f9d23956859fb12c0b7a62879ed24780.jpg",
+        "imagem": "https://i.pinimg.com/1200x/a9/7d/7d/a97d7d995cffe05c084d7424d38340f3.jpg"
+      },
+      {
+        "nome": "vermelho",
+        "significado": "Inocência",
+        "imgSemFundo": "https://i.pinimg.com/736x/31/16/71/31167160c8b8485d9196f0774327fad9.jpg",
+        "imagem": "https://i.pinimg.com/736x/c6/f4/d5/c6f4d582e80202f34dbf17c66ff2f18d.jpg"
       }
     ]
   },
-  { 
-    "id": 2,
+  {
+    "id": "2",
     "nome": "Rosa",
     "slug": "rosa",
     "nomeCientifico": "Rosa L.",
     "resume": "A clássica flor dos namorados, símbolo universal do romantismo.",
-    "caracteristicasTxt": "",
+    "caracteristicasTxt": "As rosas pertencem à família Rosaceae e são arbustos eretos ou trepadeiras perenes, amplamente conhecidas por seus caules lenhosos e munidos de acúleos (popularmente chamados de espinhos). Suas folhas são alternadas e de bordas serrilhadas. \n\n O grande destaque são suas flores solitárias ou dispostas em inflorescências, que apresentam uma impressionante variedade de formas, tamanhos e camadas de pétalas devido a séculos de hibridização. Elas possuem um perfume característico marcante e uma paleta de cores quase infinita, unindo uma beleza visual clássica a uma alta durabilidade pós-corte.",
     "floriografiaTxt": "As rosas , as flores de corte mais populares do mundo,   sempre foram uma das principais escolhas dos apreciadores de flores. Ao longo dos tempos, elas têm sido oferecidas como gestos de amor e devoção. No entanto, dependendo da cor, podemos dizer que  rosas de diferentes cores  podem ser usadas em diversas ocasiões. Por exemplo, rosas brancas simbolizam pureza e são frequentemente usadas em casamentos, enquanto rosas cor-de-rosa representam amizade e felicidade. Já a clássica rosa vermelha, é claro, grita: Estou completamente apaixonado(a) por você. É a flor mais popular do Dia dos Namorados justamente por esse motivo. De um modo geral, oferecer uma rosa a alguém transmite a mensagem de que você a admira, é grato por ela e aprecia muito a sua agradável companhia.",
-    "cuidadosTxt": "",
+    "cuidadosTxt": "Para florescerem com vigor, as roseiras necessitam de sol pleno, recebendo pelo menos 6 horas de luz solar direta por dia. A rega deve ser profunda e direcionada na base da planta, mantendo o solo úmido durante o crescimento, mas sem encharcar; evite molhar as folhas para prevenir o surgimento de fungos. \n\n O substrato ideal deve ser fértil, argilo-arenoso, rico em matéria orgânica e com excelente drenagem. Adubações periódicas ao longo do ano com adubo orgânico ou fertilizantes ricos em fósforo estimulam novas florações. Além disso, as podas anuais de limpeza e condução (geralmente feitas no inverno) são essenciais para revigorar o arbusto e garantir flores maiores na primavera.",
     "estacao": "outono",
     "mes": "maio",
     "significadoPadrao": "amor",
@@ -40,49 +52,61 @@
         "imagem": "https://i.pinimg.com/1200x/08/e5/9f/08e59f88b1210c39c0817abaccce4df9.jpg"
       },
       {
-        "nome": "branco",
-        "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/f8/26/a0/f826a036d6488dc347cb040178327d5a.jpg",
-        "imagem": "https://i.pinimg.com/1200x/72/ca/cb/72cacb1897d1a41f29d6b53cdf75b19c.jpg"
+        "nome": "laranja",
+        "significado": "encanto, entusiasmo",
+        "imgSemFundo": "https://i.pinimg.com/736x/ab/c9/33/abc933a6053733fa0da65f8a424d854b.jpg",
+        "imagem": "https://i.pinimg.com/1200x/90/67/97/906797f592303e6e2678d045e781b8da.jpg"
       },
       {
         "nome": "amarelo",
         "significado": "amizade",
         "imgSemFundo": "https://i.pinimg.com/736x/64/2f/3b/642f3bdfc0e1721e073e0ad6e228d160.jpg",
         "imagem": "https://i.pinimg.com/1200x/67/3f/5e/673f5e80bdb4aea0d5f96e84d08f7d94.jpg"
+      },
+      {
+        "nome": "branco",
+        "significado": "pureza",
+        "imgSemFundo": "https://i.pinimg.com/736x/f8/26/a0/f826a036d6488dc347cb040178327d5a.jpg",
+        "imagem": "https://i.pinimg.com/1200x/72/ca/cb/72cacb1897d1a41f29d6b53cdf75b19c.jpg"
+      },
+      {
+        "nome": "rosa claro",
+        "significado": "carinho, afeto",
+        "imgSemFundo": "https://i.pinimg.com/1200x/d4/65/ac/d465ac824b4c6e489ba7695c8ad40995.jpg",
+        "imagem": "https://i.pinimg.com/736x/b9/b2/de/b9b2dee3beb6872706203e532ea85599.jpg"
       }
     ]
   },
   {
-    "id": 3,
+    "id": "3",
     "nome": "Margarida",
     "slug": "margarida",
     "nomeCientifico": "Bellis perennis",
     "resume": "Representa a pureza do campo e a simplicidade da natureza.",
-    "caracteristicasTxt": "O nome desta flor vem do latim margarita, que significa “pérola”. Já em inglês, esta flor tem o nome de Daisy, uma aparente alteração da expressão day's eye que significa olho do dia, o que parece ser uma alusão ao fato desta flor se fechar durante a noite e abrir outra vez quando o sol nasce. Apesar de ser uma flor tão frágil, ela se adapta a várias tipos de solo e segundo consta, existe há mais de mil anos. \n\nAs pétalas das margaridas são alargadas e delgadas, rodeando botão central que é dourado ou amarelo. As suas folhas são ovais e seus caules compridos e delgados, podendo chegar a um metro de altura. Existem várias classes de margaridas e este nome não é dado para uma só flor, porque há uma grande variedade de Chrysanthemum. Muitas flores que são parecidas receberam o mesmo nome, mas as mais populares entre elas são as margaridas brancas e as margaridas amarelas.",
-    "floriografiaTxt": "Hoje, a margarida costuma ser associada a uma inocência infantil. Frequentemente a flor é incluída em publicidades com bebês e crianças. Esse significado remonta à interpretação vitoriana da flor, que permaneceu inalterada por séculos. Na linguagem clássica da flores, elas geralmente são colocadas em arranjos florais com prímulas, que também simbolizam infância. Contudo, os pagãos europeus antigos tinham uma visão muito diferente dessas delicadas flores. Eles a viam como sóis em miniatura, com o centro amarelo representando a estrela ardente e as pétalas brancas, os raios de sol.",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "A Margarida branca (Leucantemo × Superbom) é uma flor originária da Europa e da América do Norte, mas também pode ser encontrada em diversos países, como o Brasil. Da mesma família dos Crisântemos, das Dálias e dos Girassóis, é muito comum associarmos essas espécies por conta de algumas semelhanças. \n\n As margaridas apresentam como características principais, pétalas alargadas e delgadas que contornam o botão central, dourado ou amarelo. as folhas dessa flor têm uma forma oval, com caules compridos e delgados. \n\n Curiosidade: Essa flor é, na verdade, um agrupamento de pequenas flores qur crescem com formato diferente",
+    "floriografiaTxt": "A Margarida é conhecida por representar o amor? Segundo a mitologia nórdica, esta é a flor sagrada de Freya, a deusa do amor, da beleza e da fertilidade. Em compensação, de acordo com uma lenda romana, a planta também é símbolo de castidade e transformação. A história conta que Vertumnus, deus das estações, se apaixonou por uma ninfa e a perseguiu até que ela se transforma em uma margarida para escapar de suas investidas. Mas, na verdade, a palavra margarida vem do Latim e significa “pérola”. Na língua inglesa, a tradução é “daisy”, que é uma alteração da frase “day’ s eye”, traduzida para o português como “olho do dia”. ",
+    "cuidadosTxt": "Para plantar Margarida, é necessário preparar um solo adubado organicamente, de preferência, com adição de fósforo. Além disso, é importante colocar algumas pedras no fundo do vaso para que o solo seja facilmente drenado. \n\n As Margaridas gostam bastante de sol e não se adaptam muito bem aos dias frios. Portanto, é muito importante deixar essas plantas no sol durante grande parte do dia. Caso o cultivo seja realizado em regiões mais frias e de geada, é importante que as flores fiquem protegidas. \n\n As regas devem ser feitas com frequência, ao menos uma vez ao dia, no entanto, é sempre importante se atentar ao solo. A melhor forma de saber se a planta realmente necessita de água, é colocando o dedo no solo, caso ele esteja seco, é importante regar. No entanto, caso o dedo saia sujo ou úmido, o melhor é deixar a água para outra ocasião, isso evita o apodrecimento da raiz e do caule.",
     "estacao": "verão",
     "mes": "fevereiro",
     "significadoPadrao": "inocência",
     "cores": [
       {
         "nome": "branco",
-        "significado": "",
-        "imgSemFundo": "https://i.pinimg.com/1200x/6d/c7/e2/6dc7e2c2ad553fb03a56af1aa6a3ce40.jpg",
+        "significado": "pureza, inocência, paz e novos começos",
+        "imgSemFundo": "https://i.pinimg.com/736x/cf/94/4c/cf944cd25893395dab5557a3eeb5ce05.jpg",
         "imagem": "https://i.pinimg.com/736x/1b/b1/c4/1bb1c4d699afa9f21b6365a6b2ff1ae0.jpg"
       }
     ]
   },
   {
-    "id": 4,
+    "id": "4",
     "nome": "Fresia",
     "slug": "fresia",
     "nomeCientifico": "Freesia x hybrida",
     "resume": "Flores perfumadas ideais para cultivo em vasos e arranjos vivos.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "As frésias pertencem à família Iridaceae e são plantas herbáceas e bulbosas (tecnicamente crescem a partir de cormos) nativas da África do Sul. Elas são mundialmente famosas por sua inflorescência única em formato de espiga horizontal, onde os botões florais se alinham graciosamente de um único lado do caule, abrindo-se sucessivamente. \n\n Suas flores têm formato de funil ou sino e exalam uma das fragrâncias mais doces, cítricas e marcantes do reino vegetal, sendo amplamente utilizadas na alta perfumaria e cosmética. Com folhas lineares, longas e de um verde-escuro brilhante, a planta apresenta hastes finas, porém firmes, que sustentam flores de cores incrivelmente vibrantes e duradouras após o corte.",
+    "floriografiaTxt": "Na linguagem das flores da Era Vitoriana, a frésia era considerada a máxima expressão da inocência, da pureza e, acima de tudo, da confiança mútua e da amizade verdadeira. Por sua fragrância doce e reconfortante, presentear alguém com um arranjo de frésias era um gesto profundo de lealdade e consideração, usado frequentemente para agradecer a alguém por sua presença constante em momentos difíceis. \n\n Em contextos modernos, ela também passou a simbolizar a perseverança e a resiliência graciosa, já que a planta passa meses escondida sob a terra em forma de cormo antes de romper o solo e presentear o mundo com uma floração espetacular e intensamente perfumada.",
+    "cuidadosTxt": "A frésia se desenvolve melhor em locais de sol pleno a meia-sombra, necessitando de boa iluminação para que suas hastes não fiquem excessivamente longas e fracas. A rega deve ser cuidadosa e moderada: o solo deve ser mantido levemente úmido durante o período de crescimento e floração, mas nunca encharcado, pois o acúmulo de água apodrece facilmente os seus bulbos subterrâneos. \n\n O substrato ideal deve ser leve, altamente fértil, rico em matéria orgânica e dotado de excelente drenagem (misturas com areia ou perlita funcionam muito bem). Após o término da floração, quando as folhas amarelarem e secarem naturalmente, as regas devem ser suspensas para permitir o período de dormência do cormo, que pode ser mantido na terra ou retirado e armazenado em local seco até o próximo plantio.",
     "estacao": "outono",
     "mes": "maio",
     "significadoPadrao": "pureza",
@@ -90,20 +114,20 @@
       {
         "nome": "branco",
         "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/f0/5a/62/f05a62bb054fc4c90ae2dd25e1c90b6c.jpg",
-        "imagem": "https://i.pinimg.com/1200x/92/15/7e/92157e7027d2aee3a486aa213ef766d0.jpg"
+        "imgSemFundo": "https://i.pinimg.com/736x/4a/5d/59/4a5d5991113057999e0fcf0c373ed36c.jpg",
+        "imagem": "https://i.pinimg.com/736x/95/e4/75/95e475e8c061bb2ca512d8f3d5320dce.jpg"
       }
     ]
   },
   {
-    "id": 5,
+    "id": "5",
     "nome": "Girassol",
     "slug": "girassol",
     "nomeCientifico": "Helianthus annuus",
     "resume": "Sempre busca a luz do sol, trazendo energia positiva aos ambientes.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "O girassol é uma planta anual pertencente à família Asteraceae, nativa da América do Norte, onde era cultivada por povos indígenas desde 3000 a.C. Sua característica mais famosa e fascinante é o heliotropismo: durante a fase de crescimento, os botões jovens acompanham o movimento do sol de leste a oeste, retornando para o leste durante a noite. \n\n O que chamamos de 'flor' é, na verdade, uma inflorescência do tipo capítulo, composta por centenas de minúsculas flores individuais agrupadas em um disco central escuro, cercado por falsas pétalas (lígulas) de um amarelo vibrante. Seus caules são grossos, robustos e ásperos, cobertos por pelos finos, e podem atingir de um a mais de três metros de altura. Além do imenso valor ornamental, a espécie é altamente valorizada pela produção de sementes nutritivas e óleo de alta qualidade.",
+    "floriografiaTxt": "Na linguagem das flores e nas tradições culturais globais, o girassol é o símbolo definitivo da adoração, da lealdade inabalável e da longevidade. Devido à sua constante busca pelo sol, a flor transmite uma mensagem profunda de orgulho espiritual, foco e devoção espiritual ou romântica — presentear alguém com um girassol equivale a dizer 'você é o meu sol' ou 'minha lealdade a você é eterna'. \n\n Na era vitoriana, o significado variava sutilmente de acordo com o tamanho da planta: os girassóis anões representavam adoração sincera, enquanto os girassóis gigantes podiam carregar uma advertência contra a altivez e a falsa riqueza. Na cultura moderna, sua imagem está fortemente associada à felicidade radiante, ao otimismo, à vitalidade e à atração de energias positivas e prosperidade para a vida cotidiana.",
+    "cuidadosTxt": "Para fazer jus ao seu nome, o girassol exige sol pleno e direto por pelo menos 6 horas diárias, não tolerando ambientes sombreados ou com luz filtrada. As regas devem ser frequentes e profundas durante a fase de germinação e crescimento inicial; após a planta estar bem estabelecida e desenvolvida, ela se torna consideravelmente resistente a curtos períodos de seca, mas ainda assim prefere que o solo seja umedecido sempre que a camada superficial secar completamente. \n\n O substrato precisa ser profundo, fértil, rico em matéria orgânica e, fundamentalmente, possuir uma drenagem impecável para evitar o apodrecimento do sistema radicular. Por crescer rapidamente e atingir grandes alturas, variedades altas cultivadas em vasos ou locais abertos com muito vento podem necessitar do auxílio de estacas de sustentação (tutores) para evitar que o caule dobre ou quebre com o peso da inflorescência.",
     "estacao": "verão",
     "mes": "janeiro",
     "significadoPadrao": "felicidade",
@@ -117,14 +141,14 @@
     ]
   },
   {
-    "id": 6,
+    "id": "6",
     "nome": "Tulipa",
     "slug": "tulipa",
     "nomeCientifico": "Tulipa L.",
     "resume": "Flores de inverno que encantam com suas cores vibrantes.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "Essas flores singelas têm uma história bastante dramática e simbologia em vários países. A maioria das tulipas é nativa do Oriente Médio, onde elas são admiradas por sua beleza única. De fato, o período de prosperidade e paz do Império Otomano foi chamado de “Era da Tulipa” devido à associação positiva com a flor (particularmente: nobreza e riqueza). \n\nOs holandeses, porém, têm uma visão bem diferente da tulipa, inspirada por sua própria história com a flor. A tulipa foi introduzida na Holanda pela primeira vez em 1593, sendo um sucesso imediato com o público. Nos 1630, as flores eram tão apreciadas pela sociedade holandesa que elas desencadearam uma bolha econômica especulativa (similar à bolha da internet nos anos 1990). Naquele tempo, um único bulbo de tulipa poderia valer dez vezes mais do que o salário anual de um artesão. Mas os valores acabaram caindo, causando uma perda econômica enorme para os negócios. Esse legado fez que a tulipa passasse a representar a brevidade da vida para os holandeses. A flor é celebrada todos os anos em abril no famoso Festival de Tulipas em Amsterdã.",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "As tulipas são plantas bulbosas perenes pertencentes à família Liliaceae. Suas flores solitárias nascem no topo de hastes eretas e desprovidas de ramificações, apresentando uma morfologia elegante que varia desde formatos de taça ou sino até pétalas franjadas e dobradas, dependendo do híbrido. \n\n Suas folhas são poucas, carnosas, lanceoladas e possuem uma coloração verde-azulada com textura cerosa que ajuda a reter umidade. Os bulbos subterrâneos funcionam como estruturas de armazenamento que entram em dormência no verão e precisam de um período prolongado de frio para despertar e iniciar o ciclo de brotação. Graças a séculos de hibridização intensiva, a espécie apresenta uma das maiores variedades cromáticas do reino vegetal, cobrindo quase todas as tonalidades conhecidas, exceto o azul puro.",
+    "floriografiaTxt": "Essas flores singelas têm uma história bastante dramática e simbologia em vários países. A maioria das tulipas é nativa do Oriente Médio, onde elas são admiradas por sua beleza única. De fato, o período de prosperidade e paz do Império Otomano foi chamado de “Era da Tulipa” devido à associação positiva com a flor (particularmente: nobreza e riqueza). \n\nOs holandeses, porém, têm uma visão bem diferente da tulipa, inspirada por sua própria história com a flor. A tulipa foi introduzida na Holanda pela primeira vez in 1593, sendo um sucesso imediato com o público. Nos 1630, as flores eram tão apreciadas pela sociedade holandesa que elas desencadearam uma bolha econômica especulativa (similar à bolha da internet nos anos 1990). Naquele tempo, um único bulbo de tulipa poderia valer dez vezes mais do que o salário anual de um artesão. Mas os valores acabaram caindo, causando uma perda econômica enorme para os negócios. Esse legado fez que a tulipa passasse a representar a brevidade da vida para os holandeses. A flor é celebrada todos os anos em abril no famoso Festival de Tulipas em Amsterdã.",
+    "cuidadosTxt": "A tulipa é uma planta típica de climas frios que necessita de bastante claridade, preferindo locais com luz solar direta e suave nas primeiras horas da manhã ou luz indireta brilhante (meia-sombra) para evitar o superaquecimento do bulbo. A rega deve ser controlada com moderação extrema: o substrato deve ser mantido levemente úmido apenas na superfície, despejando água diretamente na terra e evitando molhar as folhas e os botões. \n\n O substrato precisa ser leve, arenoso, muito bem arejado e apresentar uma drenagem perfeita, pois qualquer acúmulo de umidade estagnada causará o apodrecimento fulminante do bulbo. Em regiões de clima tropical e quente, os bulbos necessitam passar por um processo artificial de simulação de inverno (sendo mantidos na gaveta de resfriados do refrigerador por algumas semanas antes do plantio) para conseguir quebrar a dormência e florescer com sucesso.",
     "estacao": "inverno",
     "mes": "julho",
     "significadoPadrao": "amor",
@@ -138,14 +162,14 @@
     ]
   },
   {
-    "id": 7,
+    "id": "7",
     "nome": "Lírio",
     "slug": "lirio",
     "nomeCientifico": "Lilium L.",
     "resume": "Grandes pétalas majestosas com fragrância marcante.",
-    "caracteristicasTxt": "",
+    "caracteristicasTxt": "Os lírios são plantas herbáceas e bulbosas pertencentes à família Liliaceae, nativas das regiões temperadas do hemisfério norte. O que mais impressiona na morfologia do lírio são suas flores grandes, terminais e de estrutura escultural, compostas por seis pétalas (tecnicamente três pétalas e três sépalas idênticas, chamadas de tépalas) que se abrem em formato de trompete, cálice ou turbante, muitas vezes voltadas para fora ou levemente inclinadas para baixo. \n\n Suas folhas são lisas, estreitas e lanceoladas, distribuídas de forma alternada ou verticilada ao longo de uma única haste ereta, rígida e muito resistente, que cresce diretamente a partir de um bulbo escamoso subterrâneo. Outra marca registrada da espécie é a presença de estames longos e proeminentes carregados de pólen denso no centro da flor, além de um perfume adocicado extremamente marcante, denso e sofisticado que preenche ambientes inteiros.",
     "floriografiaTxt": "Como a margarida, as pétalas brancas do lírio acenam para ideias de inocência e pureza, mas por uma razão diferente. No catolicismo romano, a flor é associada com a virtuosa Virgem Maria. Um dos tipos mais populares de lírio branco, Madonna Lily, foi nomeado em homenagem à Virgem Maria. O lírio também é um forte símbolo de soberania e nobreza em muitos países europeus por causa da conexão com o icônico símbolo fleur-de-lis. Isso data do século XIII, quando a flor-de-lis foi incorporada pela poderosa monarquia francesa, que usou o símbolo em escudos e demais emblemas políticos.",
-    "cuidadosTxt": "",
+    "cuidadosTxt": "O lírio se desenvolve de forma ideal em locais que recebam bastante luminosidade, preferindo o sol pleno da manhã ou luz indireta muito brilhante (meia-sombra) nas horas mais quentes do dia para proteger suas pétalas delicadas de queimaduras. A rega deve ser regular e moderada, direcionada diretamente ao solo para manter a terra sutilmente úmida durante o período de crescimento ativo e floração; é fundamental nunca molhar as flores ou folhagens para evitar o surgimento de manchas e proliferação de fungos. \n\n O substrato ideal precisa ser altamente fértil, rico em matéria orgânica, leve e apresentar uma drenagem perfeita, visto que bulbos de lírio são extremamente sensíveis ao excesso de umidade estagnada e apodrecem com facilidade. Após o período de floração, recomenda-se cortar apenas as flores murchas e manter as folhas verdes até que sequem sozinhas, permitindo que o bulbo absorva e armazene energia para o ciclo do próximo ano.",
     "estacao": "outono",
     "mes": "abril",
     "significadoPadrao": "pureza",
@@ -153,20 +177,20 @@
       {
         "nome": "branco",
         "significado": "pureza",
-        "imgSemFundo": "https://i.pinimg.com/736x/c5/12/b4/c512b413ad2e3b05224af314343607c1.jpg",
+        "imgSemFundo": "https://i.pinimg.com/736x/4f/f3/f3/4ff3f3d6dc190ec28890f275beea2018.jpg",
         "imagem": "https://i.pinimg.com/736x/e8/15/88/e81588e63c458185cae31c64c13b2b29.jpg"
       }
     ]
   },
   {
-    "id": 8,
+    "id": "8",
     "nome": "Hortênsia",
     "slug": "hortensia",
     "nomeCientifico": "Hydrangea macrophylla",
     "resume": "Cresce em lindos buquês naturais de coloração azulada.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "Essas são flores que evocam gratidão e emoções sinceras.  Essas flores arredondadas e delicadas também transmitem sentimentos de sinceridade e compreensão. \n\nEste pequeno arbusto, que se traduz aproximadamente como barril de água, apresenta-se em diversas tonalidades de azul, rosa e roxo.",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "As hortênsias são arbustos semi-lenhosos e perenes pertencentes à família Hydrangeaceae, nativos do leste asiático, especialmente do Japão e da China. A característica botânica mais marcante dessa planta é a sua inflorescência em formato de grandes globos ou pompons terminais, que parecem imensos buquês naturais. Curiosamente, o que mais chama a atenção no visual não são as pétalas verdadeiras, mas sim as sépalas modificadas das flores estéreis, que são maiores e intensamente coloridas. \n\n Suas folhas são grandes, ovais, de coloração verde-escura e possuem bordas serrilhadas com textura rugosa. Uma das maiores peculiaridades biológicas da Hydrangea macrophylla é a sua capacidade de mudar de cor de acordo com o nível de acidez (pH) do solo em que está plantada: solos mais ácidos produzem flores em tons de azul intenso, enquanto solos alcalinos resultam em flores rosa ou arroxeadas.",
+    "floriografiaTxt": "Na Inglaterra vitoriana do século XIX, a floriografia era usada para enviar mensagens codificadas que a etiqueta social proibia de dizer em voz alta. Ali, a hortênsia ganhou uma fama mais dura. Como a planta produz flores magníficas e volumosas, mas pouquíssimas sementes, os vitorianos a associavam à vaidade, ao orgulho e ao exibicionismo (muita aparência para pouco conteúdo). Diziam também que dar uma hortênsia a alguém significava acusar a pessoa de ser fria ou insensível. \n\n No Japão, a hortênsia está fortemente ligada à honestidade emocional. Uma lenda antiga conta que um imperador japonês presenteou a família da mulher que amava com hortênsias azuis para se desculpar por tê-la negligenciado em prol dos negócios do Estado. Desde então, a flor passou a ser vista como um pedido de desculpas sincero e um tributo à gratidão.",
+    "cuidadosTxt": "A hortênsia prefere ambientes de meia-sombra, desenvolvendo-se melhor quando recebe o sol suave da manhã e fica protegida sob sombra filtrada durante as horas de calor mais intenso da tarde. O nome Hydrangea faz alusão à sua altíssima exigência de água, por isso as regas devem ser frequentes e abundantes para manter o solo constantemente úmido, mas sem criar poças que possam sufocar as raízes; em dias quentes de verão, ela pode precisar de água diariamente. \n\n O substrato deve ser altamente fértil, profundamente rico em matéria orgânica e contar com excelente capacidade de drenagem. Para os cultivadores que desejam controlar a cor das flores, é possível adicionar sulfato de alumínio ou agulhas de pinheiro ao solo para torná-lo mais ácido e obter flores azuis, ou aplicar calcário dolomítico para torná-lo alcalino e estimular tons rosados.",
     "estacao": "inverno",
     "mes": "julho",
     "significadoPadrao": "gratidao",
@@ -174,20 +198,20 @@
       {
         "nome": "azul",
         "significado": "gratidao",
-        "imgSemFundo": "https://i.pinimg.com/736x/8c/2a/f4/8c2af4da8e06d2f729679fec2fabc184.jpg",
-        "imagem": "https://i.pinimg.com/736x/f5/b9/ba/f5b9ba30cdd8f177a0e407a7b658a31e.jpg"
+        "imgSemFundo": "https://i.pinimg.com/1200x/46/1d/1d/461d1db820184bd0749b36710bd748d6.jpg",
+        "imagem": "https://i.pinimg.com/736x/68/30/0d/68300d1c991668f4fd162c6b932fa3fb.jpg"
       }
     ]
   },
   {
-    "id": 9,
+    "id": "9",
     "nome": "Lavanda",
     "slug": "lavanda",
     "nomeCientifico": "Lavandula",
     "resume": "Famosa por suas propriedades calmantes e tom arroxeado.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "A lavanda, também amplamente conhecida como alfazema, é um gênero de plantas arbustivas e perenes pertencente à família Lamiaceae, nativa da região do Mediterrâneo, da África e do sudeste da Ásia. Trata-se de um subarbusto ramificado de aspecto rústico, cujas folhas são estreitas, lineares e de uma coloração verde-acinzentada ou prateada devido à presença de finos pelos que ajudam a reter a umidade em climas secos. \n\n Suas flores são pequenas, delicadas e nascem agrupadas em inflorescências do tipo espiga que se elevam graciosamente acima da folhagem, apresentando tonalidades clássicas que variam do azul-violáceo ao roxo profundo. Toda a planta — especialmente as flores e folhas — é recoberta por glândulas produtoras de óleos essenciais altamente aromáticos. Quando tocada ou exposta ao calor, a lavanda exala um perfume inconfundível, doce e herbal, que atrai polinizadores e repele pragas naturais.",
+    "floriografiaTxt": "Na floriografia clássica e nas tradições folclóricas, a lavanda carrega uma dualidade fascinante de significados, embora seja predominantemente associada à serenidade, à paz de espírito e à esperança. O próprio nome deriva do latim 'lavare' (lavar), fazendo referência ao uso da planta em banhos de purificação na Roma Antiga para limpar o corpo e a mente. \n\n Na era vitoriana, presentear alguém com um ramo de lavanda transmitia mensagens de devoção silenciosa, calmaria e proteção contra pensamentos negativos. Por outro lado, devido ao seu aroma marcante e propriedades medicinais relaxantes, ela também simbolizava a cura, o frescor e a desintoxicação emocional. Em contextos modernos, seu tom arroxeado único evoca a espiritualidade e a renovação de ciclos, servindo como um amuleto floral para atrair harmonia, equilíbrio mental e uma persistente sensação de esperança no futuro.",
+    "cuidadosTxt": "A lavanda é uma planta extremamente rústica que exige exposição a sol pleno por pelo menos 6 horas diárias para se desenvolver de forma saudável e concentrar seus óleos aromáticos. A rega deve ser espaçada e muito moderada: a planta tolera bem longos períodos de seca, mas é altamente vulnerável ao excesso de água. O solo deve secar completamente entre as regas; se cultivada em vasos, certifique-se de que a água flua livremente sem acumular no prato. \n\n O substrato ideal precisa ser leve, arenoso, de fertilidade moderada a baixa e, acima de tudo, ter uma drenagem impecável e um pH levemente alcalino ou neutro (solos muito ácidos ou compactados podem matar a planta). Para mantê-la bonita e evitar que a base fique lenhosa e sem folhas ao longo dos anos, recomenda-se realizar uma poda leve de formação anual após a floração principal, cortando apenas as hastes secas sem atingir a madeira velha.",
     "estacao": "inverno",
     "mes": "agosto",
     "significadoPadrao": "esperanca",
@@ -201,14 +225,14 @@
     ]
   },
   {
-    "id": 10,
+    "id": "10",
     "nome": "Crisântemo",
     "slug": "crisantemo",
     "nomeCientifico": "Chrysanthemum",
     "resume": "Flor tradicional de outono com grande variedade de pétalas.",
-    "caracteristicasTxt": "",
+    "caracteristicasTxt": "Os crisântemos formam um gênero de plantas herbáceas e perenes pertencente à grande família Asteraceae, originárias principalmente da Ásia e do nordeste da Europa. A morfologia de sua inflorescência é uma das mais complexas e variadas do reino vegetal, classificando-se tecnicamente como um capítulo floral. Através de séculos de seleção e hibridização, as flores evoluíram para formatos impressionantes que lembram pompons compactos, margaridas abertas, aranhas com pétalas finas e tubulares ou botões globosos maciços. \n\n Suas folhas são alternadas, profundamente lobadas, de coloração verde-escura e possuem uma textura ligeiramente coriácea ou aveludada, exalando um aroma amargo e medicinal muito característico quando esmagadas. Os caules são eretos, ramificados e tendem a se tornar lenhosos na base com o tempo, conferindo à planta uma estrutura arbustiva compacta e resistente capaz de suportar o peso de uma floração massiva e simultânea.",
     "floriografiaTxt": "O substantivo “crisântemo” significa literalmente “flor de ouro” em grego antigo, em referência às pétalas amarelas da flor original. Essa flor popular, adorada por floristas e jardineiros, existe hoje em diferentes cores. Porém, o crisântemo ainda mantém uma associação com a felicidade, que é relacionada à cor amarela. \n\nEssas flores são muito apreciadas no Leste Asiático, onde suas variedades são cultivadas. São particularmente importantes no Japão: lá, o crisântemo é o símbolo do imperador e da família imperial. Crisântemos decoram o selo imperial do Japão e também estão presentes nos passaportes japoneses dos membros da família imperial.",
-    "cuidadosTxt": "",
+    "cuidadosTxt": "O crisântemo desenvolve-se com o máximo vigor sob sol pleno, necessitando de pelo menos 5 a 6 horas de luz solar direta diária para garantir uma floração abundante e evitar que suas hastes fiquem fracas e estioladas. As regas devem ser frequentes e regulares para manter o substrato uniformemente úmido, mas nunca encharcado; o segredo essencial de cultivo é regar diretamente a base da planta, evitando molhar a folhagem densa e os botões florais para afastar o risco de doenças fúngicas como a ferrugem. \n\n O solo ideal deve ser fértil, profundamente rico em matéria orgânica e contar com excelente capacidade de drenagem. Como são plantas de dias curtos (florescem quando as noites ficam mais longas no outono), elas respondem muito bem a podas de beliscamento (pinch) feitas no início da primavera para estimular a ramificação lateral, resultando em um arbusto muito mais cheio e repleto de botões no momento da floração.",
     "estacao": "outono",
     "mes": "junho",
     "significadoPadrao": "luto",
@@ -222,35 +246,47 @@
     ]
   },
   {
-    "id": 11,
+    "id": "11",
     "nome": "Cravo",
     "slug": "cravo",
     "nomeCientifico": "Dianthus chinensis",
     "resume": "Delicada e resistente, perfeita para bordas de jardins.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "O cravo é um símbolo clássico do amor romântico. Graças às suas pétalas vibrantes, o cravo está sempre presente em arranjos florais para o Dia dos Namorados, logo após a clássica rosa vermelha. Essa associação remonta ao Renascimento. Na época, mulheres jovens da elite eram pintadas segurando cravos para simbolizar um noivado recente. Mas você sabia que em muitos países o cravo tem um sentido político bastante forte? \n\nA flor foi usada com frequência por movimentos socialistas e trabalhistas porque sua tonalidade vívida combinava com o vermelho socialista/comunista. O cravo substituiu a foice e o martelo como símbolo do Partido Socialista Italiano antes de sua dissolução final. Todos os anos, em 15 de janeiro, centenas de cravos são colocados no túmulo da notável filósofa e militante comunista Rosa Luxemburgo, em Berlim, em sua homenagem. A flor também está ligada à Revolução dos Cravos em Portugal, quando em 1974 um golpe militar derrubou o regime ditatorial com apoio popular. Após os militares darem um final rápido e relativamente pacífico à ditadura, os soldados nas ruas enfiaram cravos nos canos das armas, criando uma imagem icônica e memorável.",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "O cravo (especificamente a variedade Dianthus chinensis, conhecida como cravo-da-china) é uma planta herbácea perene ou bienal pertencente à família Caryophyllaceae, nativa do leste da Ásia. Esta espécie destaca-se por suas flores terminais solitárias ou reunidas em pequenos grupos, cujas pétalas apresentam bordas profundamente recortadas, franjadas ou dentadas, conferindo-lhes um aspecto rendado e delicado. \n\n Suas folhas são opostas, lineares, estreitas e possuem uma tonalidade verde-azulada ou acinzentada muito característica. Os caules são eretos, ramificados a partir da base e marcados por nós proeminentes (articulações). Embora o cravo-da-china tenda a ser um pouco menor e ter um aroma mais sutil do que o tradicional cravo de florista (Dianthus caryophyllus), ele compensa com uma profusão impressionante de flores que frequentemente exibem padrões bicolores e anéis concêntricos contrastantes em seu centro.",
+    "floriografiaTxt": "O cravo é um símbolo clássico do amor romântico. Graças às suas pétalas vibrantes, o cravo está sempre presente em arranjos florais para o Dia dos Namorados, logo após a clássica rosa vermelha. Essa associação remonta ao Renascimento. Na época, mulheres jovens da elite eram pintadas segurando cravos para simbolizar um noivado recente. Mas você sabia que em muitos países o cravo tem um sentido político bastante forte? \n\nA flor foi usada com frequência por movimentos socialistas e trabalhistas porque sua tonalidade vívida combinava com o vermelho socialista/comunista. O cravo substituiu a foice e o martelo como símbolo do Partido Socialista Italiano antes de sua dissolução final. Todos os anos, em 15 de janeiro, centenas de cravos são colocados no túmulo da notável filósofa e militante comunista Rosa Luxemburgo, em Berlim, em sua homenagem.",
+    "cuidadosTxt": "O cravo necessita de uma exposição ao sol pleno, demandando de 4 a 6 horas de luz solar direta por dia para que suas hastes cresçam firmes e a floração seja contínua e abundante. A rega deve ser regular e moderada: o substrato precisa secar superficialmente antes que uma nova irrigação seja feita, pois o acúmulo excessivo de umidade nas raízes ou na base da planta favorece o apodrecimento e o surgimento de doenças fúngicas. \n\n O solo ideal para o seu cultivo deve ser leve, fértil, rico em matéria orgânica, profundamente bem drenado e com um pH ligeiramente neutro a alcalino. Para prolongar o período de floração e manter o aspecto estético sempre impecável, recomenda-se fazer a remoção constante das flores antigas à medida que murcharem (técnica conhecida como deadheading), o que estimula a planta a direcionar sua energia para a abertura de novos botões florais.",
     "estacao": "outono",
     "mes": "maio",
     "significadoPadrao": "amizade",
     "cores": [
       {
         "nome": "rosa",
-        "significado": "amizade",
+        "significado": "recusa",
         "imgSemFundo": "https://i.pinimg.com/1200x/b6/39/a8/b639a8fc69b8789f46faf10806f4d23c.jpg",
         "imagem": "https://i.pinimg.com/736x/20/60/f4/2060f45d5ddfc13f21f6c1031d4555c6.jpg"
+      },
+      {
+        "nome": "vermelho",
+        "significado": "paixão",
+        "imgSemFundo": "https://i.pinimg.com/1200x/59/f2/27/59f227695ccd947be493aff19f1106ec.jpg",
+        "imagem": "https://i.pinimg.com/1200x/a2/63/67/a26367925989ce08bd72d82524ae11d3.jpg"
+      },
+      {
+        "nome": "amarelo",
+        "significado": "desprezo",
+        "imgSemFundo": "https://i.pinimg.com/736x/3c/1e/fd/3c1efd07ecd122c8175de8988aaacbe3.jpg",
+        "imagem": "https://i.pinimg.com/736x/37/dd/f6/37ddf601252214ca62441da8742b01e2.jpg"
       }
     ]
   },
   {
-    "id": 12,
+    "id": "12",
     "nome": "Copo de Leite",
-    "slug": "copo-de-leite",
+    "slug": "copo de leite",
     "nomeCientifico": "Zantedeschia",
     "resume": "Visual minimalista e sofisticado muito usado em decorações.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "O copo-de-leite (gênero Zantedeschia, pertencente à família Araceae) é uma planta herbácea perene e rizomatosa nativa de regiões úmidas do continente africano, especialmente da África do Sul. O que popularmente chamamos de flor é, na verdade, uma inflorescência fascinante: a parte branca escultural é uma bráctea modificada chamada espata, que envolve e protege a verdadeira estrutura floral, a espádice — uma haste cilíndrica e dourada repleta de minúsculas flores reais. \n\n Suas folhas nascem diretamente do rizoma subterrâneo e são um espetáculo à parte, apresentando um formato sagitado (semelhante a pontas de lança), textura carnuda, bordas lisas e uma tonalidade verde-escura brilhante. A planta possui um porte elegante que varia de 60 centímetros a um metro de altura, sendo amplamente valorizada pelo corte devido à sua durabilidade excepcional em vasos e ao seu visual minimalista de linhas limpas e contemporâneas.",
+    "floriografiaTxt": "Na linguagem das flores desde a antiguidade e consolidada na Era Vitoriana, o copo-de-leite é o símbolo definitivo da sofisticação, da pureza, da santidade e do profundo respeito. Sua bráctea branca imaculada que se eleva de forma ereta transmite uma mensagem de dignidade e paz, sendo um elemento clássico em buquês de noiva para simbolizar a felicidade conjugal e o recomeço. \n\n Por outro lado, devido à sua simetria impecável e beleza serena, a flor também adquiriu um papel respeitoso em rituais de passagem e homenagens fúnebres, representando a transição pacífica da alma e a reverência eterna à memória de quem partiu. Em contextos modernos e artísticos — como nas famosas pinturas de Diego Rivera —, o copo-de-leite é frequentemente celebrado como uma metáfora da fertilidade, da sensualidade sutil e da exuberância natural das Américas.",
+    "cuidadosTxt": "O copo-de-leite desenvolve-se de maneira ideal em locais de meia-sombra a sol pleno, necessitando de alta luminosidade para florescer, mas preferindo proteção contra o sol escaldante do meio-dia para evitar queimaduras em sua espata delicada. Como é nativo de áreas palustres e margens de rios, a planta tem uma altíssima exigência de água: as regas devem ser frequentes e abundantes para manter o substrato constantemente úmido, tolerando inclusive solos levemente encharcados durante o seu período de crescimento ativo. \n\n O solo ideal precisa ser pesado, argiloso, profundamente rico em matéria orgânica e altamente fértil. Vale ressaltar um cuidado importante com a segurança: toda a planta contém cristais de oxalato de cálcio, tornando-a tóxica se mastigada ou ingerida, razão pela qual deve ser cultivada fora do alcance de animais de estimação e crianças pequenas.",
     "estacao": "inverno",
     "mes": "agosto",
     "significadoPadrao": "respeito",
@@ -264,69 +300,81 @@
     ]
   },
   {
-    "id": 13,
+    "id": "13",
     "nome": "Gérbera",
     "slug": "gerbera",
     "nomeCientifico": "Gerbera jamesonii",
-    "resume": "Cores quentes que iluminam qualquer arranjo.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "resume": "Transforma qualquer ambiente com suas cores vibrantes e...",
+    "caracteristicasTxt": "A gérbera (Gerbera jamesonii, popularmente conhecida como margarida-do-transvaal) é uma planta herbácea e perene pertencente à família Asteraceae, nativa das regiões tropicais e montanhosas da África do Sul. Do ponto de vista botânico, sua inflorescência do tipo capítulo assemelha-se a uma grande e estilizada margarida, mas destaca-se por sua geometria impecável e simetria perfeita. Suas flores são sustentadas por hastes longas, cilíndricas, eretas e desprovidas de folhas, que se elevam diretamente de uma roseta basal. \n\n Suas folhas são grandes, lobadas, com textura aveludada e coloração verde-escura, crescendo rente ao solo. O grande diferencial da gérbera reside na sua impressionante diversidade cromática e na textura de suas pétalas (lígulas), que parecem acetinadas. Graças ao melhoramento genético, ela apresenta pétalas simples, duplas ou triplas, com cores que cobrem quase todo o espectro visível com uma intensidade quase neon, o que a torna a quinta flor de corte mais comercializada em todo o mundo.",
+    "floriografiaTxt": "Na linguagem moderna das flores, a gérbera é a personificação máxima da alegria pura, do otimismo contagiante e da celebração da vida. Por sua semelhança com um sol radiante e suas cores abertas, ela transmite um sentimento imediato de vivacidade e bom humor, sendo a escolha ideal para comemorar conquistas, aniversários e desejar melhoras a alguém. \n\n Seu simbolismo está intimamente ligado à simplicidade e à energia positiva; presentear alguém com gérberas equivale a enviar um raio de luz e calor para o dia daquela pessoa. Embora não fizesse parte dos manuais originais da Europa vitoriana por sua descoberta tardia no final do século XIX, ela rapidamente absorveu o significado de pureza inocente herdado das margaridas, agregando uma camada única de intensidade, entusiasmo e calor tropical que sugere que a felicidade deve ser vivida em tons vivos e sem moderação.",
+    "cuidadosTxt": "A gérbera necessita de uma exposição a sol pleno ou meia-sombra com altíssima luminosidade, demandando pelo menos de 4 a 5 horas de luz solar direta diária, preferencialmente durante os horários mais amenos da manhã para não queimar suas pétalas. A rega deve ser feita de forma moderada e com critério: o substrato deve secar superficialmente antes de uma nova irrigação. O segredo fundamental é despejar a água diretamente na terra, evitando molhar as folhas e, principalmente, o miolo da roseta basal e os botões, pois o acúmulo de umidade nessas regiões atrai fungos e causa o apodrecimento rápido da planta. \n\n O solo ideal para o seu cultivo deve ser leve, arenoso, rico em matéria orgânica, altamente fértil e apresentar uma drenagem impecável. Quando cultivada em vasos, é crucial garantir que a água escoe totalmente. Adubações periódicas com fertilizantes ricos em potássio e fósforo durante as estações de crescimento estimulam uma floração contínua, longa e vistosa.",
     "estacao": "verão",
     "mes": "fevereiro",
     "significadoPadrao": "felicidade",
     "cores": [
       {
+        "nome": "vermelho",
+        "significado": "amor apaixonado, desejo profundo",
+        "imgSemFundo": "https://i.pinimg.com/736x/f8/d5/1d/f8d51dbec2dae8bfe03db2d2bd7a2050.jpg",
+        "imagem": "https://i.pinimg.com/736x/74/13/a8/7413a8eb3a9434116402c711a54daf44.jpg"
+      },
+      {
         "nome": "laranja",
-        "significado": "entusiamo",
+        "significado": "entusiamo, criatividade",
         "imgSemFundo": "https://i.pinimg.com/1200x/ed/c9/10/edc910ff08a4cbdcfdb9f7b16ac06dc4.jpg",
         "imagem": "https://i.pinimg.com/736x/63/27/fe/6327fe7214cf63349f5dd18bbaa3fe2c.jpg"
       },
       {
         "nome": "amarelo",
-        "significado": "alegria",
+        "significado": "prosperidade, success, riqueza, amizade sincera",
         "imgSemFundo": "https://i.pinimg.com/736x/7f/c5/9d/7fc59d696a7f104e80c9261fe6b303d6.jpg",
         "imagem": "https://i.pinimg.com/1200x/c3/a4/71/c3a4717bd7e9ecc8331f536437258e23.jpg"
       },
       {
-        "nome": "vermelho",
-        "significado": "amor intenso",
-        "imgSemFundo": "https://i.pinimg.com/736x/f0/e6/c5/f0e6c5888c998527e0d09a489f9845cf.jpg",
-        "imagem": "https://i.pinimg.com/736x/74/13/a8/7413a8eb3a9434116402c711a54daf44.jpg"
+        "nome": "branco",
+        "significado": "pureza, inocência, infãncia",
+        "imgSemFundo": "https://i.pinimg.com/736x/2f/ad/c3/2fadc3c94b1590874a559b55d8016bf0.jpg",
+        "imagem": "https://i.pinimg.com/1200x/0d/76/74/0d7674d844528cce9ea8657e0c451571.jpg"
+      },
+      {
+        "nome": "rosa",
+        "significado": "admiração, gratidão, carinho, simpatia",
+        "imgSemFundo": "https://i.pinimg.com/736x/c7/f8/67/c7f86784b17879f70b3357099220aefa.jpg",
+        "imagem": "https://i.pinimg.com/736x/2a/0d/22/2a0d2239e92ffe69bf438e50c9bf8a17.jpg"
       }
     ]
   },
   {
-    "id": 14,
+    "id": "14",
     "nome": "Antúrio",
     "slug": "anturio",
     "nomeCientifico": "Anthurium",
     "resume": "Suas folhas modificadas brilhantes parecem corações de cera.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "caracteristicasTxt": "O antúrio é um gênero botânico composto por centenas de espécies de plantas perenes pertencentes à família Araceae, nativas das florestas tropicais úmidas das Américas Central e do Sul. A sua característica estética mais marcante e intrigante reside na sua inflorescência: a estrutura de textura cerosa, brilhante e em formato de coração não é uma pétala real, mas sim uma bráctea modificada conhecida como espata. Essa folha colorida serve como um chamariz visual na natureza para atrair polinizadores até a espádice — uma espiga cilíndrica e saliente localizada no centro, onde as minúsculas e verdadeiras flores se desenvolvem. \n\n Suas folhas vegetativas também possuem alto valor ornamental, apresentando um formato cordiforme (de coração) ou lanceolado, coloração verde-escura profunda, textura coriácea e pecíolos longos e rígidos. O antúrio destaca-se como uma das plantas de interior mais populares do mundo devido à sua impressionante longevidade, sendo capaz de manter suas inflorescências vistosas por várias semanas consecutivas.",
+    "floriografiaTxt": "Na linguagem das flores e no simbolismo moderno, o antúrio é amplamente reconhecido como o símbolo máximo da hospitalidade e da celebração de laços sinceros, como a gratidão e a amizade. Devido ao formato de coração aberto de sua espata e à sua durabilidade notável, presentear alguém com um antúrio transmite uma mensagem calorosa de boas-vindas, abundância e desejo de felicidade duradoura para o lar. \n\n Embora não constasse nos manuais clássicos da Inglaterra vitoriana devido à sua origem puramente tropical, a planta rapidamente absorveu significados profundos após a sua popularização global no século XIX. Suas variedades vermelhas intensas evocam sentimentos de paixão e magnetismo exótico, enquanto o seu porte ereto e folhas resistentes simbolizam a força emocional e a estabilidade. É uma flor muito utilizada para inaugurar novos espaços ou para expressar profunda consideração por alguém, sugerindo que os sentimentos ali depositados são tão resistentes e brilhantes quanto a própria planta.",
+    "cuidadosTxt": "O antúrio desenvolve-se de maneira ideal em ambientes internos bem iluminados ou em áreas externas de meia-sombra, necessitando de bastante claridade indireta filtrada, pois os raios solares diretos e intensos causam queimaduras severas em suas folhas e estragam o brilho de suas espatas. A rega deve ser feita de forma moderada e regular: o substrato deve ser mantido levemente úmido, mas nunca encharcado. O ideal é regar quando a camada superficial da terra começar a secar ao toque. Como é uma planta nativa de florestas tropicais, ela aprecia uma umidade do ar elevada, sendo muito benéfico borrifar água em suas folhas nos dias mais secos e quentes de verão. \n\n O substrato ideal precisa ser solto, altamente fibroso, rico em matéria orgânica e contar com uma drenagem impecável (misturas contendo casca de pinus ou fibra de coco simulam perfeitamente o ambiente natural da espécie). É importante lembrar que, assim como outros membros da família Araceae, o antúrio possui cristais de oxalato de cálcio em sua composição, o que o torna tóxico se mastigado ou ingerido por animais de estimação ou crianças.",
     "estacao": "outono",
     "mes": "maio",
     "significadoPadrao": "gratidao",
     "cores": [
       {
         "nome": "vermelho",
-        "slug": "rosa",
-        "significado": "gratidao",
-        "imgSemFundo": "https://i.pinimg.com/1200x/45/8c/66/458c6637827ae5f361f5cc204a40f6fe.jpg",
+        "slug": "vermelho",
+        "significado": "gratidao, paixao, hospitalidade",
+        "imgSemFundo": "https://i.pinimg.com/1200x/85/e6/15/85e615d6941d28499da52db0dd3bcdbf.jpg",
         "imagem": "https://i.pinimg.com/736x/1a/21/05/1a2105c17e9efb18d7ab4c2e36f91258.jpg"
       }
     ]
   },
   {
-    "id": 15,
+    "id": "15",
     "nome": "Azaleia",
     "slug": "azaleia",
     "nomeCientifico": "Rhododendron",
-    "resume": "Arbusto florido clássico que suporta muito bem o frio.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "",
-    "cuidadosTxt": "",
+    "resume": "Delicada e vibrante, simboliza o amor a beleza que resiste ao tempo.",
+    "caracteristicasTxt": "As azaleias pertencem ao gênero Rhododendron, inserido na família Ericaceae, e são arbustos lenhosos de porte médio amplamente apreciados pela densidade impressionante de sua floração. Originárias principalmente da Ásia, essas plantas possuem folhas perenes ou decíduas, dependendo do híbrido, que se apresentam de forma ovalada, coriácea, de tamanho pequeno e coloração verde-escura opaca, muitas vezes cobertas por pelos finos em sua face inferior. \n\n O verdadeiro espetáculo da azaleia ocorre durante os meses mais frios, quando o arbusto é completamente coberto por flores que nascem em racemos terminais. Suas flores têm formato de funil ou trompete, podendo ser simples ou dobradas (com múltiplas camadas de pétalas), e exibem estames longos e delicados que se projetam para fora do cálice. Devido à sua ramificação densa e capacidade de brotação vigorosa após podas, a azaleia é uma das espécies mais utilizadas no mundo para a arte do bonsai e para a formação de cercas vivas compactas.",
+    "floriografiaTxt": "Na linguagem clássica das flores consolidada na Era Vitoriana, a azaleia carrega um simbolismo profundamente ligado à moderação, à temperança, ao romance duradouro e à saudade de casa. Presentear alguém com azaleias era visto como um lembrete sutil de cuidado e afeto constante — uma mensagem de que o amor professado é sincero, maduro e capaz de resistir às intempéries do tempo e da distância. \n\n Em contrapartida, na cultura oriental, de onde a planta é nativa, ela possui significados ainda mais imponentes. Na China e no Japão, a azaleia é celebrada como o símbolo da feminilidade graciosa, da beleza delicada e da felicidade familiar profunda. Por florescer de maneira exuberante justamente nas estações de clima severo, quando a maioria das outras plantas entra em dormência, ela também passou a representar a resiliência emocional, a elegância sob pressão e a promessa de que dias calorosos e prósperos sempre retornam após o inverno.",
+    "cuidadosTxt": "A azaleia desenvolve-se de maneira ideal quando cultivada sob sol pleno ou em condições de meia-sombra com alta luminosidade, necessitando de pelo menos 4 a 6 horas diárias de luz solar direta para que seus botões florais se formem em abundância. A rega deve ser regular e minuciosa: o substrato deve ser mantido moderadamente úmido ao longo de todo o ano, mas sem nunca ficar encharcado ou estagnado, pois as suas raízes são finas e superficiais, tornando-se altamente sensíveis à falta drástica ou ao excesso severo de água. \n\n O substrato é um dos fatores mais críticos para o sucesso do cultivo: a azaleia exige obrigatoriamente um solo de caráter ácido (pH entre 4,5 e 6,0), profundamente rico em matéria orgânica, leve e muito bem drenado. Recomenda-se realizar podas de limpeza e formação anuais imediatamente após o término da floração, removendo galhos secos e pontas murchas, o que estimula o surgimento de novos ramos saudáveis que carregarão os botões do próximo ciclo de inverno.",
     "estacao": "inverno",
     "mes": "julho",
     "significadoPadrao": "amor",
@@ -335,7 +383,7 @@
         "nome": "Rosa",
         "slug": "rosa",
         "significado": "amor",
-        "imgSemFundo": "https://i.pinimg.com/1200x/d4/06/f1/d406f18129fc5963f20f0bf7da6274ea.jpg",
+        "imgSemFundo": "https://i.pinimg.com/1200x/35/d1/fb/35d1fbc630150c664cf4a8f04dc089e8.jpg",
         "imagem": "https://i.pinimg.com/736x/9c/6e/a8/9c6ea83e186931d163544db42ac9d76c.jpg"
       }
     ]
@@ -345,18 +393,18 @@
     "nome": "Miosótis",
     "slug": "miosotis",
     "nomeCientifico": "Myosotis",
-    "resume": "Popularmente conhecida como Não-me-esqueças",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "O nome comum dessa flor, Vergissmeinnicht, foi cunhado originalmente na Alemanha e vem de um conto popular. Na história, um jovem casal estava andando ao longo do Rio Danúbio quando o rapaz foi colher essas flores azuis para a amada. Tragicamente, ele caiu no rio e foi levado pela correnteza. Ele se despediu aos gritos de “Não me esqueças!”, o que levou sua amada a nomear a flor em memória dele. Foi assim que o miosótis passou a simbolizar memória e amor eterno por séculos.",
-    "cuidadosTxt": "",
+    "resume": "Popularmente conhecida como Não-me-esqueças, carrega a...",
+    "caracteristicasTxt": "O miosótis é um gênero de plantas herbáceas pertencente à família Boraginaceae, composto por dezenas de espécies nativas principalmente das regiões temperadas da Europa, Ásia e América do Norte. Trata-se de uma planta de porte baixo, geralmente variando de 15 a 30 centímetros de altura, o que a torna ideal para forrações de solo e bordaduras. Suas folhas são pequenas, alongadas, de formato lanceolado a ovalado e possuem uma textura aveludada devido à presença de finos pelos que recobrem sua superfície. \n\n O grande encanto da planta reside em suas inflorescências ramificadas e terminais que carregam pequenas flores pentâmeras (com cinco pétalas). Embora existam variedades em tons de rosa e branco, a coloração azul-celeste brilhante, contrastada por um anel central amarelo ou branco (conhecido como olho da flor), é a sua marca registrada mais famosa e valorizada no paisagismo por criar tapetes floridos de textura macia e delicada.",
+    "floriografiaTxt": "A miosótis (Myosotis), popularmente batizada de não-me-esqueças, é uma flor cujo simbolismo gira inteiramente em torno da memória eterna, da fidelidade inabalável e do amor verdadeiro. Com suas pétalas pequenas e tons característicos de azul-celeste, a planta é utilizada há séculos como um emblema vivo para garantir que um laço afetivo ou uma lembrança jamais sejam apagados pelo tempo ou pela distância.\n\nO significado da miosótis está profundamente ligado a uma lenda medieval europeia. Segundo o mito, um cavaleiro de armadura caminhava à beira de um rio caudaloso com sua amada quando avistou a pequena flor. Ao se inclinar para colhê-la, o peso de sua armadura o fez cair na água. Antes de ser levado pela forte correnteza, ele atirou o ramo de flores para a jovem e gritou suas últimas palavras: Não me esqueças!. Esse episódio selou o nome popular da planta e a transformou no símbolo máximo da saudade e da lealdade após a partida de alguém.",
+    "cuidadosTxt": "O miosótis desenvolve-se de maneira ideal em locais de meia-sombra ou sombra filtrada, apreciando a luz suave da manhã, mas necessitando de proteção contra o sol direto e escaldante do meio-dia, que pode murchar e queimar rapidamente suas folhas e pétalas delicadas. Em relação às regas, a planta possui uma exigência hídrica de moderada a alta: o substrato deve ser mantido constantemente úmido, imitando as margens de riachos de onde é originária, mas sem nunca ficar encharcado a ponto de sufocar as raízes. \n\n O solo ideal para o seu cultivo deve ser leve, solto, profundamente rico em matéria orgânica e contar com uma excelente capacidade de drenagem. Recomenda-se realizar uma adubação orgânica suave ou aplicar fertilizantes líquidos bem diluídos durante a primavera para sustentar o longo período de floração. Por ser uma planta de ciclo bienal ou anual na maioria dos jardins tropicais, ela se propaga facilmente por auto-semeadura, reaparecendo no jardim ano após ano.",
     "estacao": "primavera",
     "mes": "setembro",
-    "significadoPadrao": "",
+    "significadoPadrao": "amor eterno, lembrança",
     "cores": [
       {
         "nome": "azul",
-        "slug": "",
-        "significado": "saudades",
+        "slug": "azul",
+        "significado": "saudades, amor verdadeiro, fidelidade e memórias eternas",
         "imgSemFundo": "https://i.pinimg.com/736x/3b/97/fa/3b97fab4fc01d8cc02c3536e745088fc.jpg",
         "imagem": "https://i.pinimg.com/736x/67/70/81/6770813e2d5eccdd8ac1648cecf5d7d0.jpg"
       }
@@ -367,11 +415,11 @@
     "nome": "Papoula",
     "slug": "papoula",
     "nomeCientifico": "Papaver somniferum.",
-    "resume": "Representa a beleza passageira da vida.",
-    "caracteristicasTxt": "",
+    "resume": "Representa a beleza passageira da vida, florescendo com uma...",
+    "caracteristicasTxt": "A papoula (especificamente a Papaver somniferum, conhecida como papoula-do-ópio) é uma planta herbácea anual pertencente à família Papaveraceae, nativa da região do Mediterrâneo e da Ásia Ocidental. Do ponto de vista morfológico, ela se destaca por suas flores solitárias e terminais que nascem no topo de longos caules eretos. Suas pétalas possuem uma textura incrivelmente fina, enrugada e translúcida que lembra papel crepom, abrindo-se a partir de botões florais que inicialmente se inclinam para baixo antes de desabrochar. \n\n Suas folhas são alternadas, profundamente lobadas ou serrilhadas, de coloração verde-azulada ou acinzentada e com uma textura cerosa. Após a queda das pétalas, a planta desenvolve seu traço botânico mais icônico: uma cápsula esférica ou ovalada coroada por um estigma em formato de estrela. Toda a estrutura da planta, quando cortada, exala um látex leitoso que contém compostos alcaloides. Suas sementes minúsculas e escuras não possuem propriedades narcóticas e são amplamente utilizadas na culinária internacional.",
     "floriografiaTxt": "Com sua cor vibrante e pétalas delicadas que lembram papel crepom, as papoulas são flores que não passam despercebidas. Apesar de sua aparência selvagem, elas simbolizam um sono tranquilo e a paz na morte. \n\nAs papoulas vermelhas adquirem um significado ainda mais especial, simbolizando a lembrança. É tradição usar uma papoula vermelha no Dia da Lembrança, em novembro, em homenagem àqueles que deram a vida a serviço do país. \n\nMuitas vezes, as vemos como flores que possuem uma qualidade perigosa e misteriosa, mas é essencial levar em conta que é apenas sua estética profunda e exótica que nos faz sentir emoções tão fortes.",
-    "cuidadosTxt": "",
-    "estacao": "primavera",
+    "cuidadosTxt": "A papoula exige exposição a sol pleno por pelo menos 6 horas diárias para que seus caules cresçam firmes e suas flores se desenvolvam com cores intensas. A rega deve ser moderada e controlada: o solo precisa secar superficialmente entre as irrigações, pois a planta possui uma raiz pivotante central profunda que é extremamente sensível ao apodrecimento causado pelo encharcamento estagnado. \n\n O substrato ideal deve ser leve, arenoso, de fertilidade moderada a baixa e contar com uma drenagem absolutamente impecável. Por ser uma planta anual com um sistema radicular delicado, ela não tolera transplantes; o cultivo deve ser feito semeando diretamente no local definitivo durante os meses mais amenos. Recomenda-se realizar adubações orgânicas bem leves no início do crescimento, evitando fertilizantes ricos em nitrogênio que estimulam o crescimento excessivo de folhas em detrimento da abertura dos botões florais.",
+    "estacao": "inverno",
     "mes": "agosto",
     "significadoPadrao": "esquecimento",
     "cores": [
@@ -381,7 +429,7 @@
         "imgSemFundo": "https://i.pinimg.com/736x/f6/a4/12/f6a41241de004baf658a9faf9dcf2053.jpg",
         "imagem": "https://i.pinimg.com/736x/f5/dc/14/f5dc149dce3a1b92767a54ecfa5b2f10.jpg"
       },
-            {
+      {
         "nome": "branco",
         "significado": "descanso",
         "imgSemFundo": "https://i.pinimg.com/736x/29/0c/64/290c640655245d7cec8c7ad51ab24928.jpg",
@@ -392,14 +440,14 @@
   {
     "id": "18",
     "nome": "Narciso",
-    "slug": "narsico",
+    "slug": "narciso",
     "nomeCientifico": "Narcissus",
-    "resume": "inspirado no personagem da mitologia grega..",
-    "caracteristicasTxt": "",
+    "resume": "inspirado no personagem da mitologia grega e símbolo de renascimento.",
+    "caracteristicasTxt": "Os narcisos são plantas bulbosas perenes pertencentes à família Amaryllidaceae, nativas principalmente da bacia do Mediterrâneo, Europa e partes da Ásia. Esta planta destaca-se por suas folhas longas, eretas, lineares e de textura ligeiramente carnaúba, que crescem em tufos diretamente a partir de um robusto bulbo subterrâneo revestido por túnicas marrons. Suas hastes florais são firmes, ocas e sustentam flores solitárias ou dispostas em pequenas umbelas no topo. \n\n A estrutura floral do narciso é única e perfeitamente simétrica: apresenta seis tépalas abertas (pétalas e sépalas idênticas) que formam uma estrela ao redor de um miolo central modificado, em formato de taça, coroa ou trombeta alongada (tecnicamente chamada de paraperianto ou corona). Suas flores exibem variações cromáticas elegantes que transitam entre o amarelo-ouro vivo, o branco puro e toques suaves de laranja e salmão, exalando um aroma doce e característico.",
     "floriografiaTxt": "Essas flores poderiam muito bem ser o elemento essencial de toda comédia romântica ou drama. Você detestaria admitir, mas conhece muito bem essa cena: o personagem principal tem flashbacks, a memória gravada na mente de todo protagonista, de correr de mãos dadas por um campo de  narcisos  com seu amor de infância. Bem, os narcisos não são apenas bonitos e ótimos para tirar fotos, eles também significam: Estarei com você, não importa o que aconteça. Eles também simbolizam renascimento, honestidade e perdão, tornando-os uma  flor ideal para pedir desculpas . Por outro lado, os narcisos também podem expressar amor não correspondido.",
-    "cuidadosTxt": "",
+    "cuidadosTxt": "Para o cultivo ideal, os narcisos exigem locais que recebam sol pleno ou pelo menos meia-sombra diária com alta luminosidade para garantir que suas hastes cresçam firmes e a floração seja vigorosa. O solo precisa ser leve, aerado, profundamente rico em matéria orgânica e, acima de tudo, possuir uma excelente drenagem, pois o excesso de umidade estagnada apodrece os bulbos enterrados com extrema facilidade. \n\n As regas devem ser feitas de maneira regular e moderada durante todo o período de crescimento ativo e floração, mantendo a terra sutilmente úmida. O fornecimento de água deve ser drasticamente reduzido assim que as flores murcharem e as folhas começarem a amarelar espontaneamente, permitindo que a planta entre em seu repouso vegetativo anual e armazene energia dentro do bulbo para o ciclo seguinte.",
     "estacao": "primavera",
-    "mes": "",
+    "mes": "setembro",
     "significadoPadrao": "Perdão",
     "cores": [
       {
@@ -415,17 +463,17 @@
     "nome": "Gardênia",
     "slug": "gardenia",
     "nomeCientifico": "Gardenia jasminoides",
-    "resume": "Um arbusto de flores brancas e cerosas famoso por seu perfume intenso e doce",
+    "resume": "Flores brancas e cerosas famoso por seu perfume intenso e doce",
     "caracteristicasTxt": "A gardênia pertence à família das Rubiaceae e possui flores grandes, geralmente brancas, que com o tempo podem adquirir uma tonalidade creme. Suas folhas são verde-escuras, brilhantes e perenes, ou seja, não caem durante o inverno. A flor mais conhecida da espécie é a Gardenia jasminoides, também chamada de jasmim-do-cabo, que pode alcançar até dois metros de altura. Além de sua estética marcante, a gardênia exala um perfume adocicado com propriedades calmantes. Por isso, é muito usada em jardins e ambientes internos com circulação de pessoas, contribuindo para uma atmosfera relaxante.",
-    "floriografiaTxt": "As gardênias transmitem pureza, doçura e um amor secreto.  Você verá que esse pequeno botão tão popular aparece com frequência nos buquês de noivas radiantes. Nada mais apropriado do que uma flor tão perfumada e delicada como a gardênia ser escolhida para uma ocasião tão especial. As gardênias também são símbolos de confiança, clareza, paz, proteção e esperança.",
-    "cuidadosTxt": "",
-    "estacao": "",
-    "mes": "",
-    "significadoPadrao": "",
+    "floriografiaTxt": "As gardênias transmitem pureza, doçura e um amor secreto. Este é o significado mais célebre da gardênia na era vitoriana. Enviar uma gardênia a alguém era uma forma de dizer: Eu te amo em segredo. Era o presente ideal para declarar admiração profunda e afeição sem revelar explicitamente a própria identidade. Devido às suas pétalas de um branco impecável e textura acetinada, a gardênia simboliza a pureza espiritual, a inocência e o refinamento. Por essa razão, tornou-se uma flor tradicional na floriografia de casamentos, representando a sinceridade dos votos e um amor intocado pelo tempo. As gardênias também são símbolos de confiança, clareza, paz, proteção e esperança.",
+    "cuidadosTxt": "A gardênia desenvolve-se de maneira ideal em locais que recebam sol pleno ou meia-sombra, necessitando de alta luminosidade para florescer, mas preferindo proteção contra o sol escaldante do meio-dia em regiões muito quentes para não queimar suas pétalas cerosas. A rega deve ser regular e muito criteriosa: o solo deve ser mantido constantemente úmido, mas nunca encharcado. O ideal é água morna ou em temperatura ambiente, preferencialmente livre de cal (como a água da chuva), pois a planta é sensível ao acúmulo de sais minerais. \n\n O substrato precisa ser fértil, profundamente rico em matéria orgânica e contar com excelente capacidade de drenagem. Um fator crítico para o sucesso do cultivo é a acidez do solo: as gardênias são plantas acidófilas e exigem um pH ligeiramente ácido (entre 5,0 e 6,0). Adubações periódicas com fertilizantes para plantas acidófilas ou quelato de ferro ajudam a prevenir o amarelamento das folhas (clorose férrica) e garantem uma folhagem verde-escura sempre vigorosa.",
+    "estacao": "primavera",
+    "mes": "novembro",
+    "significadoPadrao": "amor profundo, confiança, clareza, paz, proteção, esperança",
     "cores": [
       {
         "nome": "branco",
-        "significado": "",
+        "significado": "pureza, doçura, amor secreto, clareza espiritual e paz profunda",
         "imgSemFundo": "https://i.pinimg.com/1200x/6b/5f/7b/6b5f7b24e1b9972aa0b9094ebdfe8504.jpg",
         "imagem": "https://i.pinimg.com/1200x/39/58/f6/3958f653121e39cb554d88e9acc04a97.jpg"
       }
@@ -435,34 +483,353 @@
     "id": "20",
     "nome": "Jacinto",
     "slug": "jacinto",
-    "nomeCientifico": " ",
+    "nomeCientifico": "Hyacinthus orientalis",
     "resume": "Flor de sentimentos leves e lúdicos que transmite uma essência delicada.",
-    "caracteristicasTxt": "",
-    "floriografiaTxt": "As flores de jacinto evocam sentimentos leves e lúdicos, ao mesmo tempo que transmitem, em sua delicada essência, constância e gratidão. Os jacintos roxos e azuis também simbolizam arrependimento e sinceridade, sendo ideais para  pedir desculpas  ou  expressar condolências , enquanto os jacintos amarelos representam o ciúme.",
-    "cuidadosTxt": "",
-    "estacao": "",
-    "mes": "",
-    "significadoPadrao": "",
+    "caracteristicasTxt": "O jacinto é uma planta bulbosa perene pertencente à família Asparagaceae, nativa da região do Mediterrâneo Oriental, estendendo-se da Turquia ao Líbano. A sua característica morfológica mais espetacular é a sua inflorescência ereta em formato de espiga cilíndrica e compacta, que emerge diretamente do centro de uma roseta de folhas básicas. Esta espiga carrega dezenas de pequenas flores cerosas em formato de sino ou estrela, cujas pétalas se dobram graciosamente para trás. \n\n Suas folhas são carnosas, lineares, de coloração verde-escura brilhante e crescem de forma vertical a partir de um bulbo subterrâneo tunicado de tamanho considerável. Toda a planta — especialmente no ápice de seu desabrochar — exala um perfume intensamente adocicado, floral e marcante, que se espalha com facilidade pelos ambientes. Graças ao desenvolvimento de inúmeros híbridos, a espécie apresenta uma paleta de cores rica, cobrindo tons vibrantes de roxo, azul, rosa, branco e amarelo.",
+    "floriografiaTxt": "A floriografia do jacinto combina beleza, mitologia e sentimentos complexos que mudam conforme a cor de suas pétalas. Sua história começa na mitologia grega: a flor nasceu do sangue de Jacinto, um jovem amado pelo deus Apolo que morreu tragicamente, transformando a planta em um símbolo eterno de saudade, luto e memória. Na linguagem secreta das flores, o jacinto azul e o roxo carregam as mensagens mais profundas, representando a constância, a fidelidade inabalável e os pedidos sinceros de perdão. As variedades em rosa e vermelho celebram o lúdico, a juventude e o afeto leve, enquanto o jacinto branco evoca a doçura e uma beleza graciosa. Em total contraste, o jacinto amarelo serve como um aviso, simbolizando o ciúme, a desconfiança e a falsidade.",
+    "cuidadosTxt": "O jacinto desenvolve-se de maneira ideal em locais que recebam sol pleno ou meia-sombra com alta luminosidade filtrada, necessitando de temperaturas mais amenas ou frias para que a sua haste floral cresça compacta e forte, evitando que o calor excessivo faça a flor murchar precocemente. A rega deve ser moderada e muito controlada: o substrato deve ser mantido sutilmente úmido apenas durante o período de brotação e floração ativa. É fundamental nunca despejar água diretamente sobre o topo do bulbo ou entre as folhas para evitar o apodrecimento da coroa. \n\n O solo precisa ser leve, arenoso, rico em matéria orgânica e contar com uma drenagem absolutamente perfeita, visto que os bulbos de jacinto são altamente sensíveis ao excesso de umidade estagnada. Em regiões tropicais ou de clima quente, os bulbos requerem um período de refrigeração artificial (simulação de inverno na gaveta de legumes da geladeira por algumas semanas) antes de serem plantados para induzir a quebra de dormência e garantir o florescimento. Vale ressaltar que os bulbos contêm compostos bioquímicos que podem causar leve irritação na pele, sendo recomendável o uso de luvas durante o manuseio.",
+    "estacao": "inverno",
+    "mes": "agosto",
+    "significadoPadrao": "constancia, sinceridade",
     "cores": [
       {
         "nome": "roxo",
-        "significado": "",
-        "imgSemFundo": "https://i.pinimg.com/1200x/38/e2/e2/38e2e25d97c203fddcb7b9596ade6a68.jpg",
-        "imagem": "https://i.pinimg.com/736x/7a/b3/f5/7ab3f5f8f320b1f67042a76884bd06a7.jpg"
+        "significado": "arrependimento sincero, pedido de perdão, saudade profunda e condolências",
+        "imgSemFundo": "https://i.pinimg.com/736x/1b/e0/05/1be005d9fd7626c6ebc5f17411d554bb.jpg",
+        "imagem": "https://i.pinimg.com/736x/b6/f1/97/b6f197c936eaa024d81373bde517cab3.jpg"
       },
       {
         "nome": "azul",
-        "significado": "",
+        "significado": "constância, lealdade inabalável, sinceridade e paz espiritual",
         "imgSemFundo": "https://i.pinimg.com/736x/91/b4/6c/91b46c3b781cc4a570e0ecacf1662b6a.jpg",
         "imagem": "https://i.pinimg.com/1200x/01/8c/1f/018c1f9c2bdb5635a87a087f45d6531c.jpg"
-      },      
+      },
       {
         "nome": "rosa",
-        "significado": "",
-        "imgSemFundo": "",
-        "imagem": "https://i.pinimg.com/1200x/e2/29/99/e22999356cc0ccb8c82d2029d6580d8b.jpg"
+        "significado": "sentimentos lúdicos, brincadeira, alegria de viver e afeto leve",
+        "imgSemFundo": "https://i.pinimg.com/736x/52/37/52/5237520e59d655bd7a8d7e388ba0c726.jpg",
+        "imagem": "https://i.pinimg.com/736x/b1/4d/fe/b14dfee75b63a02417d18b4aa5368b29.jpg"
       }
-
+    ]
+  },
+  {
+    "id": "21",
+    "nome": "Flor de Lótus",
+    "slug": "flor de lotus",
+    "nomeCientifico": "Nelumbo nucifera",
+    "resume": "Mostrando que a beleza pode emergir de dentro da lama.",
+    "caracteristicasTxt": "A flor de lótus (Nelumbo nucifera) é uma planta aquática perene pertencente à família Nelumbonaceae, nativa de uma vasta região que se estende da Ásia e do Extremo Oriente até a Austrália. Sua morfologia é única e adaptada perfeitamente à vida sobre a água: possui rizomas robustos e tuberosos que se fixam firmemente no lodo do fundo de lagoas e rios calmos. Suas folhas são grandes, perfeitamente circulares, coriáceas e sustentadas por longos pecíolos que elevam a folhagem muito acima da superfície da água. \n\n A estrutura de suas folhas possui uma propriedade biológica fascinante conhecida como 'efeito lótus', caracterizada por uma super-hidrofobia extrema provocada por uma estrutura microscópica de ceras naturais; essa característica faz com que a água e as partículas de poeira deslizem sem nunca molhar ou sujar a superfície da folha. Suas flores são grandes, solitárias, esculturais e compostas por numerosas pétalas sobrepostas que se abrem ao amanhecer e se fecham à noite, exibindo uma receptáculo central em formato de cone invertido que abriga suas sementes duradouras.",
+    "floriografiaTxt": "No simbolismo budista, o significado mais importante da flor de lótus é pureza do corpo e da mente. A água lodosa que acolhe a planta é associada ao apego e aos desejos carnais, e a flor imaculada que desabrocha sobre a água em busca de luz é a promessa de pureza e elevação espiritual. Na literatura clássica de muitas culturas asiáticas, a flor de lótus simboliza elegância, beleza, perfeição, pureza e graça, sendo frequentemente associada aos atributos femininos ideais. A flor de lótus representa um mistério para a ciência, que não consegue explicar a característica própria que possui de repelir microorganismos e partículas de pó.",
+    "cuidadosTxt": "O cultivo da flor de lótus exige uma exposição constante e direta a sol pleno por pelo menos 6 horas diárias, visto que a planta necessita de calor e luz intensa para que seus rizomas quebrem a dormência e consigam produzir botões florais saudáveis. Por ser uma planta estritamente aquática, ela não deve ser cultivada em terra firme comum; necessita ser plantada em recipientes pesados e sem furos, utilizando uma camada densa de argila ou terra pesada de jardim misturada com adubo orgânico de liberação lenta bem curtido, preenchendo o restante do espaço com água doce estagnada ou de correnteza muito lenta. \n\n O nível da água sobre a coroa da planta deve ser mantido entre 10 e 30 centímetros, dependendo do porte da variedade. É fundamental manter a água sempre limpa, livre de algas filamentosas e repor o nível evaporado regularmente, além de proteger os recipientes contra geadas severas de inverno nas regiões de clima frio, mantendo os rizomas submersos abaixo da linha de congelamento.",
+    "estacao": "verão",
+    "mes": "janeiro",
+    "significadoPadrao": "elevação espiritual, pureza",
+    "cores": [
+      {
+        "nome": "rosa",
+        "significado": "pessoalidade de Buda, devoção pura, elevação espiritual e o mais alto grau de pureza mental",
+        "imgSemFundo": "https://i.pinimg.com/736x/48/5a/d8/485ad89c45b8ca66712be0b6ff88f8c6.jpg",
+        "imagem": "https://i.pinimg.com/736x/1d/b1/d1/1db1d1ec6bee8e555ad4a6833fd4ab7e.jpg"
+      }
+    ]
+  },
+  {
+    "id": "22",
+    "nome": "Mandevilla",
+    "slug": "mandevilla",
+    "nomeCientifico": "Mandevilla splendens",
+    "resume": "Trepadeira tropical vigorosa com flores exuberantes em...",
+    "caracteristicasTxt": "A Mandevilla (historicamente conhecida como dipladênia) é um gênero de trepadeiras volúveis e perenes pertencente à família Apocynaceae, nativa das Américas Tropicais, com forte ocorrência nas florestas úmidas do Brasil. Sua morfologia destaca-se por caules finos, flexíveis e robustos que se enrolam espiraladamente em suportes com extrema facilidade, sem a necessidade de gavinhas. Suas folhas são opostas, ovais a elípticas, com textura coriácea e uma tonalidade verde-escura profundamente brilhante que cria um contraste ornamental impecável com as inflorescências. \n\n Suas flores são grandes, esculturais e possuem um característico formato de trombeta ou funil, abrindo-se em cinco pétalas expandidas e ligeiramente onduladas com o centro (garganta) frequentemente tingido de amarelo. Toda a estrutura da planta produz uma seiva leitosa e viscosa (látex) que atua como defesa natural contra herbívoros, tornando a planta tóxica se for mastigada ou ingerida.",
+    "floriografiaTxt": "Apesar de não fazer parte dos materiais sobre floriografia da Era Vitoriana, por ser uma planta tropical, a Mandevilla ganhou significados modernos na linguagem das flores. Seu maior simbolismo é a superação e a resiliência. : É o seu maior simbolismo. Por ser uma planta extremamente resistente que continua florescendo intensamente sob o sol forte e calor escaldante, ela representa a capacidade de vencer obstáculos. \n\n Suas cores vibrantes, especialmente as vermelhas e rosas, evocam o amor ardente, o desejo e a beleza. O formato de suas flores em trompete e sua abundância transmitem mensagens de vitalidade, boas energias e celebração da vida.",
+    "cuidadosTxt": "A Mandevilla exige uma exposição a sol pleno por pelo menos 4 a 6 horas diárias para se desenvolver de forma saudável e garantir uma floração massiva e ininterrupta; embora tolere condições de meia-sombra, a escassez de luz direta reduz drasticamente a abertura de novos botões. A rega deve ser frequente e regular durante os meses de crescimento ativo na primavera e no verão, mantendo o substrato levemente úmido ao toque. É crucial deixar a camada superficial da terra secar antes de uma nova irrigação para prevenir o apodrecimento das raízes causado pelo encharcamento. \n\n O solo ideal para o seu cultivo deve ser fértil, profundamente rico em matéria orgânica, arenoso e apresentar uma capacidade de drenagem impecável. Por ser uma trepadeira vigorosa de crescimento rápido, ela necessita obrigatoriamente de suportes físicos como treliças, cercas, arames ou pérgolas para conduzir seus ramos. Adubações mensais com fertilizantes ricos em fósforo (como o NPK 04-14-08) são altamente recomendadas para sustentar a energia de sua longa floração tropical.",
+    "estacao": "primavera, verão",
+    "mes": "setembro, março",
+    "significadoPadrao": "resiliência, superação",
+    "cores": [
+      {
+        "nome": "vermelho",
+        "significado": "paixão intensa, enerdia, superação, determinação",
+        "imgSemFundo": "https://i.pinimg.com/736x/6e/3c/22/6e3c22f39c02a729a88f41a853f76a09.jpg",
+        "imagem": "https://i.pinimg.com/1200x/22/0f/01/220f01f16b0a1bc69732b4aad9d9a307.jpg"
+      },
+      {
+        "nome": "rosa",
+        "significado": "romance, docura, afeto, elegância",
+        "imgSemFundo": "https://i.pinimg.com/736x/34/31/c9/3431c99293f339e87f6bf84c6047d0d1.jpg",
+        "imagem": "https://i.pinimg.com/1200x/01/9c/de/019cde192a972929fb6163ebe14c0c5d.jpg"
+      }
+    ]
+  },
+  {
+    "id": "23",
+    "nome": "Clematis",
+    "slug": "clematis",
+    "nomeCientifico": "Clematis x hybrida",
+    "resume": "A rainha das trepadeiras, encanta com suas flores esculturais.",
+    "caracteristicasTxt": "Conhecida como a 'Rainha das Trepadeiras', a Clematis é uma planta perene famosa por suas flores espetaculares de formas variadas, que vão de sinos delicados a grandes estrelas abertas. Suas cores cobrem uma paleta riquíssima, com destaque para tons intensos de roxo, azul, rosa e branco. Seus caules finos escalam suportes com facilidade usando as próprias folhas como gavinhas, tornando-a perfeita para cobrir treliças, arcos, colunas e criar pontos focais deslumbrantes no jardim.",
+    "floriografiaTxt": "Na floriografia clássica da Era Vitoriana, a Clematis possui um simbolismo profundamente ligado à mente e ao intelecto. Seu maior significado é a beleza mental e a engenhosidade, celebrando a inteligência, a criatividade e a sabedoria de quem a recebe. \n\n Por ser uma escaladora persistente que encontra caminhos para subir em direção à luz, ela também transmite mensagens de aspiração e crescimento pessoal. Suas flores exuberantes que cobrem estruturas inteiras evocam um sentimento de triunfo intelectual e vivacidade espiritual.",
+    "cuidadosTxt": "Sol pleno a meia-sombra, idealmente com as raízes na sombra (protegidas por mulch ou outras plantas) e as folhas ao sol. Rega regular para manter o solo úmido, mas nunca encharcado. Solo fértil, rico em matéria orgânica e muito bem drenado. Requer adubação regular na primavera e podas específicas de acordo com o grupo de floração da variedade.",
+    "estacao": "primavera, verão",
+    "mes": "outubro",
+    "significadoPadrao": "beleza mental, engenhosidade",
+    "cores": [
+      {
+        "nome": "roxo",
+        "significado": "realeza, criatividade, mistério, sabedoria profunda",
+        "imgSemFundo": "https://i.pinimg.com/736x/e1/92/67/e192679ab0038a3ce7f26588a240a579.jpg",
+        "imagem": "https://i.pinimg.com/736x/1f/52/54/1f52544973e488aec33bdca464fdfdff.jpg"
+      }
+    ]
+  },
+  {
+    "id": "24",
+    "nome": "Anêmona",
+    "slug": "anemona",
+    "nomeCientifico": "Anemone spp.",
+    "resume": "Delicadas 'filhas do vento' com pétalas acetinadas e miolo dramático.",
+    "caracteristicasTxt": "As anêmonas pertencem à família Ranunculaceae (a mesma do botão-de-ouro e do ranúnculo) e compõem um gênero com mais de 120 espécies de plantas herbáceas perenes, nativas principalmente de zonas temperadas e bosques do Hemisfério Norte. Suas folhas são basais, profundamente lobadas, recortadas e com um aspecto que lembra samambaias ou folhas de cenoura. Suas hastes florais são finas, longas e graciosas, sustentando flores solitárias que se movem facilmente com a menor brisa. \n\n O grande destaque botânico da anêmona é a sua estrutura floral escultural: o que parecem ser pétalas são, na verdade, sépalas modificadas e acetinadas (tépalas) que circundam um botão central redondo, denso e escuro. Esse miolo contrastante, rodeado por um anel de estames curtos, confere à flor um visual moderno e dramático. Curiosamente, suas flores exibem um comportamento heliotrópico nítido, fechando suas pétalas firmemente durante a noite ou em dias nublados e abrindo-se amplamente ao amanhecer para receber a luz solar.",
+    "floriografiaTxt": "O nome anêmona deriva do grego 'anemos', que significa 'vento', traduzindo-se historicamente como a 'filha do vento' devido à fragilidade de suas pétalas e à forma como flutuam no ar. Na mitologia grega, a flor possui uma origem profundamente trágica e romântica: conta-se que ela nasceu das lágrimas de Afrodite misturadas ao sangue de seu amante mortal, Adônis, após ele ser morto por um javali enviado por um deus ciumento. Por esse motivo, na floriografia clássica, a anêmona vermelha tornou-se o símbolo definitivo do amor partido, da fragilidade da vida e do amor não correspondido ou abandonado. \n\n Por outro lado, na Era Vitoriana, a planta também absorveu os significados de antecipação ansiosa e proteção espiritual. A variação de significados através de suas cores é marcante: as anêmonas brancas transmitem uma mensagem de sinceridade absoluta e honestidade devido à sua pureza translúcida, enquanto as variedades roxas e azuis eram vistas como amuletos de proteção para afastar as más energias e os pensamentos ruins.",
+    "cuidadosTxt": "A anêmona desenvolve-se de maneira ideal em locais que recebam sol nas primeiras horas do dia ou meia-sombra com alta luminosidade filtrada, apreciando o frescor e necessitando de proteção contra o calor escaldante do meio-dia para evitar que suas hastes fiquem moles. A rega deve ser equilibrada e frequente durante o período de brotação e floração: o solo deve ser mantido constantemente úmido, imitando as condições úmidas das florestas de onde são nativas, mas sem nunca ficar encharcado ou estagnado. \n\n O substrato ideal para o seu cultivo precisa ser leve, solto, profundamente fértil, rico em matéria orgânica e contar com uma drenagem absolutamente impecável para evitar o apodrecimento de seus tubérculos ou rizomas subterrâneos. Um segredo valioso para o plantio doméstico é deixar os tubérculos imersos em água morna por algumas horas antes do plantio para que reidratem e quebrem a dormência mais rapidamente. Além disso, deve-se ter atenção com o manuseio, pois todas as partes da planta contêm protoanemonina, um composto bioquímico moderadamente tóxico que pode causar irritações na pele.",
+    "estacao": "primavera",
+    "mes": "outubro",
+    "significadoPadrao": "antecipação, sinceridade",
+    "cores": [
+      {
+        "nome": "branco",
+        "significado": "sinceridade, verdade, clareza e novos começos",
+        "imgSemFundo": "https://i.pinimg.com/736x/71/83/cf/7183cf16884d8048fe818d6238942bcf.jpg",
+        "imagem": "https://i.pinimg.com/736x/7d/80/ed/7d80ed6050dd45c6090153a08ec688b1.jpg"
+      },
+      {
+        "nome": "vermelho",
+        "significado": "amor profundo, paixão trágica, lembrança e expectativa",
+        "imgSemFundo": "https://i.pinimg.com/1200x/c8/e0/0d/c8e00d96d5b0c93ccfd01f503061b227.jpg",
+        "imagem": "https://i.pinimg.com/736x/88/95/c9/8895c9dbe9c81086e39a86c67862a757.jpg"
+      },
+      {
+        "nome": "roxo",
+        "significado": "proteção contra o mal, intuição, nobreza e mistério",
+        "imgSemFundo": "https://i.pinimg.com/1200x/0f/5d/9a/0f5d9a32c0ec5c5ca90b7fff9fbb21ac.jpg",
+        "imagem": "https://i.pinimg.com/1200x/4a/74/be/4a74beed187e0af96910a57ed1e33cb4.jpg"
+      }
+    ]
+  },
+  {
+    "id": "25",
+    "nome": "Amarílis",
+    "slug": "amarilis",
+    "nomeCientifico": "Hippeastrum x hybridum",
+    "resume": "Grandiosas flores em formato de trompete que exalam...",
+    "caracteristicasTxt": "O amarílis (pertencente ao gênero Hippeastrum, embora comercialmente conhecido pelo nome do gênero africano Amaryllis) é uma planta bulbosa perene da família Amaryllidaceae, nativa das regiões tropicais e subtropicais das Américas Central e do Sul. Do ponto de vista botânico, sua morfologia é espetacular: ela desenvolve um bulbo subterrâneo grande e tunicado, do qual emergem folhas longas, lineares, carnosas e em formato de fita (estrofíolas), com uma coloração verde-escura brilhante. \n\n O verdadeiro ápice da planta é a sua haste floral: um escapo grosso, cilíndrico, oco e completamente ereto que se eleva acima da folhagem. No topo dessa haste, nascem de duas a seis flores gigantescas dispostas em umbela. Cada flor possui formato de trompete ou funil aberto, composto por seis grandes tépalas simétricas e estames longos e curvos com anteras carregadas de pólen. Graças a séculos de hibridização intensiva, as flores exibem uma textura que varia de acetinada a aveludada, com uma alta durabilidade pós-corte.",
+    "floriografiaTxt": "O nome amarílis vem do grego antigo 'amarysso', que se traduz como 'brilhar' ou 'resplandecer', uma alusão direta ao visual radiante de suas pétalas. Na mitologia clássica, a flor tem uma história romântica descrita pelo poeta Virgílio: a ninfa Amarílis, perdidamente apaixonada pelo pastor Alceu, perfurou o próprio coração com uma seta de ouro na porta de seu amado durante trinta noites seguidas; de seu sangue derramado na terra, nasceu uma belíssima flor vermelha brilhante. \n\n Na floriografia clássica consolidada na Era Vitoriana, o amarílis passou a simbolizar o orgulho, a altivez, a dignidade majestosa e a beleza deslumbrante. Presentear alguém com essa flor transmitia uma mensagem de profunda admiração pela força de caráter e elegância da pessoa, equivalendo a dizer que a beleza dela era imponente e impossível de ser ignorada. Suas cores também carregam mensagens específicas: as variedades vermelhas representam uma paixão ardente e determinação indomável, as rosas evocam a amizade sincera e o afeto, enquanto as brancas carregam o simbolismo de pureza, espiritualidade e serenidade.",
+    "cuidadosTxt": "O amarílis necessita de uma exposição a sol pleno ou meia-sombra com altíssima luminosidade filtrada, demandando pelo menos de 4 a 6 horas de luz solar direta por dia para que sua haste cresça firme e vertical; locais muito sombreados fazem com que a haste estiole (fique muito longa e fraca), dobrando com o peso das flores. A rega deve ser cuidadosa e muito controlada: durante o plantio do bulbo e início da brotação, a terra deve ser mantida sutilmente úmida; à medida que a haste cresce e as flores se abrem, as regas devem ser regulares, mas sem nunca encharcar, pois o acúmulo de água estagnada causa o apodrecimento fulminante do bulbo. \n\n O substrato ideal precisa ser leve, altamente fértil, profundamente rico em matéria orgânica e contar com uma capacidade de drenagem impecável (misturas arenosas com húmus de minhoca e fibra de coco funcionam muito bem). Após o término da floração, recomenda-se cortar apenas a haste seca e manter as folhas verdes irrigadas e adubadas até o outono, permitindo que o bulbo absorva energia. No inverno, a planta entra em repouso vegetativo natural, momento em que as regas devem ser suspensas para que ela possa florescer com força total no ciclo seguinte.",
+    "estacao": "primavera",
+    "mes": "outubro",
+    "significadoPadrao": "orgulho, altivez, dignidade",
+    "cores": [
+      {
+        "nome": "vermelho",
+        "significado": "paixão ardente, desejo profundo, determinação e força de caráter",
+        "imgSemFundo": "https://i.pinimg.com/1200x/b6/18/fe/b618fe540f6597711eb8d4e650ecea14.jpg",
+        "imagem": "https://i.pinimg.com/1200x/18/4b/61/184b6136b75baa31b7e528580694c375.jpg"
+      },
+      {
+        "nome": "rosa",
+        "significado": "afeto, delicadeza, romance suave, amizade e gratidão",
+        "imgSemFundo": "https://i.pinimg.com/1200x/12/dc/89/12dc8949b7bbd6b29a9aac348c5139ee.jpg",
+        "imagem": "https://i.pinimg.com/736x/63/5d/59/635d598975d41b021c84307fa664ea3d.jpg"
+      },
+      {
+        "nome": "branco",
+        "significado": "pureza, dignidade, espiritualidade, paz e novos começos",
+        "imgSemFundo": "https://i.pinimg.com/1200x/d7/c0/a7/d7c0a7a20b499f20f977193b2736c8ae.jpg",
+        "imagem": "https://i.pinimg.com/736x/20/93/10/2093107f02f1d84daff95f7db28d279d.jpg"
+      }
+    ]
+  },
+  {
+    "id": "26",
+    "nome": "Áster",
+    "slug": "aster",
+    "nomeCientifico": "Aster amellus",
+    "resume": "Pequenas estrelas coloridas que trazem delicadeza e encanto ao final do verão.",
+    "caracteristicasTxt": "As flores de Áster pertencem à família Asteraceae e compõem um gênero botânico vasto, nativo principalmente das regiões temperadas da América do Norte e da Eurásia. O nome deriva diretamente do grego antigo e significa 'estrela', uma alusão perfeita à morfologia de sua inflorescência em formato de capítulo. O que parece ser uma única flor é, na verdade, uma estrutura complexa onde um disco central composto por minúsculas flores tubulares amarelas é circundado por pétalas radiantes (lígulas) em tons de roxo, azul, rosa ou branco. \n\n Suas folhas são alternadas, lanceoladas e apresentam uma textura ligeiramente áspera com bordas que variam de lisas a suavemente serrilhadas. Seus caules são eretos, ramificados e resistentes, criando um aspecto arbustivo e compacto. Uma de suas maiores qualidades biológicas é o florescimento tardio, abrindo seus botões em massa quando a maioria das outras plantas começa a murchar, tornando-se uma fonte vital de néctar para polinizadores antes do inverno.",
+    "floriografiaTxt": "Na linguagem das flores consolidada na Era Vitoriana, a Áster é o símbolo máximo da paciência, do charme delicado, da elegância e da sabedoria mística. De acordo com uma antiga lenda da mitologia grega, a flor surgiu poética e tragicamente a partir das lágrimas da deusa Astreia (a personificação da inocência e da justiça), que chorou ao olhar para a Terra e não ver nenhuma estrela brilhando no céu noturno; onde suas lágrimas tocaram o solo, brotaram as delicadas flores estreladas. \n\n Presentear alguém com um buquê de Áster era considerado um gesto de profundo afeto e admiração intelectual, transmitindo uma mensagem de fidelidade contínua e paciência em momentos de transição. Devido à sua resistência e beleza duradoura, ela também simboliza a retrospectiva e a memória afetiva. Suas cores mudam sutilmente o tom da mensagem: as variedades roxas e azuis evocam a espiritualidade, a intuição e a realeza mental, enquanto as cor-de-rosa e brancas representam o amor puro, a doçura e a sensibilidade romântica.",
+    "cuidadosTxt": "A Áster necessita obrigatoriamente de uma exposição a sol pleno por pelo menos 6 horas diárias para que sua estrutura cresça compacta e a floração seja abundante; locais sombreados fazem com que a planta estiole e fique altamente vulnerável a doenças fúngicas. A rega deve ser regular e moderada: o substrato deve ser mantido sutilmente úmido, mas nunca encharcado. O grande segredo no cultivo da Áster é irrigar diretamente o solo, evitando molhar sua folhagem densa, já que a espécie possui uma sensibilidade acentuada ao mofo cinzento e ao oídio. \n\n O solo ideal precisa ser leve, fértil, profundamente rico em matéria orgânica e contar com uma drenagem impecável. Recomenda-se realizar uma poda de beliscamento (pinch) nos ponteiros dos ramos durante a primavera para estimular a ramificação lateral, resultando em um arbusto muito mais cheio e repleto de flores no outono. Após o término da floração, uma poda de limpeza severa ajuda a revigorar a planta para o ciclo seguinte.",
+    "estacao": "outono",
+    "mes": "março",
+    "significadoPadrao": "paciência, elegância, sabedoria",
+    "cores": [
+      {
+        "nome": "roxo",
+        "significado": "espiritualidade, sabedoria, intuição profunda e charme aristocrático",
+        "imgSemFundo": "https://i.pinimg.com/736x/82/3b/65/823b654dba06fdc26720189e467c3a0f.jpg",
+        "imagem": "https://i.pinimg.com/736x/5a/f8/8b/5af88bdeeb628c2f027fe1a3cbc5ed7b.jpg"
+      },
+      {
+        "nome": "rosa",
+        "significado": "amor terno, doçura, sensibilidade, romance e afeto sincero",
+        "imgSemFundo": "https://i.pinimg.com/736x/56/c9/2a/56c92abc8269d05b5af7b6b00b56b37e.jpg",
+        "imagem": "https://i.pinimg.com/736x/49/94/19/499419f5341fec62cfc2becd82af12a2.jpg"
+      }
+    ]
+  },
+  {
+    "id": "27",
+    "nome": "Gypsophila",
+    "slug": "gypsophila",
+    "nomeCientifico": "Gypsophila paniculata",
+    "resume": "Nuvem de pequenas flores brancas que trazem leveza e doçura aos arranjos.",
+    "caracteristicasTxt": "A Gypsophila paniculata, popularmente conhecida como mosquitinho, brisa-de-campo ou véu-de-noiva, é uma planta herbácea perene pertencente à família Caryophyllaceae, nativa de uma vasta região que abrange a Europa Central, Oriental e a Ásia Central. A sua característica morfológica mais marcante é a sua estrutura de ramificação profusa, fina e difusa, que forma uma densa copa arredondada de aspecto incrivelmente leve e etéreo, assemelhando-se a uma verdadeira nuvem floral. \n\n Suas folhas são opostas, lineares, estreitas, lanceoladas e de coloração verde-acinzentada, crescendo de forma discreta ao longo de caules eretos e rígidos. Suas flores são minúsculas, abundantes e nascem agrupadas em panículas terminais muito ramificadas. Cada pequena flor possui cinco pétalas (ou múltiplas camadas nas variedades dobradas) de coloração predominantemente branca ou levemente rosada. Graças à sua durabilidade excepcional pós-corte e à sua capacidade de secar mantendo a estrutura intacta, a espécie é o complemento ('filler') mais famoso e indispensável da indústria florística mundial.",
+    "floriografiaTxt": "O nome botânico Gypsophila carrega uma origem curiosa, derivando das palavras gregas 'gypsos' (gesso/calcário) e 'philos' (amante), traduzindo-se literalmente como 'amante do gesso', em referência à preferência da planta por solos ricos em cálcio. Na linguagem clássica das flores e na floriografia moderna, a Gypsophila é o símbolo definitivo do amor eterno, da pureza imaculada, da inocência infantil e da compaixão profunda. \n\n Por sua delicadeza visual que evoca leveza e paz, ela é a escolha tradicional absoluta para compor buquês de noiva e decorações de casamentos, representando a promessa de fidelidade contínua e a união pura de duas almas. Na Era Vitoriana, pequenos ramos de mosquitinho eram adicionados a arranjos mais complexos para suavizar mensagens intensas e declarar uma devoção sincera e duradoura que transcende o plano físico. Em contextos modernos, suas flores também passaram a ser associadas à energia protetora dos recém-nascidos e à celebração do nascimento, transmitindo uma mensagem de doçura, delicadeza e novos começos abençoados.",
+    "cuidadosTxt": "A Gypsophila necessita obrigatoriamente de uma exposição a sol pleno por pelo menos 6 horas diárias para se desenvolver de forma saudável, garantindo que suas hastes finas cresçam rígidas e repletas de botões florais; locais sombreados deixam a planta fraca, esparsa e vulnerável a quebras. A rega deve ser feita de forma moderada e com critério: o substrato deve secar superficialmente antes de uma nova irrigação, pois a planta possui uma raiz pivotante profunda e carnuda que é extremamente sensível ao apodrecimento causado pelo encharcamento estagnado. \n\n O solo é o fator mais crítico para o sucesso do cultivo: fazendo jus ao seu nome, ela exige solos alcalinos (ricos em calcário, com pH entre 7,0 e 8,0), leves, arenosos, de fertilidade moderada e dotados de uma drenagem impecável. Recomenda-se realizar uma poda de limpeza severa rente ao solo após o término da floração principal, o que estimula o surgimento de novos brotos vigorosos. Além disso, devido à altura de suas hastes florais e à leveza de sua estrutura, o cultivo em locais abertos com muito vento pode exigir o uso de suportes ou redes de tutoramento para manter os ramos eretos.",
+    "estacao": "primavera, verão",
+    "mes": "novembro",
+    "significadoPadrao": "amor eterno, pureza, inocência",
+    "cores": [
+      {
+        "nome": "branco",
+        "significado": "amor eterno, pureza imaculada, inocência, sinceridade e paz espiritual",
+        "imgSemFundo": "https://i.pinimg.com/1200x/a7/d9/d1/a7d9d11e2c6936b7bc9ce1320558c2ba.jpg",
+        "imagem": "https://i.pinimg.com/736x/3b/f2/cf/3bf2cf3fe285df9e22d4aa5144e1e5b3.jpg"
+      }
+    ]
+  },
+  {
+    "id": "28",
+    "nome": "Begônia",
+    "slug": "begonia",
+    "nomeCientifico": "Begonia x semperflorens",
+    "resume": "Folhagens exuberantes e flores delicadas que encantam pela assimetria.",
+    "caracteristicasTxt": "As begônias pertencem à família Begoniaceae e compõem um dos maiores gêneros de plantas com flores do mundo, com mais de 1.800 espécies nativas de regiões tropicais e subtropicais úmidas da América, África e Ásia. A característica morfológica mais marcante e distintiva desse gênero é a assimetria foliar nítida: suas folhas, muitas vezes carnudas ou coriáceas, possuem uma base visivelmente desigual, o que lhes rende uma anatomia única e escultural. \n\n Suas flores são unissexuais (masculinas e femininas ocorrem na mesma planta), apresentando tépalas de textura cerosa e cores brilhantes que variam do branco puro ao rosa e vermelho intenso. No caso da Begonia semperflorens (begônia-de-jardim), os caules são suculentos, ramificados e dotados de uma coloração verde ou avermelhada. Além do valor das flores, muitas espécies do gênero (como a Begonia rex) são cultivadas exclusivamente por suas folhagens ornamentais padronizadas com desenhos geométricos e texturas aveludadas, sendo altamente valorizadas no paisagismo de interiores.",
+    "floriografiaTxt": "O nome do gênero foi dedicado pelo botânico Charles Plumier a Michel Bégon, um apaixonado colecionador de plantas e governador do Haiti no século XVII. Na linguagem clássica das flores da Era Vitoriana, a begônia carregava um simbolismo profundo ligado à cautela, à prudência e aos pensamentos profundos. Presentear alguém com uma begônia funcionava como um aviso amigável e discreto de vigilância emocional, sugerindo atenção e cuidado antes de tomar grandes decisões ou passos em um relacionamento. \n\n Com o passar do tempo e sua popularização global, a flor absorveu significados modernos muito mais festivos e afetuosos, tornando-se o símbolo da cordialidade, da gratidão sincera, da inocência e do afeto leal. Por sua incrível capacidade de florescer quase ininterruptamente sob os cuidados corretos, ela transmite uma mensagem de constância e resiliência graciosa. No âmbito espiritual e decorativo, as variedades de flores vermelhas e rosas são associadas ao amor caloroso e à atração de pensamentos positivos, enquanto as brancas evocam a paz espiritual, a harmonia e o equilíbrio emocional dentro do lar.",
+    "cuidadosTxt": "A begônia desenvolve-se de maneira ideal em locais de meia-sombra ou sombra com alta luminosidade filtrada, apreciando a luz suave da manhã, mas necessitando de proteção absoluta contra o sol direto e escaldante do meio-dia, que queima e desidrata facilmente suas folhas e pétalas suculentas. A rega deve ser feita de forma moderada e muito criteriosa: o substrato deve secar superficialmente antes de uma nova irrigação. O segredo fundamental é despejar a água diretamente no solo, evitando molhar as folhas e as flores, já que a estrutura carnuda da planta retém umidade com facilidade e é altamente propensa ao ataque de fungos (como o oídio) e ao apodrecimento dos caules. \n\n O solo ideal para o seu cultivo precisa ser leve, solto, profundamente rico em matéria orgânica, fértil e contar com uma drenagem impecável (misturas arenosas enriquecidas com húmus de minhoca funcionam muito bem). Recomenda-se realizar uma poda leve de limpeza para remover hastes secas e folhas murchas à medida que surgirem, o que estimula a ventilação interna do arbusto e renova a energia para uma floração contínua.",
+    "estacao": "primavera, verão",
+    "mes": "outubro",
+    "significadoPadrao": "cordialidade, gratidão, cautela",
+    "cores": [
+      {
+        "nome": "rosa",
+        "significado": "afeto leal, doçura, romance suave, gentileza e gratidão sincera",
+        "imgSemFundo": "https://i.pinimg.com/1200x/03/6a/fe/036afe6e8c5fb6e82a2dbcf89ceb44ae.jpg",
+        "imagem": "https://i.pinimg.com/1200x/9f/c1/a1/9fc1a17674b8f58da000f730516dadaf.jpg"
+      }
+    ]
+  },
+  {
+    "id": "29",
+    "nome": "Bluebell",
+    "slug": "bluebell",
+    "nomeCientifico": "Hyacinthoides non-scripta",
+    "resume": "Delicados sinos azul-violeta que formam tapetes mágicos sob a sombra...",
+    "caracteristicasTxt": "A Hyacinthoides non-scripta (popularmente conhecida internacionalmente como bluebell comum ou jacinto-dos-bosques) é uma planta bulbosa perene pertencente à família Asparagaceae, nativa das regiões atlânticas da Europa Ocidental, com uma presença espetacular nas florestas antigas do Reino Unido. A sua característica morfológica mais famosa é a sua haste floral única, fina e graciosa, que se inclina suavemente para um dos lados no topo devido ao peso das flores. \n\n Essa haste sustenta uma inflorescência em racemo com cerca de 5 a 12 flores em formato de sino alongado ou tubo. Suas pétalas possuem pontas recurvadas que se dobram elegantemente para trás e exibem uma coloração azul-violeta profunda e marcante, exalando um perfume doce, sutil e balsâmico. Suas folhas nascem diretamente do bulbo subterrâneo, apresentando formato linear, textura carnuda e uma tonalidade verde-escura brilhante, surgindo no início da primavera antes que a copa das grandes árvores bloqueie completamente a passagem de luz solar no chão da floresta.",
+    "floriografiaTxt": "Na linguagem das flores e na floriografia clássica consolidada na Era Vitoriana, a bluebell é o símbolo absoluto da constância, da fidelidade inabalável, da humildade e da gratidão sincera. Presentear alguém com essas flores azuis funcionava como uma declaração formal de compromisso legítimo e afeto eterno, equivalendo a dizer que os sentimentos professados eram verdadeiros e permaneceriam firmes independentemente do tempo. \n\n No entanto, o folclore e as lendas europeias antigas atribuem à bluebell uma forte aura mística e perigosa associada ao reino das fadas. Acreditava-se que os imensos tapetes azuis dessas flores em bosques antigos eram tecidos por feitiços desses seres e que o badalar invisível de seus sinos florais convocava fadas para rituais noturnos. Andar por um campo de bluebells era considerado um sinal de respeito e encanto, mas colhê-las era visto como um tabu que traria azar ou prenderia o viajante no mundo das fadas para sempre. Em contextos modernos, ela simboliza o renascimento da natureza e a beleza mágica oculta nos momentos de transição.",
+    "cuidadosTxt": "A bluebell desenvolve-se de maneira ideal em condições de meia-sombra ou sombra filtrada, imitando perfeitamente o ambiente protegido de grandes bosques caducifólios sob a copa das árvores, necessitando de temperaturas amenas e proteção total contra o sol direto e escaldante do meio-dia, que murcha e queima facilmente suas pétalas. A rega deve ser regular e moderada: o substrato precisa ser mantido sutilmente úmido ao longo de todo o período de brotação e floração ativa na primavera, mas sem nunca ficar encharcado ou estagnado, pois o acúmulo excessivo de umidade apodrece facilmente os bulbos enterrados. \n\n O solo ideal para o seu cultivo deve ser leve, solto, profundamente rico em matéria orgânica, fértil, ligeiramente ácido e contar com uma excelente capacidade de drenagem (misturas simulando terra de floresta funcionam muito bem). Após o término da floração, as folhas devem ser deixadas na planta até que sequem sozinhas, permitindo que o bulbo absorva a energia necessária para o período de dormência no verão e consiga brotar com força total no ciclo seguinte.",
+    "estacao": "primavera",
+    "mes": "outubro",
+    "significadoPadrao": "constância, fidelidade, humildade",
+    "cores": [
+      {
+        "nome": "azul",
+        "slug": "azul",
+        "significado": "fidelidade inabalável, constância eterna, humildade, gratidão sincera e conexão mágica",
+        "imgSemFundo": "https://i.pinimg.com/736x/c7/56/89/c756896e204f775ec3c9751106e9793c.jpg",
+        "imagem": "https://i.pinimg.com/736x/09/12/c1/0912c1d8804749feec1d7856336b00a7.jpg"
+      }
+    ]
+  },
+  {
+    "id": "30",
+    "nome": "Ave do Paraíso",
+    "slug": "ave do paraiso",
+    "nomeCientifico": "Strelitzia reginae",
+    "resume": "Flor exótica escultural que imita o voo de uma ave colorida...",
+    "caracteristicasTxt": "A Strelitzia reginae, popularmente conhecida no Brasil como ave-do-paraíso ou flor-da-ave-do-paraíso, é uma planta herbácea perene e rizomatosa pertencente à família Strelitziaceae, nativa das regiões costeiras e ensolaradas da África do Sul. A sua característica morfológica mais espetacular e icônica reside na sua inflorescência rígida e escultural, que imita perfeitamente a silhueta e a cabeça de uma ave tropical em pleno voo. Esta estrutura nasce de uma bráctea protetora em formato de barco ou bico (chamada espata), posicionada horizontalmente no topo de uma haste firme. \n\n Quando desabrocha, ela revela pétalas e sépalas modificadas em cores intensamente contrastantes, unindo o laranja vivo ao azul-violáceo profundo. Suas folhas crescem diretamente do rizoma subterrâneo e são um espetáculo à parte: longas, coriáceas, de formato oval-lanceolado e sustentadas por pecíolos grossos, assemelhando-se muito às folhas da bananeira, porém com uma textura cerosa e coloração verde-azulada fosca que confere um porte monumental e tropical à planta.",
+    "floriografiaTxt": "O nome botânico do gênero Strelitzia foi escolhido pelo botânico Sir Joseph Banks em homenagem à rainha Charlotte de Mecklenburg-Strelitz, esposa do rei George III da Inglaterra e apaixonada por botânica. Na linguagem das flores e na floriografia moderna, a ave-do-paraíso é considerada o símbolo máximo da liberdade, da realeza, do otimismo radiante, da magnificência e da fidelidade eterna. Por sua anatomia que remete a asas abertas prontas para levantar voo em direção ao céu, a flor transmite uma mensagem poderosa de sucesso, ambição espiritual e o desejo de romper barreiras para alcançar a felicidade plena. \n\n Devido à sua durabilidade excepcional tanto na planta quanto em vasos de corte, ela também se tornou o presente tradicional ideal para celebrar as bodas de nono ano de casamento, simbolizando a união duradoura, a perspectiva brilhante do futuro e a persistência de sentimentos alegres. Suas cores vibrantes transmitem calor, exotismo e energia, funcionando como um verdadeiro amuleto floral para atrair boas vibrações, abundância e um espírito aventureiro ao ambiente onde é colocada.",
+    "cuidadosTxt": "A ave-do-paraíso é uma planta tipicamente tropical e vigorosa que exige exposição constante a sol pleno por pelo menos 4 a 6 horas diárias para se desenvolver com o máximo vigor e produzir suas inflorescências exuberantes; embora consiga se adaptar a locais em meia-sombra, a falta de luz direta reduz drasticamente a produção e a intensidade de cores de seus botões. A rega deve ser regular e moderada: o substrato deve ser mantido sutilmente úmido ao longo das estações de crescimento ativo na primavera e no verão, mas é crucial deixar a camada superficial secar completamente antes de irrigar novamente para evitar o apodrecimento do rizoma carnudo subterrâneo. \n\n O solo ideal para o seu cultivo deve ser fértil, profundamente rico em matéria orgânica, argilo-arenoso e apresentar uma capacidade de drenagem impecável. Trata-se de uma planta muito resistente a ventos e frentes costeiras, mas altamente vulnerável a geadas severas e climas de frio congelante. Adubações periódicas com fertilizantes ricos em potássio e fósforo no início da primavera ajudam a garantir hastes mais fortes e flores com coloração muito mais marcante.",
+    "estacao": "primavera, verão",
+    "mes": "setembro",
+    "significadoPadrao": "liberdade, magnificência, otimismo",
+    "cores": [
+      {
+        "nome": "laranja",
+        "slug": "laranja",
+        "significado": "otimismo radiante, energia tropical, sucesso, vivacidade e atração de boas vibrações",
+        "imgSemFundo": "https://i.pinimg.com/1200x/f5/ff/56/f5ff56978364006bfc3d2b714c582e24.jpg",
+        "imagem": "https://i.pinimg.com/736x/4d/2d/ff/4d2dff023a06bcff729984caa62d4892.jpg"
+      }
+    ]
+  },
+  {
+    "id": "36",
+    "nome": "Escovão de Garrafa",
+    "slug": "escovao de garrafa",
+    "nomeCientifico": "Callistemon viminalis",
+    "resume": "Inflorescências exóticas em formato de escova cilíndrica que...",
+    "caracteristicasTxt": "O escovão-de-garrafa (pertencente ao gênero Callistemon, inserido na família Myrtaceae) é um arbusto lenhoso ou árvore de pequeno porte perene, nativo das regiões ensolaradas da Austrália. A característica morfológica mais espetacular e inconfundível dessa planta é a sua inflorescência terminal, que imita perfeitamente a silhueta de uma escova cilíndrica de lavar garrafas. O que confere esse visual exótico e felpudo não são as pétalas da flor — que são minúsculas e quase imperceptíveis —, mas sim centenas de estames longos, filamentosos e rígidos que se projetam densamente ao redor do caule. \n\n Suas folhas são alternadas, lineares a lanceoladas, duras, coriáceas e possuem uma coloração verde-escura que, quando esmagada, exala um aroma cítrico e herbal característico devido à presença de glândulas de óleo essencial. Seus ramos são flexíveis e, em muitas variedades (como o Callistemon viminalis), tendem a se inclinar graciosamente em direção ao solo, conferindo um aspecto chorão e muito elegante ao paisagismo urbano devido à alta resistência da planta à poluição.",
+    "floriografiaTxt": "O nome botânico Callistemon deriva da fusão das palavras gregas 'kallos' (beleza) e 'stemon' (estame), traduzindo-se literalmente como 'estames belos'. Na linguagem das flores e no simbolismo moderno, o escovão-de-garrafa é considerado a personificação máxima da vitalidade transbordante, da exuberância, do renascimento e da capacidade de atração de boas energias. Devido ao formato de suas flores que parecem explodir em raios filamentosos de um vermelho vibrante, a planta transmite uma mensagem poderosa de dinamismo, entusiasmo pela vida e paixão indomável, funcionando como um verdadeiro ímã visual e energético nos jardins. \n\n Por ser uma das plantas preferidas de pássaros polinizadores e beija-flores devido à sua produção massiva de néctar, ela também passou a simbolizar a hospitalidade, a generosidade da natureza e a criação de laços alegres. Embora não constasse nos manuais clássicos da Europa vitoriana devido à sua descoberta tardia na Oceania, a flor absorveu um forte significado de resiliência graciosa nas culturas modernas, representando o poder de florescer intensamente mesmo sob o sol mais forte e calor escaldante, celebrando a vida sem moderações ou reservas.",
+    "cuidadosTxt": "O escovão-de-garrafa é uma planta tipicamente heliófita que exige exposição constante e direta a sol pleno por pelo menos 6 horas diárias para se desenvolver de forma saudável, garantindo que sua estrutura cresça compacta e a floração seja massiva e ininterrupta ao longo do ano; locais sombreados deixam os ramos esparsos e reduzem drasticamente a produção de botões. A rega deve ser regular e moderada durante a fase de crescimento inicial e estabelecimento da muda; após estar bem desenvolvida, a planta adquire uma excelente tolerância a períodos prolongados de seca e calor forte, mas prefere que o solo receba umidade sempre que a camada superficial secar completamente. \n\n O solo ideal para o seu cultivo deve ser fértil, profundamente rico em matéria orgânica, levemente ácido e contar com uma capacidade de drenagem impecável, já que a espécie não tolera o encharcamento estagnado nas raízes. Recomenda-se realizar uma poda leve de limpeza e formação anualmente logo após o término da florada principal, cortando os ramos logo abaixo das flores murchas para estimular novas ramificações laterais que carregarão os botões do próximo ciclo.",
+    "estacao": "primavera, verão",
+    "mes": "setembro",
+    "significadoPadrao": "vitalidade, exuberância",
+    "cores": [
+      {
+        "nome": "vermelho",
+        "significado": "vitalidade transbordante, entusiasmo, paixão indomável, energia de cura e hospitalidade",
+        "imgSemFundo": "https://i.pinimg.com/1200x/1e/1f/20/1e1f20e0c54c6c7d4dca3208e7531ee9.jpg",
+        "imagem": "https://i.pinimg.com/1200x/8d/c2/b9/8dc2b9af8a208260a7e8906df16d69e0.jpg"
+      }
+    ]
+  },
+  {
+    "id": "37",
+    "nome": "Botão de Ouro",
+    "slug": "botao de ouro",
+    "nomeCientifico": "Ranunculus repens",
+    "resume": "Pequenas flores amarelas e brilhantes que parecem banhadas a ouro.",
+    "caracteristicasTxt": "O botão-de-ouro (pertencente ao gênero Ranunculus, inserido na família Ranunculaceae) é uma planta herbácea perene nativa das regiões temperadas da Europa, Ásia e norte da África. A característica morfológica mais espetacular e distinta dessa flor é o brilho espelhado e quase metálico de suas pétalas amarelas. Do ponto de vista científico, essa textura acetinada deve-se a uma camada especial de células superficiais perfeitamente lisas que atuam como espelhos, refletindo a luz solar de forma intensa para atrair polinizadores a longas distâncias. \n\n Suas flores são pequenas, solitárias e compostas por cinco pétalas arredondadas que cercam um miolo denso de estames dourados. Suas folhas basais são profundamente divididas em três lobos, com bordas serrilhadas, textura ligeiramente pilosa e uma coloração verde-escura vibrante. Os caules são finos, flexíveis e eretos, embora muitas variedades emitam estolões rastejantes que se fixam no solo com facilidade, criando densos tapetes floridos em campos e gramados úmidos.",
+    "floriografiaTxt": "O nome comum em inglês 'Buttercup' deriva de uma antiga crença popular de que a coloração amarela e rica do leite das vacas vinha do fato de elas se alimentarem dessas flores nos pastos (o que é um mito, já que a planta é evitada pelo gado). Na linguagem clássica das flores da Era Vitoriana, o botão-de-ouro é considerado o símbolo definitivo da alegria infantil, do charme radiante, da ingenuidade e da gratidão pelas coisas simples da vida. Presentear alguém com essas pequenas flores douradas funcionava como um elogio sincero à personalidade iluminada e ao magnetismo alegre da pessoa, equivalendo a dizer: 'sua presença traz luz e doçura aos meus dias'. \n\n Em contos populares e no folclore europeu antigo, a flor também carregava uma aura lúdica associada ao ouro e à riqueza: as crianças costumavam aproximar a flor do queixo de seus amigos e, se a pele refletisse um brilho amarelo, significava que aquela pessoa era amada ou que teria muita prosperidade no futuro. Em contextos modernos, ela evoca o otimismo e a leveza espiritual.",
+    "cuidadosTxt": "O botão-de-ouro desenvolve-se de maneira ideal em locais que recebam exposição a sol pleno nas primeiras horas do dia ou meia-sombra com alta luminosidade filtrada, necessitando de proteção contra o sol direto e escaldante do meio-dia, que murcha e queima facilmente suas pétalas delicadas. A rega deve ser frequente e muito bem controlada: o substrato deve ser mantido constantemente úmido, imitando os campos abertos e as margens de riachos de onde é originária, mas sem nunca ficar encharcado ou estagnado, pois a planta possui raízes finas sensíveis ao sufocamento fúngico. \n\n O solo ideal para o seu cultivo deve ser leve, fértil, profundamente rico em matéria orgânica e contar com uma excelente capacidade de drenagem. Vale ressaltar um cuidado importante com a segurança de manejo: todas as partes da planta fresca contêm ranunculina, um composto bioquímico que se transforma em protoanemonina quando a planta é cortada ou esmagada, tornando a seiva moderadamente tóxica e capaz de causar pequenas irritações na pele, sendo recomendável o uso de luvas se for realizar podas drásticas.",
+    "estacao": "primavera",
+    "mes": "outubro",
+    "significadoPadrao": "alegria, charme, ingenuidade",
+    "cores": [
+      {
+        "nome": "amarelo",
+        "slug": "amarelo",
+        "significado": "alegria radiante, charme, otimismo, prosperidade e gratidão pelas coisas simples",
+        "imgSemFundo": "https://i.pinimg.com/736x/c8/a4/d4/c8a4d4fafff015a278d792a81b443f93.jpg",
+        "imagem": "https://i.pinimg.com/736x/91/a8/2d/91a82debd7eae5a5425eb7f3864b6d0e.jpg"
+      }
+    ]
+  },
+  {
+    "id": "38",
+    "nome": "Dália",
+    "slug": "dalia",
+    "nomeCientifico": "Dahlia pinnata",
+    "resume": "Flores geométricas exuberantes de simetria perfeita que...",
+    "caracteristicasTxt": "As dálias pertencem à família Asteraceae e compõem um gênero botânico nativo das regiões montanhosas e de clima temperado do México e da América Central. Trata-se de plantas herbáceas perenes que crescem a partir de um sistema de raízes tuberosas (túberas subterrâneas) altamente eficientes no armazenamento de água e nutrientes. A característica morfológica mais espetacular e impressionante da dália é a incrível geometria e simetria perfeita de suas inflorescências em capítulo. \n\n Suas flores apresentam uma diversidade de formas classificada de maneira minuciosa por especialistas, variando desde pequenos pompons esféricos compactos e ninhos geométricos compactados até formatos pinados que lembram cactos ou estrelas abertas com pétalas (lígulas) enroladas. Suas folhas são opostas, compostas, com bordas serrilhadas e uma tonalidade verde-escura profunda. Os caules são ocos, eretos e robustos, capazes de sustentar o peso de hastes florais majestosas que se destacam no paisagismo pela alta durabilidade pós-corte.",
+    "floriografiaTxt": "O nome do gênero foi dado em homenagem ao botânico sueco Andreas Dahl, aluno de Carl Linnaeus. Antes da colonização espanhola, as dálias possuíam um caráter sagrado e prático muito forte para o povo asteca, que as utilizava como alimento, medicamento e em rituais religiosos, sendo consagrada posteriormente como a flor nacional do México. Na linguagem clássica das flores da Era Vitoriana, a dália absorveu significados profundos ligados à elegância sob pressão, à dignidade majestosa, ao compromisso duradouro e à força interior durável. \n\n Presentear alguém com uma dália funcionava como um elogio refinado ao caráter, à sofisticação e à resiliência da pessoa, sugerindo que a beleza dela era madura e imponente. Por sua capacidade de florescer intensamente durante o final do verão e outono, resistindo quando outras flores começam a marchar, ela também passou a simbolizar a fidelidade inabalável e a celebração de laços eternos. Suas cores alteram sutilmente o tom da mensagem: as variedades vermelhas e laranjas transmitem paixão ardente, energia e o poder de vencer grandes desafios, enquanto as cor-de-rosa e brancas carregam mensagens de doçura, delicadeza e novos começos abençoados.",
+    "cuidadosTxt": "A dália necessita obrigatoriamente de uma exposição a sol pleno por pelo menos 6 horas diárias para se desenvolver de forma saudável, garantindo que suas hastes cresçam firmes e a floração seja massiva; locais excessivamente sombreados deixam a estrutura fraca e prejudicam a abertura dos botões. A rega deve ser equilibrada e regular: o substrato deve ser mantido sutilmente úmido ao longo de todo o período de crescimento ativo e floração, mas nunca encharcado. O segredo crítico é evitar regar em excesso antes que o broto rompa a terra, para não apodrecer a batata subterrânea (túbera). \n\n O solo ideal para o seu cultivo deve ser leve, fértil, profundamente rico em matéria orgânica, bem aerado e contar com uma drenagem absolutamente impecável. Por crescer rapidamente e produzir inflorescências pesadas, variedades de porte alto necessitam obrigatoriamente do auxílio de estacas de sustentação (tutores) instaladas logo no plantio para evitar que o caule dobre ou quebre com a ação de ventos fortes. Após o término da floração no outono, quando as folhas secarem, as regas devem ser suspensas para que a planta entre em seu período de dormência natural.",
+    "estacao": "verão, outono",
+    "mes": "fevereiro",
+    "significadoPadrao": "dignidade, elegância, compromisso",
+    "cores": [
+      {
+        "nome": "vermelho",
+        "slug": "vermelho",
+        "significado": "paixão ardente, força interior, determinação indomável e poder de superação",
+        "imgSemFundo": "https://i.pinimg.com/736x/83/4a/96/834a96d4a80d458fc84a0a4016f60f6e.jpg",
+        "imagem": "https://i.pinimg.com/1200x/63/6a/a0/636aa0f99372c80fd48445ecea700fd2.jpg"
+      },
+      {
+        "nome": "rosa",
+        "slug": "rosa",
+        "significado": "doçura, romance sutil, elegância delicada, afeto sincero e gentileza",
+        "imgSemFundo": "https://i.pinimg.com/736x/4f/c3/49/4fc349522f81348f6851bb7d61ec151e.jpg",
+        "imagem": "https://i.pinimg.com/736x/6d/cb/56/6dcb56fc7d9247aa0d42155fce1c0f3d.jpg"
+      }
     ]
   }
 ]
