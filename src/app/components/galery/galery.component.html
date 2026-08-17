@@ -5,7 +5,7 @@
         @for (flor of coluna; track flor.id) { 
           <div
             class="masonry-item"
-            [routerLink]="['/flores', flor.slug, 'caracteristicas']"
+            [routerLink]="['/flores', flor.slug]"
           >
             @if (flor.cores && flor.cores.length > 0) {
               <img

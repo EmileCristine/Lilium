@@ -21,7 +21,7 @@ main {
 .info p {
     color: var(--c-gray);
     font: var(--f-main-txt);
-    text-align: left;
+    text-align: justify;
 }
 
 strong {
@@ -33,4 +33,11 @@ img {
     max-width: 450px;
     height: auto;
     object-fit: conver;
+}
+
+@media (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+    }
 }

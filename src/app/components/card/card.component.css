@@ -104,4 +104,9 @@
   font-weight: 400;
   letter-spacing: 0.5px;
 }
+
+.card-image-wrapper {
+  width: 50%;
+  height: 180px;
+}
 }

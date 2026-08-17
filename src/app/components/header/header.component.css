@@ -199,3 +199,14 @@ img {
   }
 }
 
+@media (max-width: 768px) {
+  .nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55%; 
+    height: 100vh;
+    
+    overflow-y: auto; 
+  }
+}

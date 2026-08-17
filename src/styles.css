@@ -89,3 +89,11 @@ img {
   -webkit-user-drag: none;
   pointer-events: none; 
 }
+
+html, body {
+  overflow-x: hidden; 
+}
+
+body.no-scroll {
+  overflow: hidden;
+}

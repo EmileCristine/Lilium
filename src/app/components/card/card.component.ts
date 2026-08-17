@@ -15,15 +15,8 @@ export class CardComponent {
   private router = inject(Router);
 
   irPara() {
-    const paginaAtual = this.router.url;
     const nomeFlor = this.flor.slug.toLowerCase();
 
-    if (paginaAtual.includes('/floriografia')) {
-      this.router.navigate(['/floriografia', nomeFlor, 'significado']);
-    } else if (paginaAtual.includes('/cuidados')) {
-      this.router.navigate(['/flores', nomeFlor, 'cuidados']);
-    } else {
-      this.router.navigate(['/flores', nomeFlor, 'caracteristicas']);
-    }
+      this.router.navigate(['/flores', nomeFlor]);
   }
 }
