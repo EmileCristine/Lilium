@@ -28,8 +28,8 @@ export class SearchComponent implements OnInit {
   todasAsFlores: Flor[] = [];
   floresFiltradas: Flor[] = [];
 
-  title = 'Buscar Flores';
-  subTitle: string | null = 'Ver todas';
+  title = 'descubra flores';
+  subTitle: string | null = 'Ver mais';
 
   constructor(private router: Router) {
     this.router.events.subscribe((event) => {
@@ -67,7 +67,7 @@ export class SearchComponent implements OnInit {
       this.title = 'Explorar Catálogo';
       this.subTitle = '';
     } else {
-      this.title = 'Encontre sua Flor';
+      this.title = 'descubra mais flores';
       this.subTitle = 'Ver Mais';
     }
   }

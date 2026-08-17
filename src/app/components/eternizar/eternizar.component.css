@@ -89,3 +89,15 @@
   margin: 0;
   max-width: 280px;
 }
+
+@media (max-width: 768px) {
+  img {
+    max-width: 6rem;
+  }
+  .step-number {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 2px solid var(--c-light-pink);
+  }
+}

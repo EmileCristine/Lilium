@@ -27,17 +27,15 @@
 .card-header h3 {
   margin: 0;
   color: var(--c-pink);
-  font: var(--f-filter);
+  font: var(--f-title);
   font-size: 1.1rem;
-  font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
 
 .card-header .scientific-name {
   color: var(--c-gray);
-  font-family: var(--mainFont);
-  font-size: 0.75rem;
+  font: var(--f-main-txt);
   font-style: italic;
   font-weight: 400;
   letter-spacing: 0.5px;
@@ -72,8 +70,7 @@
 .card-footer .description {
   margin: 0;
   color: var(--c-gray);
-  font: var(--f-main-txt);
-  font-size: 0.75rem;
+  font: var(--f-footer);
 }
 
 .card-action-btn {
@@ -93,4 +90,18 @@
 
 .card-action-btn:hover {
   opacity: 0.9;
+}
+
+
+@media (max-width: 768px) {
+  .card-header h3 {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.card-header .scientific-name {
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
 }

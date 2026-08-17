@@ -49,13 +49,13 @@ export class GaleryComponent implements OnInit, OnChanges {
 
   private atualizarQuantidadeColunas(larguraTela: number): void {
     if (larguraTela < 576) {
-      this.quantidadeColunas = 1;
-    } else if (larguraTela < 768) {
       this.quantidadeColunas = 2;
-    } else if (larguraTela < 992) {
+    } else if (larguraTela < 768) {
       this.quantidadeColunas = 3;
-    } else if (larguraTela < 1200) {
+    } else if (larguraTela < 992) {
       this.quantidadeColunas = 4;
+    } else if (larguraTela < 1200) {
+      this.quantidadeColunas = 5;
     } else if (larguraTela < 1400){
       this.quantidadeColunas = 5;
     } else {

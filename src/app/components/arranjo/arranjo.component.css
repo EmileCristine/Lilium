@@ -1,7 +1,11 @@
 main {
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem; 
   margin: 0 auto;
+}
+
+.section-name {
+  padding-bottom: 1rem;
 }
 
 .section-name h1 {
@@ -19,17 +23,17 @@ main {
 
 .info {
   display: grid;
-  grid-template-columns: 1fr 1.5fr; 
-  gap: 4rem; 
+  grid-template-columns: 1fr 1.5fr;
+  gap: 4rem;
   width: 100%;
-  max-width: 1200px;
+  max-width: 75rem; 
   margin: 0 auto;
-  align-items: center; 
+  align-items: center;
 }
 
 .info img {
   width: 100%;
-  max-width: 300px;
+  max-width: 18rem; 
   height: auto;
   justify-self: center;
 }
@@ -37,21 +41,20 @@ main {
 .passos {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1rem 0;
+  gap: 2rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .card img {
-  width: 45px;
-  height: 45px;
+  width: 2.8125rem; 
+  height: 2.8125rem;
   object-fit: contain;
-  margin-bottom: 0.8rem;
 }
 
 .card h1 {
@@ -66,4 +69,38 @@ main {
   font: var(--f-main-txt);
   line-height: 1.5;
   margin: 0;
+}
+
+@media (max-width: 768px) { 
+  .info {
+    grid-template-columns: 1fr; 
+    gap: 3rem;
+  }
+  .passos {
+    gap: 2rem 4rem;
+  }
+  .section-name {
+    text-align: center; 
+  }
+  .arranjo {
+    max-width: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .arranjo img{
+    max-width: 8rem;
+  }
+  .passos {
+    grid-template-columns: 1fr; 
+    gap: 2.5rem;
+  }
+
+  .card {
+    align-items: center;
+    text-align: center;
+  }
+  .card img {
+    margin-bottom: 0.5rem;
+  }
 }

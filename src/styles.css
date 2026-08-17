@@ -1,20 +1,18 @@
 @import url("https://googleapis.com");
 
-
 :root {
   /* #FONT BASE */
   --mainFont: "Poppins", sans-serif;
 
-  /* #FONT */
-  --f-main-span: 600 50px/1.4 var(--mainFont);
-  --f-second-span: 500 36px/1.4 var(--mainFont);
-  --f-title: 600 34px/1.3 var(--mainFont);
-  --f-subtitle: 500 18px/1.3 var(--mainFont);
-  --f-header: 500 14px/1.2 var(--mainFont);
-  --f-main-txt: 400 14px/1.5 var(--mainFont);
-  --f-btn: 500 16px/1.2 var(--mainFont);
-  --f-filter: 500 14px/1.2 var(--mainFont);
-  --f-numb: 600 24px/1.3 var(--mainFont);
+  --f-main-span: 600 3.125rem var(--mainFont);
+  --f-title: 600 2.125rem var(--mainFont);
+  --f-subtitle: 600 1.125rem var(--mainFont);
+  --f-header: 500 0.875rem var(--mainFont);
+  --f-main-txt: 400 0.875rem var(--mainFont);
+  --f-btn: 500 1rem var(--mainFont);
+  --f-filter: 500 0.875rem var(--mainFont);
+  --f-numb: 600 1.5rem var(--mainFont);
+  --f-footer: 400 0.75rem var(--mainFont);
 
   /* #COLORS */
   --c-pink: rgb(229, 138, 133);
@@ -24,36 +22,63 @@
   --c-white: rgb(255, 255, 255);
 
   /* #PADDING */
-  --p-btn: 10px 25px;
-  --p-filter: 10px 10px;
-  --p-group-btn: 8px 25px;
+  --p-btn: 0.65rem 1.8rem;
+  --p-filter: 0.6rem 0.6rem;
+  --p-group-btn: 8px 1.625rem;
 
   /* #RADIUS */
   --r-btn: 3px;
-  --r-card: 10px;
-  --r-img: 10px;
+  --r-card: 0.625rem;
+  --r-img: 0.625rem;
 
   /* #FILTER */
-  --filter-pink: invert(65%) sepia(41%) saturate(547%) hue-rotate(313deg)
-    brightness(94%) contrast(91%);
-
-  --filter-light-pink: invert(93%) sepia(21%) saturate(415%) hue-rotate(311deg)
-    brightness(101%) contrast(94%);
+  --filter-pink: invert(65%) sepia(41%) saturate(547%) hue-rotate(313deg) brightness(94%) contrast(91%);
+  --filter-light-pink: invert(93%) sepia(21%) saturate(415%) hue-rotate(311deg) brightness(101%) contrast(94%);
 
   /* #OUTROS */
   --shadow: rgba(229, 138, 133, 0.15) 0px 2px 8px 0px;
   --second-shadow: rgba(229, 138, 133, 0.2) 0px 8px 24px;
-    --sb-track-color: #232E33;
+  --sb-track-color: #232E33;
   --sb-thumb-color: #6BAF8D;
-  --sb-size: 14px;
+  --sb-size: 0.875rem;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    --f-main-span: 600 2.5rem var(--mainFont);
+    --f-title: 600 1.5rem var(--mainFont);
+    --f-subtitle: 500 0.875rem var(--mainFont);
+    --f-header: 500 0.8rem var(--mainFont);
+    --f-main-txt: 400 0.7825rem/1.4 var(--mainFont);
+    --f-btn: 500 0.8rem var(--mainFont);
+    --f-filter: 500 0.8rem var(--mainFont);
+    --f-numb: 600 1.25rem var(--mainFont);
+    --f-footer: 400 0.7rem var(--mainFont);
+  }
+}
+
+@media (max-width: 480px) {
+  :root {
+    --f-main-span: 600 2rem var(--mainFont);
+    --f-title: 600 1.375rem var(--mainFont);
+    --f-subtitle: 500 1rem var(--mainFont);
+    --f-header: 500 0.8rem var(--mainFont);
+    --f-main-txt: 400 0.8rem var(--mainFont);
+    --f-btn: 500 0.775rem var(--mainFont);
+    --f-filter: 500 0.8rem var(--mainFont);
+    --f-numb: 600 1.125rem var(--mainFont);
+    --f-footer: 400 0.7rem var(--mainFont); 
+  }
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html, body {
   font-family: var(--mainFont);
-  max-width: 100%;
 }
 
 img {
@@ -61,8 +86,6 @@ img {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-
   -webkit-user-drag: none;
-  
   pointer-events: none; 
 }

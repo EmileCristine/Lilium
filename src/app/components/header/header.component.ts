@@ -1,39 +1,52 @@
-import { Component } from '@angular/core';
-import { Router, NavigationEnd, RouterLink, RouterLinkActive } from '@angular/router';
+import { Component, computed, inject, signal } from '@angular/core';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+import {
+  Router,
+  NavigationEnd,
+  RouterLink,
+  RouterLinkActive,
+} from '@angular/router';
+import { filter } from 'rxjs';
 
 @Component({
   selector: 'app-header',
   standalone: true,
   imports: [RouterLink, RouterLinkActive],
   templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
+  private router = inject(Router);
 
-  currentRoute = '';
+  currentRoute = signal('')
+  isMenuOpen = signal(false)
 
-  constructor(private router: Router) {
-
-    this.router.events.subscribe(event => {
-      if (event instanceof NavigationEnd) {
-        this.currentRoute = event.url;
-      }
+  constructor() {
+    this.router.events.pipe(
+      filter((event): event is NavigationEnd => event instanceof NavigationEnd),
+      takeUntilDestroyed() 
+    ).subscribe(event => {
+      this.currentRoute.set(event.url);
     });
-
   }
 
-  get headerClass(): string {
+  headerClass = computed(() => {
+    const route = this.currentRoute();
+    let baseClass = 'header-default'
 
-    if (this.currentRoute.includes('/flores')) {
-      return 'header-flores';
+    if (route.includes('/flores') || route.includes('/significado')) {
+      baseClass = 'header-flores'
     }
+    return this.isMenuOpen() ? `${baseClass} menu-open` : baseClass;
+  });
 
-    if (this.currentRoute.includes('/significado')) {
-      return 'header-flores'
-    }
 
-    return 'header-default';
-
+  toggleMenu() {
+    this.isMenuOpen.update((open => !open));
   }
 
+  closeMenu() {
+    this.isMenuOpen.set(false);
+  }
 }
+

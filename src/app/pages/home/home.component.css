@@ -3,10 +3,20 @@
   flex-direction: column;
   gap: 4rem;
   padding: 0 4rem;
+  width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+
 }
 
 .search-flowers {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
 }

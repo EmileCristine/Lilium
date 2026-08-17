@@ -10,6 +10,9 @@ header {
   align-items: center;
   margin: 0 auto;
   padding: 0 5%;
+  height: 90px; 
+  transition: background-color 0.3s ease;
+  
 }
 
 .logo {
@@ -17,6 +20,7 @@ header {
   height: auto;
   display: block;
   filter: var(--filter-light-pink);
+  cursor: pointer;
 }
 
 .nav {
@@ -30,7 +34,7 @@ header {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--c-light-pink);
+  color: var(--c-gray);
   transition: color 0.3s ease;
 }
 
@@ -39,11 +43,9 @@ header {
   position: absolute;
   left: 0;
   bottom: -1px;
-
   width: 100%;
   height: 2px;
   background: var(--c-pink);
-
   transform: scaleX(0);
   transform-origin: center;
   transition: transform 0.5s ease;
@@ -76,3 +78,124 @@ img {
 .header-flores .logo {
   filter: var(--filter-pink);
 }
+
+.menu-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1001;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background: var(--c-light-pink);
+  position: relative;
+  transition: background 0.3s ease;
+}
+
+.hamburger::before,
+.hamburger::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 26px;
+  height: 2px;
+  background: inherit;
+  transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+}
+
+.hamburger::before { 
+  top: -7px; 
+}
+.hamburger::after { 
+  bottom: -7px; 
+}
+
+.hamburger.open {
+  background: transparent !important;
+}
+.hamburger.open::before {
+  transform: rotate(45deg);
+  top: 0;
+  background: var(--c-pink);
+}
+.hamburger.open::after {
+  transform: rotate(-45deg);
+  bottom: 0;
+  background: var(--c-pink);
+}
+
+
+@media (max-width: 768px) {
+  .menu-toggle {
+    display: flex; 
+    position: absolute;
+    right: 5%;
+    top: 25px; 
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    gap: 0; 
+    
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55%; 
+    height: 100vh;
+    background: var(--c-white); 
+    
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.3s ease;
+    
+    box-shadow: var(--shadow);
+    padding: 0 0 0rem 2rem;
+
+  }
+
+  .nav a {
+    font: var(--f-header);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 1rem 2rem .5rem 0; 
+    text-align: left;
+    
+    border-bottom: 1px solid var(--c-gray); 
+  }
+
+  .nav a:hover {
+    color: var(--c-pink);
+    border-bottom: 1px solid var(--c-pink);
+  }
+
+  .nav a::after {
+    display: none !important;
+  }
+
+  .nav .active {
+    color: var(--c-pink);
+  }
+
+  .nav.nav-active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0);
+  }
+
+  header.menu-open {
+    position: fixed; 
+  }
+}
+

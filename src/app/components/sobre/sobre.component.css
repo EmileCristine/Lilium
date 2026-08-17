@@ -1,11 +1,12 @@
 main {
   width: 100%;
-  min-height: 100vh;
+  min-height: cover;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   align-items: center;
+  padding-bottom: 2rem;
 }
 
 .sobre {
@@ -47,7 +48,6 @@ main {
   font: var(--f-main-txt);
   color: var(--c-gray);
   text-align: justify;
-  line-height: 1.6;
   margin: 0;
 }
 
@@ -65,37 +65,37 @@ main {
 .btn:hover {
   opacity: 0.9;
 }
+
 .categorias {
   display: flex;
-  flex-direction: row; 
-  justify-content: center; 
-  align-items: flex-start; 
-  gap: 2rem; 
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2rem;
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 8%; 
+  padding: 0 8%;
   box-sizing: border-box;
 }
 
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center; 
+  align-items: center;
   text-align: center;
   flex: 1;
-  min-width: 250px; 
+  min-width: 250px;
 }
 
 .card img {
   width: 50px;
   height: 50px;
-  object-fit: contain; 
+  object-fit: contain;
   margin-bottom: 0.5rem;
 }
 
-
-.sub-title {
+.categorias h1 {
   font: var(--f-subtitle);
   color: var(--c-pink);
   text-transform: uppercase;
@@ -118,5 +118,37 @@ main {
   }
   img {
     min-width: 500px;
+  }
+}
+
+@media (max-width: 768px) {
+  main {
+    gap: 4rem;
+  }
+  .info {
+    gap: 0.4rem;
+  }
+  .sobre {
+    gap: 2rem;
+  }
+  .btn {
+    margin-top: 0.5rem;
+  }
+  .sobre {
+    grid-template-columns: 1fr 2fr;
+  }
+  .img-container img {
+    min-width: 18rem;
+    margin-left: -2.5rem;
+  }
+  .categorias {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card {
+    max-width: 200px;
+  }
+  .card h1{
+    margin: 0.5rem 0;
   }
 }

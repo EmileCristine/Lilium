@@ -7,7 +7,7 @@ main {
   min-height: 100vh;
 
   background-image:
-    linear-gradient(rgba(55, 10, 10, 0.1), rgba(55, 10, 10, 0.1)),
+    linear-gradient(rgba(55, 10, 10, 0.2), rgba(55, 10, 10, 0.2)),
     url("/images/banner.png");
 
   background-size: cover;
@@ -58,38 +58,19 @@ main {
     width: 60rem;
   }
   .text {
-    font-size: medium;
     min-width: 40rem;
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .banner-imagem {
     background-position: left center;
   }
-}
-
-@media (max-width: 768px) {
   header {
     width: 95%;
   }
-
   .title,
   .text {
-    max-width: 100%;
-  }
-
-  .title {
-    font-size: 2rem;
-  }
-
-  .text {
-    font-size: 1rem;
-  }
-
-  .btn {
-    width: 100%;
-    max-width: 300px;
-    text-align: center;
+    margin: 0 2rem;
   }
 }

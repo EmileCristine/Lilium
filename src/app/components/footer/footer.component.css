@@ -1,97 +1,87 @@
 footer {
-    width: 100%;
-    min-height: 300px;
-    display: grid;
-    margin-bottom: 2rem;    
-    grid-template-areas:
-        "line line line"
-        "flor meio links"
-        "flor foot socials";
+  width: 100%;
+  min-height: 300px;
+  margin: 0 auto;
+  max-width: 1200px;
+  margin-bottom: 1rem;
 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1px 1fr auto;
-    box-sizing: border-box;
-}
-
-.line {
-    grid-area: line;
-    height: 1px;
-    background: var(--c-light-pink);
-    width: 80%;
-    display: flex;
-    justify-self: end;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  
 }
 
 .flor {
-    grid-area: flor;
-    display: flex;
-    align-items: center;
-    justify-content: flex-start; 
+  display: flex;
 }
 
 .flor img {
-    width: 180px;
-    height: auto;
+  width: 180px;
+  height: auto;
 }
 
-.info-logo {
-    grid-area: meio;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.line {
+  height: 1px;
+  background: var(--c-light-pink);
+  width: 100%;
+  display: flex;
+  justify-self: end;
 }
 
-.info-logo > img {
-    width: 220px;
-    filter: var(--filter-pink);
+.geral {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.foot-text {
-    grid-area: foot;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.foot-text h6 {
-    font: var(--f-main-txt);
-    margin: 0;
+.info .logo {
+  display: flex;
+  justify-content: flex-start;
 }
 
-.links {
-    grid-area: links;
-    display: flex;
-    gap: 2.5rem;
-    font: var(--f-main-txt);
-    justify-self: end; 
-    align-self: center;
+.info .logo img {
+  width: 220px;
+  filter: var(--filter-pink);
+  justify-self: flex-start;
+}
+
+.info .links {
+  display: flex;
+  gap: 2rem;
 }
 
 .links h4 {
-    color: var(--c-pink);
-    margin-bottom: 10px;
+  color: var(--c-pink);
+  font:var(--f-subtitle);
 }
 
 .links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .links li {
-    margin: 10px 0;
-    color: var(--c-gray);
+  margin: 10px 0;
+  color: var(--c-gray);
+  font: var(--f-main-txt);
 }
 
-.socials {
-    grid-area: socials;
-    display: flex;
-    gap: 1rem;
-    justify-self: end; 
-    align-items: center;
-    margin-top: 1.5rem;
+.geral .foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.foot .socials {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .socials svg {
@@ -101,4 +91,45 @@ footer {
 
 .socials svg[stroke="currentColor"] {
   fill: none; 
+} 
+
+.text h6 {
+  font: var(--f-footer);
+  color: var(--c-gray);
+}
+
+@media (max-width: 1024px){
+  
+}
+@media (max-width: 768px) {
+  footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+  }
+
+  footer .line {
+    margin-bottom: 0;
+    align-self: center;
+    width: 100%;
+  }
+
+  .flor img {
+    display: none;
+  }
+
+
+
+  footer .links {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  footer .links {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+  }
 }
