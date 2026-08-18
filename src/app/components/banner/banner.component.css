@@ -6,6 +6,8 @@ main {
   width: 100%;
   min-height: 100vh;
 
+  position: relative; 
+
   background-image:
     linear-gradient(rgba(55, 10, 10, 0.2), rgba(55, 10, 10, 0.2)),
     url("/images/banner.png");
@@ -14,6 +16,7 @@ main {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
 .info {
   position: absolute;
@@ -72,5 +75,11 @@ main {
   .title,
   .text {
     margin: 0 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font: var(--f-main-span);
   }
 }

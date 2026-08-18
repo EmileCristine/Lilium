@@ -152,3 +152,24 @@ main {
     margin: 0.5rem 0;
   }
 }
+
+@media (max-width: 480px) {
+  .sobre {
+    display: flex;
+    flex-direction: column;
+  }
+  .info {
+    gap: 1rem;
+  }
+  .info h1, .info p {
+    text-align: center;
+  }
+  .info .btn {
+    align-self: center;
+  }
+  .categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -2,17 +2,16 @@ import { Component, OnInit, inject } from '@angular/core';
 import { Flor } from '../../models/flor.model';
 import { FlorService } from '../../services/flor.service';
 import { BannerComponent } from '../../components/banner/banner.component';
-import { SearchComponent } from '../../components/search/search.component';
 import { CarrosselComponent } from '../../components/carrossel/carrossel.component';
 import { FooterComponent } from '../../components/footer/footer.component';
 import { SobreFloriografiaComponent } from '../../components/sobre-floriografia/sobre-floriografia.component';
+
 @Component({
   selector: 'app-floriografia',
   standalone: true,
   imports: [
     BannerComponent,
     SobreFloriografiaComponent,
-    SearchComponent,
     CarrosselComponent,
     FooterComponent,
   ],
@@ -33,16 +32,10 @@ export class FloriografiaComponent implements OnInit {
       next: (flores) => {
         this.floresFiltradas = flores;
       },
-
       error: (erro) => {
         console.error('Erro ao carregar flores:', erro);
-
         this.floresFiltradas = [];
       },
     });
-  }
-
-  atualizarDadosCarrossel(flores: Flor[]): void {
-    this.floresFiltradas = flores;
   }
 }

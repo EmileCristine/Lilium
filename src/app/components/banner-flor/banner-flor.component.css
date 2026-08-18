@@ -116,3 +116,33 @@ button {
     height: auto; 
   } 
 }
+
+@media (max-width: 768px) {
+  .detalhes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .detalhes-foto {
+    align-self: center;
+    justify-self: flex-end;
+    margin-top: 2rem;
+  }
+
+  .detalhes-foto img {
+    width: auto;
+    height: 25rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .detalhes-container {
+    padding: 0 1rem;
+  }
+  .botoes {
+    align-self: center;
+  }
+}

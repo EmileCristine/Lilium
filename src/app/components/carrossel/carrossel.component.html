@@ -1,26 +1,23 @@
 <main>
+  <app-search (filtrosAlterados)="atualizarDadosCarrossel($any($event))"/>
+  
   <div class="carousel-wrapper" *ngIf="slidesParaExibir.length > 0">
-    <div class="carousel-container">
-      @if (mostrarBotoes) {
+    <!-- Classe condicional adicionada aqui -->
+    <div class="carousel-container" [class.sem-seta-esquerda]="!mostrarBotaoEsquerdo">
+      
+      @if (mostrarBotaoEsquerdo) {
         <button
-          class="carousel-btn prev"
+          class="carousel-btn prev fade-in-btn"
           (click)="moverCarrossel(-1)"
           aria-label="Voltar"
         >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M15 19l-7-7 7-7" />
           </svg>
         </button>
       }
 
-      <div class="carousel-track" #carousel>
+      <div class="carousel-track" #carousel (scroll)="verificarRolagem()">
         @for (flor of slidesParaExibir; track flor.id) {
           <app-card [flor]="flor"></app-card>
         }
@@ -28,18 +25,11 @@
 
       @if (mostrarBotoes) {
         <button
-          class="carousel-btn next"
+          class="carousel-btn next fade-in-btn"
           (click)="moverCarrossel(1)"
           aria-label="Avançar"
         >
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-          >
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <path d="M9 5l7 7-7 7" />
           </svg>
         </button>
@@ -48,13 +38,6 @@
   </div>
 
   <div class="no-results" *ngIf="slidesParaExibir.length === 0">
-    <div class="erro-mensagem">
-      <img src="./images/error.png" alt="" />
-      <h1>Flor não encontrada no catálogo.</h1>
-      <p>
-        Que tal tentar buscar por outra espécie ou conferir se a grafia está
-        correta?
-      </p>
-    </div>
+    <app-error/>
   </div>
 </main>

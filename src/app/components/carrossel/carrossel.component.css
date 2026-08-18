@@ -1,3 +1,11 @@
+main {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 .carousel-wrapper {
   display: flex;
   flex-direction: column;
@@ -5,6 +13,7 @@
   gap: 1.5rem;
   width: 100%;
   margin-top: 1.5rem;
+  padding: 0;
 }
 
 .carousel-container {
@@ -19,20 +28,20 @@
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 2rem;
-  width: 100%;
   overflow-x: auto;
   scroll-behavior: smooth;
-  padding: 1.5rem 0.5rem;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 16px;
+  padding: 1.5rem 16px;
+  margin: 0 -16px;
+  width: calc(100% + 32px);
   -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .carousel-track::-webkit-scrollbar {
   display: none;
-}
-
-.carousel-track {
-  scrollbar-width: none;
-  -ms-overflow-style: none;
 }
 
 .carousel-btn {
@@ -62,6 +71,36 @@
   right: -35px;
 }
 
+.fade-in-btn {
+  animation: fadeInButton 0.3s ease-out forwards;
+}
+
+.fade-in-error {
+  animation: fadeInError 0.4s ease-in-out forwards;
+}
+
+@keyframes fadeInButton {
+  from {
+    opacity: 0;
+    transform: translateY(-50%) scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(-50%) scale(1);
+  }
+}
+
+@keyframes fadeInError {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .no-results {
   text-align: center;
   padding: 3rem;
@@ -70,26 +109,122 @@
   width: 100%;
 }
 
-.erro-mensagem {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+app-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+@media (max-width: 768px) {
+  /* Cria um espaço nas laterais para abrigar as setas de forma exclusiva */
+  .carousel-container {
+    padding: 0 45px;
+    box-sizing: border-box;
+  }
+
+  .carousel-track {
+    scroll-padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  app-card {
+    scroll-snap-align: center;
+  }
+  .carousel-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+  .carousel-btn.prev {
+    left: 5px;
+  }
+
+  .carousel-btn.next {
+    right: 5px;
+  }
+}
+
+@media (max-width: 768px) {
+   .carousel-container {
+    padding: 0 45px;
+    box-sizing: border-box;
+    transition: padding 0.25s ease-out; 
+  }
+
+   .carousel-container.sem-seta-esquerda {
+    padding-left: 0;
+  }
+
+  .carousel-track {
+    scroll-padding: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    width: 100%;
+  }
+  
+  app-card {
+    scroll-snap-align: center;
+  }
+
+  .carousel-btn {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: auto;
+  }
+
+  .carousel-btn.prev {
+    left: 5px;
+  }
+
+  .carousel-btn.next {
+    right: 5px;
+  }
+}
+
+.no-results {
   text-align: center;
   padding: 3rem;
+  color: var(--c-gray);
+  font: var(--f-subtitle);
   width: 100%;
 }
 
-.erro-mensagem img {
-  width: 150px;
-  height: auto;
+app-card {
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
+ 
+@media (max-width: 768px) {
+  .carousel-container {
+    padding: 0; 
+    box-sizing: border-box;
+  }
 
-.erro-mensagem h1 {
-  color: var(--c-pink);
-  font: var(--f-subtitle);
-}
+   .carousel-container.sem-seta-esquerda {
+    padding-left: 0;
+  }
 
-.erro-mensagem p {
-  color: var(--c-gray);
-  font: var(--f-main-txt);
+  .carousel-track {
+    scroll-padding: 0;  
+    padding: 1.5rem 20px;    
+    margin: 0;
+    width: 100%;
+    
+     overflow-x: auto;
+    -webkit-overflow-scrolling: touch; 
+  }
+  
+  app-card {
+    scroll-snap-align: center; 
+    scroll-snap-stop: always;   
+  }
+
+   .carousel-btn {
+    display: none !important;
+  }
 }

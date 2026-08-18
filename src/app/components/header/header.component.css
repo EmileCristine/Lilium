@@ -1,19 +1,22 @@
 header {
-  position: absolute;
+  position: fixed; 
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
-  z-index: 1000;
+  left: 0;
+  right: 0;
+  width: auto;
+  
+  box-sizing: border-box; 
+  z-index: 1000; 
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0;
   padding: 0 5%;
-  height: 90px; 
+  height: 90px;
   transition: background-color 0.3s ease;
-  
 }
+
 
 .logo {
   width: 100px;
@@ -79,12 +82,15 @@ img {
   filter: var(--filter-pink);
 }
 
+.header-flores .hamburger {
+  background-color: var(--c-pink);
+}
+
 .menu-toggle {
   display: none;
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
   z-index: 1001;
   align-items: center;
   justify-content: center;
@@ -107,14 +113,17 @@ img {
   width: 26px;
   height: 2px;
   background: inherit;
-  transition: transform 0.3s ease, top 0.3s ease, bottom 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    top 0.3s ease,
+    bottom 0.3s ease;
 }
 
-.hamburger::before { 
-  top: -7px; 
+.hamburger::before {
+  top: -7px;
 }
-.hamburger::after { 
-  bottom: -7px; 
+.hamburger::after {
+  bottom: -7px;
 }
 
 .hamburger.open {
@@ -131,37 +140,40 @@ img {
   background: var(--c-pink);
 }
 
-
 @media (max-width: 768px) {
   .menu-toggle {
-    display: flex; 
+    display: flex;
     position: absolute;
     right: 5%;
-    top: 25px; 
+    top: 34px;
   }
 
   .nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start; 
-    gap: 0; 
-    
+    align-items: flex-start;
+    gap: 0;
+
     position: fixed;
     top: 0;
     right: 0;
-    width: 55%; 
+    width: 55%;
     height: 100vh;
-    background: var(--c-white); 
-    
+    background: var(--c-white);
+
     opacity: 0;
     visibility: hidden;
     transform: translateX(100%);
-    transition: opacity 0.3s ease, transform 0.4s cubic-bezier(0.25, 1, 0.5, 1), visibility 0.3s ease;
-    
+    transition:
+      opacity 0.3s ease,
+      transform 0.4s cubic-bezier(0.25, 1, 0.5, 1),
+      visibility 0.3s ease;
+
     box-shadow: var(--shadow);
     padding: 0 0 0rem 2rem;
-
+    z-index: 999;
+    overflow-y: auto;
   }
 
   .nav a {
@@ -169,10 +181,9 @@ img {
     font-size: 1rem;
     letter-spacing: 1px;
     width: 100%;
-    padding: 1rem 2rem .5rem 0; 
+    padding: 1rem 2rem 0.5rem 0;
     text-align: left;
-    
-    border-bottom: 1px solid var(--c-gray); 
+    border-bottom: 1px solid var(--c-gray);
   }
 
   .nav a:hover {
@@ -192,21 +203,5 @@ img {
     opacity: 1;
     visibility: visible;
     transform: translateX(0);
-  }
-
-  header.menu-open {
-    position: fixed; 
-  }
-}
-
-@media (max-width: 768px) {
-  .nav {
-    position: fixed;
-    top: 0;
-    right: 0;
-    width: 55%; 
-    height: 100vh;
-    
-    overflow-y: auto; 
   }
 }

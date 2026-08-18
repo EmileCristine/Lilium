@@ -1,5 +1,5 @@
 footer {
-  width: 100%;
+  width: 100vw;
   min-height: 300px;
   margin: 0 auto;
   max-width: 1200px;
@@ -7,7 +7,6 @@ footer {
 
   display: grid;
   grid-template-columns: 1fr 3fr;
-  
 }
 
 .flor {
@@ -57,7 +56,7 @@ footer {
 
 .links h4 {
   color: var(--c-pink);
-  font:var(--f-subtitle);
+  font: var(--f-subtitle);
 }
 
 .links ul {
@@ -90,16 +89,15 @@ footer {
 }
 
 .socials svg[stroke="currentColor"] {
-  fill: none; 
-} 
+  fill: none;
+}
 
 .text h6 {
   font: var(--f-footer);
   color: var(--c-gray);
 }
 
-@media (max-width: 1024px){
-  
+@media (max-width: 1024px) {
 }
 @media (max-width: 768px) {
   footer {
@@ -119,17 +117,27 @@ footer {
     display: none;
   }
 
-
-
   footer .links {
     gap: 3rem;
   }
 }
 
-@media (max-width: 480px) {
-  footer .links {
+@media (max-width: 500px) {
+  .info {
+    display: flex;
     flex-direction: column;
+  }
+  .flor {
+    display: none;
+  }
+  .logo {
+    max-height: 150px;
+  }
+  .foot {
+    margin: 2rem;
     gap: 2rem;
-    align-items: center;
+  }
+  .line {
+    display: none;
   }
 }

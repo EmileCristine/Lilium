@@ -4,12 +4,8 @@
   <div class="container">
     <app-sobre-floriografia/>
     <div class="search-flowers">
-      <app-search (filtrosAlterados)="atualizarDadosCarrossel($event)">
-      </app-search>
-
-      <app-carrossel [listaFlores]="floresFiltradas"> </app-carrossel>
+        <app-carrossel [listaFlores]="floresFiltradas"></app-carrossel>
     </div>
-
     <app-footer />
   </div>
 </main>

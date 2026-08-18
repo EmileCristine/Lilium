@@ -6,9 +6,8 @@ main {
 }
 
 .search-flowers {
-  display: flex;
-  flex-direction: column;
   width: 100%;
+  max-width: 1200px;
 }
 
 .container {
@@ -20,12 +19,14 @@ main {
   justify-content: center;
 }
 
-app-footer {
-  width: 100%;
+@media (max-width: 768px) {
+  .container {
+    padding: 0 2rem;
+  }
 }
 
-@media (min-width: 1440px){
-  .search-flowers {
-    max-width: 1200px;
+@media (max-width: 480px) {
+  .container {
+    padding: 0 2rem;
   }
 }

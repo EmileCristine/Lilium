@@ -4,7 +4,6 @@
     <app-arranjo/>
     <app-eternizar/>
     <div class="search-flowers">  
-        <app-search (filtrosAlterados)="atualizarDadosCarrossel($any($event))"/>
         <app-carrossel [listaFlores]="floresFiltradas"></app-carrossel>
     </div>
     <app-footer/>

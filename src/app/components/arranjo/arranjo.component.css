@@ -94,11 +94,16 @@ main {
   .passos {
     grid-template-columns: 1fr; 
     gap: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
 
   .card {
     align-items: center;
     text-align: center;
+    max-width: 250px;
   }
   .card img {
     margin-bottom: 0.5rem;

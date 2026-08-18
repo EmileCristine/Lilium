@@ -106,7 +106,17 @@
 }
 
 .card-image-wrapper {
-  width: 50%;
   height: 180px;
+}
+}
+
+@media (max-width: 480px) {
+  .card-header h3 {
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+.flower-card {
+  width: 280px;
+  height: auto;
 }
 }

@@ -68,8 +68,9 @@ main {
 .dropdown-trigger {
   display: flex;
   align-items: center;
+  justify-content: space-between; 
   gap: 0.3rem;
-  width: cover;
+  width: 100%; 
   padding: var(--p-filter);
   border-radius: var(--r-btn);
   box-shadow: var(--shadow);
@@ -208,5 +209,42 @@ main {
 @media (max-width: 768px) {
   .search-and-filter-bar {
     gap: 1rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .search-and-filter-bar {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .search-container {
+    width: 100%;
+    max-width: none;
+  }
+
+  .section-name a {
+    display: flex;
+  }
+
+  .filter {
+     gap: 10px;
+  }
+
+  .dropdown-custom {
+    flex: 1;
+    min-width: cover;
+    width: 100%;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    width: 110px;
+  }
+
+  .dropdown-menu.grid-colunas {
+    grid-template-columns: 1fr;
+    min-width: 100%;
   }
 }

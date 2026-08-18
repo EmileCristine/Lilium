@@ -4,15 +4,25 @@
   /* #FONT BASE */
   --mainFont: "Poppins", sans-serif;
 
-  --f-main-span: 600 3.125rem var(--mainFont);
-  --f-title: 600 2.125rem var(--mainFont);
-  --f-subtitle: 600 1.125rem var(--mainFont);
-  --f-header: 500 0.875rem var(--mainFont);
-  --f-main-txt: 400 0.875rem var(--mainFont);
-  --f-btn: 500 1rem var(--mainFont);
-  --f-filter: 500 0.875rem var(--mainFont);
-  --f-numb: 600 1.5rem var(--mainFont);
-  --f-footer: 400 0.75rem var(--mainFont);
+  --fs-main-span: clamp(2rem, 1.45rem + 2.4vw, 3.125rem);
+  --fs-title: clamp(1.375rem, 1.01rem + 1.6vw, 2.125rem);
+  --fs-subtitle: clamp(0.875rem, 0.75rem + 0.5vw, 1.125rem);
+  --fs-header: clamp(0.8rem, 0.76rem + 0.16vw, 0.875rem);
+  --fs-main-txt: clamp(0.7825rem, 0.74rem + 0.2vw, 0.875rem);
+  --fs-btn: clamp(0.775rem, 0.67rem + 0.48vw, 1rem);
+  --fs-filter: clamp(0.8rem, 0.76rem + 0.16vw, 0.875rem);
+  --fs-numb: clamp(1.125rem, 0.94rem + 0.8vw, 1.5rem);
+  --fs-footer: clamp(0.7rem, 0.68rem + 0.1vw, 0.75rem);
+
+  --f-main-span: 600 var(--fs-main-span) var(--mainFont);
+  --f-title: 600 var(--fs-title) var(--mainFont);
+  --f-subtitle: 600 var(--fs-subtitle) var(--mainFont);
+  --f-header: 500 var(--fs-header) var(--mainFont);
+  --f-main-txt: 400 var(--fs-main-txt)/1.4 var(--mainFont);
+  --f-btn: 500 var(--fs-btn) var(--mainFont);
+  --f-filter: 500 var(--fs-filter) var(--mainFont);
+  --f-numb: 600 var(--fs-numb) var(--mainFont);
+  --f-footer: 400 var(--fs-footer) var(--mainFont);
 
   /* #COLORS */
   --c-pink: rgb(229, 138, 133);
@@ -32,43 +42,17 @@
   --r-img: 0.625rem;
 
   /* #FILTER */
-  --filter-pink: invert(65%) sepia(41%) saturate(547%) hue-rotate(313deg) brightness(94%) contrast(91%);
-  --filter-light-pink: invert(93%) sepia(21%) saturate(415%) hue-rotate(311deg) brightness(101%) contrast(94%);
+  --filter-pink: invert(65%) sepia(41%) saturate(547%) hue-rotate(313deg)
+    brightness(94%) contrast(91%);
+  --filter-light-pink: invert(93%) sepia(21%) saturate(415%) hue-rotate(311deg)
+    brightness(101%) contrast(94%);
 
   /* #OUTROS */
   --shadow: rgba(229, 138, 133, 0.15) 0px 2px 8px 0px;
   --second-shadow: rgba(229, 138, 133, 0.2) 0px 8px 24px;
-  --sb-track-color: #232E33;
-  --sb-thumb-color: #6BAF8D;
+  --sb-track-color: #232e33;
+  --sb-thumb-color: #6baf8d;
   --sb-size: 0.875rem;
-}
-
-@media (max-width: 1024px) {
-  :root {
-    --f-main-span: 600 2.5rem var(--mainFont);
-    --f-title: 600 1.5rem var(--mainFont);
-    --f-subtitle: 500 0.875rem var(--mainFont);
-    --f-header: 500 0.8rem var(--mainFont);
-    --f-main-txt: 400 0.7825rem/1.4 var(--mainFont);
-    --f-btn: 500 0.8rem var(--mainFont);
-    --f-filter: 500 0.8rem var(--mainFont);
-    --f-numb: 600 1.25rem var(--mainFont);
-    --f-footer: 400 0.7rem var(--mainFont);
-  }
-}
-
-@media (max-width: 480px) {
-  :root {
-    --f-main-span: 600 2rem var(--mainFont);
-    --f-title: 600 1.375rem var(--mainFont);
-    --f-subtitle: 500 1rem var(--mainFont);
-    --f-header: 500 0.8rem var(--mainFont);
-    --f-main-txt: 400 0.8rem var(--mainFont);
-    --f-btn: 500 0.775rem var(--mainFont);
-    --f-filter: 500 0.8rem var(--mainFont);
-    --f-numb: 600 1.125rem var(--mainFont);
-    --f-footer: 400 0.7rem var(--mainFont); 
-  }
 }
 
 * {
@@ -77,8 +61,24 @@
   box-sizing: border-box;
 }
 
-html, body {
+img {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  pointer-events: none;
+}
+
+html {
+  scroll-behavior: smooth;
+  scrollbar-gutter: stable;
+}
+
+body {
   font-family: var(--mainFont);
+  overflow-x: clip;
+  position: relative;
 }
 
 img {
@@ -87,13 +87,9 @@ img {
   -ms-user-select: none;
   user-select: none;
   -webkit-user-drag: none;
-  pointer-events: none; 
-}
-
-html, body {
-  overflow-x: hidden; 
+  pointer-events: none;
 }
 
 body.no-scroll {
-  overflow: hidden;
+  overflow-y: hidden;
 }
