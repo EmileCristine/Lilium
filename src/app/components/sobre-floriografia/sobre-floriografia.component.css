@@ -41,3 +41,11 @@ img {
         flex-direction: column;
     }
 }
+@media (max-width: 480px) {
+  .info {
+    margin: 0 2rem;
+  }
+  img {
+    padding: 0 2rem;
+  }
+}

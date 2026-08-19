@@ -22,5 +22,7 @@
 @media (max-width: 480px) {
   .container {
     padding: 0 2rem;
+    align-items: center;
+    justify-content: center;
   }
 }

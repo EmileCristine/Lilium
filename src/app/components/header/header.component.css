@@ -1,5 +1,5 @@
 header {
-  position: fixed; 
+  position: absolute; 
   top: 0;
   left: 0;
   right: 0;
@@ -37,7 +37,8 @@ header {
   position: relative;
   text-decoration: none;
   text-transform: uppercase;
-  color: var(--c-gray);
+  font: var(--f-header);
+  color: var(--c-white);
   transition: color 0.3s ease;
 }
 
@@ -178,6 +179,7 @@ img {
 
   .nav a {
     font: var(--f-header);
+    color: var(--c-gray);
     font-size: 1rem;
     letter-spacing: 1px;
     width: 100%;

@@ -9,7 +9,9 @@
   box-shadow: var(--shadow);
   padding: 1.5rem;
   box-sizing: border-box;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .flower-card:hover {
@@ -92,31 +94,30 @@
   opacity: 0.9;
 }
 
-
 @media (max-width: 768px) {
   .card-header h3 {
-  margin: 0;
-  letter-spacing: 0.5px;
-}
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
 
-.card-header .scientific-name {
-  font-style: italic;
-  font-weight: 400;
-  letter-spacing: 0.5px;
-}
+  .card-header .scientific-name {
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+  }
 
-.card-image-wrapper {
-  height: 180px;
-}
+  .card-image-wrapper {
+    height: 180px;
+  }
 }
 
 @media (max-width: 480px) {
   .card-header h3 {
-  margin: 0;
-  letter-spacing: 0.5px;
-}
-.flower-card {
-  width: 280px;
-  height: auto;
-}
+    margin: 0;
+    letter-spacing: 0.5px;
+  }
+  .flower-card {
+    width: 280px;
+    height: auto;
+  }
 }

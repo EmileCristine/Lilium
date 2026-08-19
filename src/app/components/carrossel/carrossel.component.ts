@@ -108,14 +108,12 @@ export class CarrosselComponent implements OnInit, OnChanges, AfterViewChecked {
     if (this.carouselElement && this.carouselElement.nativeElement) {
       const elemento = this.carouselElement.nativeElement;
       
-      // Procura o primeiro card renderizado para pegar o tamanho exato dele + gaps reais
-      const primeiroCard = elemento.querySelector('app-card');
+       const primeiroCard = elemento.querySelector('app-card');
       const larguraDeslocamento = primeiroCard 
         ? primeiroCard.getBoundingClientRect().width 
         : this.cardWidth;
 
-      // Desloca exatamente a largura de um card multiplicada pela direção (-1 ou 1)
-      const novaPosicao = elemento.scrollLeft + (larguraDeslocamento * direcao);
+       const novaPosicao = elemento.scrollLeft + (larguraDeslocamento * direcao);
       
       elemento.scrollTo({
         left: novaPosicao,

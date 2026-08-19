@@ -115,7 +115,6 @@ app-card {
   scroll-snap-stop: always;
 }
 @media (max-width: 768px) {
-  /* Cria um espaço nas laterais para abrigar as setas de forma exclusiva */
   .carousel-container {
     padding: 0 45px;
     box-sizing: border-box;

@@ -91,13 +91,32 @@
 }
 
 @media (max-width: 768px) {
+  .timeline {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .timeline::after {
+    display: none;
+  }
+  .step {
+    align-items: center;
+    justify-content: center;
+  }
   img {
     max-width: 6rem;
+    margin-top: 5px;
   }
   .step-number {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
     border: 2px solid var(--c-light-pink);
+  }
+  .step-title {
+    margin-bottom: 5px;
+  }
+  .step-text {
+    max-width: 250px;
   }
 }

@@ -96,9 +96,7 @@ footer {
   font: var(--f-footer);
   color: var(--c-gray);
 }
-
-@media (max-width: 1024px) {
-}
+ 
 @media (max-width: 768px) {
   footer {
     display: flex;
@@ -139,5 +137,8 @@ footer {
   }
   .line {
     display: none;
+  }
+  footer {
+    min-height: 450px;
   }
 }

@@ -2,7 +2,6 @@
   <app-search (filtrosAlterados)="atualizarDadosCarrossel($any($event))"/>
   
   <div class="carousel-wrapper" *ngIf="slidesParaExibir.length > 0">
-    <!-- Classe condicional adicionada aqui -->
     <div class="carousel-container" [class.sem-seta-esquerda]="!mostrarBotaoEsquerdo">
       
       @if (mostrarBotaoEsquerdo) {
