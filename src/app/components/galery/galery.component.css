@@ -122,6 +122,9 @@
   .masonry-column {
     gap: 1.2rem;
   }
+  .masonry-item img {
+    min-width: 200px;
+}
 }
 
 @media (max-width: 576px) {
@@ -138,4 +141,3 @@
   }
 
 }
-

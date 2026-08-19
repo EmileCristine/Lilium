@@ -210,8 +210,7 @@ app-card {
 
   .carousel-track {
     scroll-padding: 0;  
-    padding: 1.5rem 20px;    
-    margin: 0;
+     margin: 0;
     width: 100%;
     
      overflow-x: auto;

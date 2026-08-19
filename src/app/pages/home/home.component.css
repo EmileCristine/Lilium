@@ -1,5 +1,7 @@
 .container {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: column;
   gap: 4rem;
   padding: 0 4rem;
@@ -11,6 +13,7 @@
 .search-flowers {
   width: 100%;
   max-width: 1200px;
+  align-self: center;
 }
 
 @media (max-width: 768px) {
